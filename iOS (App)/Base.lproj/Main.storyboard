@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Qwant_for_Safari" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Logo large" translatesAutoresizingMaskIntoConstraints="NO" id="ort-Dr-CrH">
+                                <rect key="frame" x="20" y="64" width="342.33333333333331" height="50.333333333333343"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="ort-Dr-CrH" secondAttribute="height" multiplier="109:16" id="idE-zU-0yA"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="You can turn on Qwant for Safari’s Safari extension in Settings." lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d4k-np-UfV">
+                                <rect key="frame" x="20" y="134.33333333333334" width="388" height="40.666666666666657"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fdK-zk-6Up">
+                                <rect key="frame" x="20" y="195" width="140" height="31"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="tinted" title="Open preferences"/>
+                                <connections>
+                                    <action selector="openSettingsTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="sMm-fr-ZaG"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Image" translatesAutoresizingMaskIntoConstraints="NO" id="K20-bq-ZJY">
+                                <rect key="frame" x="123" y="686" width="375" height="260"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The search engine that doesn't know anything about you, and that changes everything!" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uEh-Bw-6Gg">
+                                <rect key="frame" x="20" y="656" width="388" height="36"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="K20-bq-ZJY" secondAttribute="trailing" constant="-70" id="1jA-tg-UbJ"/>
+                            <constraint firstItem="d4k-np-UfV" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="3Fv-1o-MN5"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="uEh-Bw-6Gg" secondAttribute="bottom" constant="200" id="Aft-ZR-GkI">
+                                <variation key="widthClass=regular" constant="20"/>
+                                <variation key="heightClass=compact-widthClass=compact" constant="20"/>
+                            </constraint>
+                            <constraint firstItem="fdK-zk-6Up" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="BdI-pR-zE0"/>
+                            <constraint firstAttribute="bottom" secondItem="K20-bq-ZJY" secondAttribute="bottom" constant="-20" id="Hkd-KJ-wXa"/>
+                            <constraint firstItem="ort-Dr-CrH" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="OXd-vb-515"/>
+                            <constraint firstItem="ort-Dr-CrH" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="UmK-lc-sbY"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="uEh-Bw-6Gg" secondAttribute="trailing" constant="20" id="hpk-gS-FJ9">
+                                <variation key="widthClass=regular" constant="256"/>
+                                <variation key="heightClass=compact-widthClass=compact" constant="255"/>
+                            </constraint>
+                            <constraint firstItem="uEh-Bw-6Gg" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="lL2-So-sLa"/>
+                            <constraint firstAttribute="trailing" secondItem="d4k-np-UfV" secondAttribute="trailing" constant="20" id="ltD-ce-M3E"/>
+                            <constraint firstItem="d4k-np-UfV" firstAttribute="top" secondItem="ort-Dr-CrH" secondAttribute="bottom" constant="20" id="ltn-DY-ZLW"/>
+                            <constraint firstItem="ort-Dr-CrH" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.8" id="nBm-d3-MOS"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="fdK-zk-6Up" secondAttribute="trailing" symbolic="YES" id="pct-mu-4NH"/>
+                            <constraint firstItem="fdK-zk-6Up" firstAttribute="top" secondItem="d4k-np-UfV" secondAttribute="bottom" constant="20" id="s6A-Xh-dkb"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="extensionStateDescription" destination="d4k-np-UfV" id="c5a-bn-JoO"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="46.875" y="372.5"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Image" width="375" height="260"/>
+        <image name="Logo large" width="327" height="48"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

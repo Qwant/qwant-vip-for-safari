@@ -1,0 +1,18 @@
+{
+    "extension_name": {
+        "message": "Qwant for Safari",
+        "description": "The display name for the extension."
+    },
+    "extension_description": {
+        "message": "This is Qwant for Safari. You should tell us what your extension does here.",
+        "description": "Description of what the extension does."
+    },
+    "tagline": {
+        "message": "The search engine that doesn't know anything about you, and that changes everything.",
+        "description": "Tagline of Qwant.com"
+    },
+    "feedback": {
+        "message": "Share your feedback",
+        "description": "Call to action to share user feedback"
+    }
+}

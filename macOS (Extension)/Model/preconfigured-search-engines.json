@@ -1,0 +1,32 @@
+[
+    {
+        "engine": "google.",
+        "query": "q",
+        "client": "client",
+        "source": "safari"
+    },
+    {
+        "engine": "search.yahoo.",
+        "query": "p",
+        "client": "fr",
+        "source": "aaplw"
+    },
+    {
+        "engine": "bing.",
+        "query": "q",
+        "client": "form",
+        "source": "APMCS1"
+    },
+    {
+        "engine": "duckduckgo.",
+        "query": "q",
+        "client": "t",
+        "source": "osx"
+    },
+    {
+        "engine": "ecosia.",
+        "query": "q",
+        "client": "tts",
+        "source": "st_asaf_macos"
+    }
+]

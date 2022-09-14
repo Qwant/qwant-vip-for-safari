@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" initialViewController="B8D-0N-5wS">
+    <dependencies>
+        <deployment identifier="macosx"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="20037"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Application-->
+        <scene sceneID="JPo-4y-FX3">
+            <objects>
+                <application id="hnw-xV-0zn" sceneMemberID="viewController">
+                    <menu key="mainMenu" title="Main Menu" systemMenu="main" id="AYu-sK-qS6">
+                        <items>
+                            <menuItem title="Qwant for Safari" id="1Xt-HY-uBw">
+                                <modifierMask key="keyEquivalentModifierMask"/>
+                                <menu key="submenu" title="Qwant for Safari" systemMenu="apple" id="uQy-DD-JDr">
+                                    <items>
+                                        <menuItem title="About Qwant for Safari" id="5kV-Vb-QxS">
+                                            <modifierMask key="keyEquivalentModifierMask"/>
+                                            <connections>
+                                                <action selector="orderFrontStandardAboutPanel:" target="Ady-hI-5gd" id="Exp-CZ-Vem"/>
+                                            </connections>
+                                        </menuItem>
+                                        <menuItem isSeparatorItem="YES" id="VOq-y0-SEH"/>
+                                        <menuItem title="Hide Qwant for Safari" keyEquivalent="h" id="Olw-nP-bQN">
+                                            <connections>
+                                                <action selector="hide:" target="Ady-hI-5gd" id="PnN-Uc-m68"/>
+                                            </connections>
+                                        </menuItem>
+                                        <menuItem title="Hide Others" keyEquivalent="h" id="Vdr-fp-XzO">
+                                            <modifierMask key="keyEquivalentModifierMask" option="YES" command="YES"/>
+                                            <connections>
+                                                <action selector="hideOtherApplications:" target="Ady-hI-5gd" id="VT4-aY-XCT"/>
+                                            </connections>
+                                        </menuItem>
+                                        <menuItem title="Show All" id="Kd2-mp-pUS">
+                                            <modifierMask key="keyEquivalentModifierMask"/>
+                                            <connections>
+                                                <action selector="unhideAllApplications:" target="Ady-hI-5gd" id="Dhg-Le-xox"/>
+                                            </connections>
+                                        </menuItem>
+                                        <menuItem isSeparatorItem="YES" id="kCx-OE-vgT"/>
+                                        <menuItem title="Quit Qwant for Safari" keyEquivalent="q" id="4sb-4s-VLi">
+                                            <connections>
+                                                <action selector="terminate:" target="Ady-hI-5gd" id="Te7-pn-YzF"/>
+                                            </connections>
+                                        </menuItem>
+                                    </items>
+                                </menu>
+                            </menuItem>
+                            <menuItem title="Help" id="wpr-3q-Mcd">
+                                <modifierMask key="keyEquivalentModifierMask"/>
+                                <menu key="submenu" title="Help" systemMenu="help" id="F2S-fz-NVQ">
+                                    <items>
+                                        <menuItem title="Qwant for Safari Help" keyEquivalent="?" id="FKE-Sm-Kum">
+                                            <connections>
+                                                <action selector="showHelp:" target="Ady-hI-5gd" id="y7X-2Q-9no"/>
+                                            </connections>
+                                        </menuItem>
+                                    </items>
+                                </menu>
+                            </menuItem>
+                        </items>
+                    </menu>
+                    <connections>
+                        <outlet property="delegate" destination="Voe-Tx-rLC" id="PrD-fu-P6m"/>
+                    </connections>
+                </application>
+                <customObject id="Voe-Tx-rLC" customClass="AppDelegate" customModule="Qwant_for_Safari" customModuleProvider="target"/>
+                <customObject id="YLy-65-1bz" customClass="NSFontManager"/>
+                <customObject id="Ady-hI-5gd" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="75" y="-184"/>
+        </scene>
+        <!--Window Controller-->
+        <scene sceneID="R2V-B0-nI4">
+            <objects>
+                <windowController showSeguePresentationStyle="single" id="B8D-0N-5wS" sceneMemberID="viewController">
+                    <window key="window" title="Qwant for Safari" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" restorable="NO" releasedWhenClosed="NO" animationBehavior="default" id="IQv-IB-iLA">
+                        <windowStyleMask key="styleMask" titled="YES" closable="YES"/>
+                        <windowCollectionBehavior key="collectionBehavior" fullScreenNone="YES"/>
+                        <rect key="contentRect" x="196" y="240" width="425" height="325"/>
+                        <rect key="screenRect" x="0.0" y="0.0" width="1680" height="1027"/>
+                        <connections>
+                            <outlet property="delegate" destination="B8D-0N-5wS" id="98r-iN-zZc"/>
+                        </connections>
+                    </window>
+                    <connections>
+                        <segue destination="Tij-Zd-5Zv" kind="relationship" relationship="window.shadowedContentViewController" id="oHR-VO-TWs"/>
+                    </connections>
+                </windowController>
+                <customObject id="Oky-zY-oP4" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="75" y="250"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="45J-Ga-BvK">
+            <objects>
+                <viewController id="Tij-Zd-5Zv" customClass="ViewController" customModule="Qwant_for_Safari" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" id="XQ8-bE-mCw">
+                        <rect key="frame" x="0.0" y="0.0" width="539" height="333"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <subviews>
+                            <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="tja-Tp-Me2">
+                                <rect key="frame" x="20" y="250" width="431" height="63"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="tja-Tp-Me2" secondAttribute="height" multiplier="109:16" id="qF4-HK-NqH"/>
+                                </constraints>
+                                <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyUpOrDown" image="Logo large" id="UgU-oH-R4M"/>
+                            </imageView>
+                            <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" translatesAutoresizingMaskIntoConstraints="NO" id="ypc-aH-bN4">
+                                <rect key="frame" x="18" y="188" width="503" height="32"/>
+                                <textFieldCell key="cell" selectable="YES" title="Qwant for Safari’s extension is currently on. You can turn it off in Safari Extensions preferences." id="AkU-dg-jiQ">
+                                    <font key="font" metaFont="system"/>
+                                    <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
+                            <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Ktl-3r-9jS">
+                                <rect key="frame" x="234" y="-20" width="375" height="260"/>
+                                <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="Image" id="LEc-jS-R00"/>
+                            </imageView>
+                            <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" translatesAutoresizingMaskIntoConstraints="NO" id="PYv-ry-XIB">
+                                <rect key="frame" x="18" y="20" width="263" height="28"/>
+                                <textFieldCell key="cell" selectable="YES" alignment="right" title="The search engine that doesn't know anything about you, and that changes everything!" id="ipL-bC-nYy">
+                                    <font key="font" metaFont="smallSystem"/>
+                                    <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
+                            <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="ixQ-sT-t6Y">
+                                <rect key="frame" x="13" y="141" width="316" height="32"/>
+                                <buttonCell key="cell" type="push" title="Quit and Open Safari Extensions Preferences…" bezelStyle="rounded" alignment="center" state="on" borderStyle="border" inset="2" id="aOB-g3-rg0">
+                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" metaFont="system"/>
+                                </buttonCell>
+                                <connections>
+                                    <action selector="openSettingsTapped:" target="Tij-Zd-5Zv" id="TxZ-ht-IdJ"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="ixQ-sT-t6Y" firstAttribute="top" secondItem="ypc-aH-bN4" secondAttribute="bottom" constant="20" id="4L6-0L-01e"/>
+                            <constraint firstAttribute="trailing" secondItem="Ktl-3r-9jS" secondAttribute="trailing" constant="-70" id="4ef-AB-EAT"/>
+                            <constraint firstItem="tja-Tp-Me2" firstAttribute="leading" secondItem="XQ8-bE-mCw" secondAttribute="leading" constant="20" symbolic="YES" id="6mG-VV-GIn"/>
+                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="ixQ-sT-t6Y" secondAttribute="trailing" constant="20" symbolic="YES" id="8fw-ZI-gHM"/>
+                            <constraint firstAttribute="trailing" secondItem="ypc-aH-bN4" secondAttribute="trailing" constant="20" symbolic="YES" id="D19-b6-RDk"/>
+                            <constraint firstItem="PYv-ry-XIB" firstAttribute="leading" secondItem="XQ8-bE-mCw" secondAttribute="leading" constant="20" symbolic="YES" id="MGx-0g-NiM"/>
+                            <constraint firstAttribute="bottom" secondItem="PYv-ry-XIB" secondAttribute="bottom" constant="20" symbolic="YES" id="RHq-j6-uL8"/>
+                            <constraint firstItem="ypc-aH-bN4" firstAttribute="leading" secondItem="XQ8-bE-mCw" secondAttribute="leading" constant="20" symbolic="YES" id="S2H-Qf-xer"/>
+                            <constraint firstItem="ypc-aH-bN4" firstAttribute="top" secondItem="tja-Tp-Me2" secondAttribute="bottom" constant="30" id="UrD-FB-AeH"/>
+                            <constraint firstItem="ixQ-sT-t6Y" firstAttribute="leading" secondItem="XQ8-bE-mCw" secondAttribute="leading" constant="20" symbolic="YES" id="X4N-5i-B54"/>
+                            <constraint firstItem="Ktl-3r-9jS" firstAttribute="leading" secondItem="PYv-ry-XIB" secondAttribute="trailing" constant="-45" id="aFe-72-bvg"/>
+                            <constraint firstItem="tja-Tp-Me2" firstAttribute="top" secondItem="XQ8-bE-mCw" secondAttribute="top" constant="20" symbolic="YES" id="fdk-mg-u0b"/>
+                            <constraint firstItem="tja-Tp-Me2" firstAttribute="width" secondItem="XQ8-bE-mCw" secondAttribute="width" multiplier="0.8" id="iEz-Pb-Tgp"/>
+                            <constraint firstAttribute="bottom" secondItem="Ktl-3r-9jS" secondAttribute="bottom" constant="-20" id="zjd-RN-61P"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="extensionStateDescription" destination="ypc-aH-bN4" id="e8F-x2-1IU"/>
+                    </connections>
+                </viewController>
+                <customObject id="rXD-Ze-q7k" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="76" y="797"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Image" width="375" height="260"/>
+        <image name="Logo large" width="327" height="48"/>
+    </resources>
+</document>

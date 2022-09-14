@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>NSExtension</key>
+	<dict>
+		<key>NSExtensionPointIdentifier</key>
+		<string>com.apple.Safari.extension</string>
+		<key>NSExtensionPrincipalClass</key>
+		<string>$(PRODUCT_MODULE_NAME).SafariExtensionHandler</string>
+		<key>SFSafariToolbarItem</key>
+		<dict>
+			<key>Action</key>
+			<string>Popover</string>
+			<key>Identifier</key>
+			<string>Button</string>
+			<key>Image</key>
+			<string>icon.png</string>
+			<key>Label</key>
+			<string>Qwant for Safari</string>
+		</dict>
+		<key>SFSafariWebsiteAccess</key>
+		<dict>
+			<key>Level</key>
+			<string>All</string>
+		</dict>
+	</dict>
+	<key>NSHumanReadableDescription</key>
+	<string>Qwant for Safari makes Qwant as the default search engine in Safari - The search engine that doesn&apos;t know anything about you, and that changes everything!</string>
+</dict>
+</plist>
