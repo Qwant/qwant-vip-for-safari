@@ -19,9 +19,7 @@ extension UserDefaults {
     }
 
     var isExtensionActive: Bool {
-        get { !hasSeenItCanBeTurnedOff ||
-            bool(forKey: Constants.extensionPowerButtonUserDefaultsKey)
-        }
+        get { !hasSeenItCanBeTurnedOff || bool(forKey: Constants.extensionPowerButtonUserDefaultsKey) }
         set {
             setValue(newValue, forKey: Constants.extensionPowerButtonUserDefaultsKey)
             setValue(true, forKey: Constants.extensionCanBeTurnedOffUserDefaultsKey)

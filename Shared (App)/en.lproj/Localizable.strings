@@ -1,0 +1,26 @@
+/* 
+  Localizable.strings
+  Qwant for Safari
+
+  Created by Jerome Boursier on 21/09/2022.
+  
+*/
+
+"iOS.App.Header" = "Turn on Qwant for Safari";
+"iOS.App.Step.1" = "1. Open the **Settings**";
+"iOS.App.Step.2" = "2. Go to **Safari**";
+"iOS.App.Step.3" = "3. Open **Extensions**";
+"iOS.App.Step.4" = "4. Enable **Qwant for Safari**";
+"iOS.App.Step.5" = "5. **Allow** all websites";
+"iOS.App.Footer.1" = "Then if you wish, you can remove the app from the home screen:";
+"iOS.App.Footer.2" = "Remove App › Remove from Home Screen";
+"iOS.App.Footer.3" = "It still needs to be in you app library to work proprely though.";
+"iOS.App.StartButton" = "Let's go";
+
+"macOS.App.Header" = "To turn on Qwant for Safari, go to Safari extensions preferences";
+"macOS.App.SettingsButton" = "Open Safari extensions preferences";
+"macOS.App.Visit" = "Visit";
+
+"macOS.Extension.Power" = "Make Qwant your default search engine";
+"macOS.Extension.Visit" = "Visit Qwant.com";
+"macOS.Extension.Settings" = "Settings";

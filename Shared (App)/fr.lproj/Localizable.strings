@@ -1,0 +1,26 @@
+/* 
+  Localizable.strings
+  Qwant for Safari
+
+  Created by Jerome Boursier on 21/09/2022.
+  
+*/
+
+"iOS.App.Header" = "Activez l'extension Qwant pour Safari";
+"iOS.App.Step.1" = "1. Ouvrez les **Réglages**";
+"iOS.App.Step.2" = "2. Allez à **Safari**";
+"iOS.App.Step.3" = "3. Ouvrez **Extensions**";
+"iOS.App.Step.4" = "4. Activez **Qwant for Safari**";
+"iOS.App.Step.5" = "5. **Autorisez** tous les sites web";
+"iOS.App.Footer.1" = "Ensuite, si vous le souhaitez, vous pouvez supprimer l’app de l’écran d’accueil :";
+"iOS.App.Footer.2" = "Supprimer l’app › Supprimer de l’écran d’accueil";
+"iOS.App.Footer.3" = "Elle doit être conservée dans votre bibliothèque d’apps pour fonctionner correctement.";
+"iOS.App.StartButton" = "Commencer";
+
+"macOS.App.Header" = "Pour activer Qwant for Safari, allez dans les réglages des extensions de Safari";
+"macOS.App.SettingsButton" = "Ouvrir les réglages des extensions de Safari";
+"macOS.App.Visit" = "Visiter";
+
+"macOS.Extension.Power" = "Faites de Qwant votre moteur de recherche par défaut";
+"macOS.Extension.Visit" = "Visitez Qwant.com";
+"macOS.Extension.Settings" = "Gérer";

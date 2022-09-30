@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" initialViewController="B8D-0N-5wS">
+<document type="com.apple.InterfaceBuilder3.Cocoa.Storyboard.XIB" version="3.0" toolsVersion="19455" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" initialViewController="B8D-0N-5wS">
     <dependencies>
         <deployment identifier="macosx"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="20037"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="19455"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -87,87 +87,109 @@
                         </connections>
                     </window>
                     <connections>
-                        <segue destination="Tij-Zd-5Zv" kind="relationship" relationship="window.shadowedContentViewController" id="oHR-VO-TWs"/>
+                        <segue destination="wHy-46-YsA" kind="relationship" relationship="window.shadowedContentViewController" id="WzS-l3-POp"/>
                     </connections>
                 </windowController>
                 <customObject id="Oky-zY-oP4" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="75" y="250"/>
         </scene>
-        <!--View Controller-->
-        <scene sceneID="45J-Ga-BvK">
+        <!--MacOS App View Controller-->
+        <scene sceneID="OPb-2O-Cav">
             <objects>
-                <viewController id="Tij-Zd-5Zv" customClass="ViewController" customModule="Qwant_for_Safari" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" id="XQ8-bE-mCw">
-                        <rect key="frame" x="0.0" y="0.0" width="539" height="333"/>
+                <customObject id="8SF-7a-AMV" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
+                <viewController id="wHy-46-YsA" customClass="macOSAppViewController" customModule="Qwant_for_Safari" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" id="iGO-c3-v3e">
+                        <rect key="frame" x="0.0" y="0.0" width="550" height="430"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <subviews>
-                            <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="tja-Tp-Me2">
-                                <rect key="frame" x="20" y="250" width="431" height="63"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" secondItem="tja-Tp-Me2" secondAttribute="height" multiplier="109:16" id="qF4-HK-NqH"/>
-                                </constraints>
-                                <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyUpOrDown" image="Logo large" id="UgU-oH-R4M"/>
-                            </imageView>
-                            <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" translatesAutoresizingMaskIntoConstraints="NO" id="ypc-aH-bN4">
-                                <rect key="frame" x="18" y="188" width="503" height="32"/>
-                                <textFieldCell key="cell" selectable="YES" title="Qwant for Safari’s extension is currently on. You can turn it off in Safari Extensions preferences." id="AkU-dg-jiQ">
+                            <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" translatesAutoresizingMaskIntoConstraints="NO" id="mhX-5e-pyY">
+                                <rect key="frame" x="18" y="167" width="514" height="16"/>
+                                <textFieldCell key="cell" selectable="YES" alignment="center" title="To turn on Qwant for Safari, go to Safari Extensions Preferences" id="Yxp-nN-5s7">
                                     <font key="font" metaFont="system"/>
                                     <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
                                     <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                                 </textFieldCell>
                             </textField>
-                            <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Ktl-3r-9jS">
-                                <rect key="frame" x="234" y="-20" width="375" height="260"/>
-                                <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="Image" id="LEc-jS-R00"/>
+                            <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Wxy-fP-J7w">
+                                <rect key="frame" x="138" y="211" width="275" height="155"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="Wxy-fP-J7w" secondAttribute="height" multiplier="121:68" id="2u1-Tz-6YY"/>
+                                </constraints>
+                                <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyUpOrDown" image="Logo Stacked" id="fLO-MB-hZR"/>
                             </imageView>
-                            <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" translatesAutoresizingMaskIntoConstraints="NO" id="PYv-ry-XIB">
-                                <rect key="frame" x="18" y="20" width="263" height="28"/>
-                                <textFieldCell key="cell" selectable="YES" alignment="right" title="The search engine that doesn't know anything about you, and that changes everything!" id="ipL-bC-nYy">
-                                    <font key="font" metaFont="smallSystem"/>
-                                    <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
-                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
-                                </textFieldCell>
-                            </textField>
-                            <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="ixQ-sT-t6Y">
-                                <rect key="frame" x="13" y="141" width="316" height="32"/>
-                                <buttonCell key="cell" type="push" title="Quit and Open Safari Extensions Preferences…" bezelStyle="rounded" alignment="center" state="on" borderStyle="border" inset="2" id="aOB-g3-rg0">
-                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="wUl-ep-t0j">
+                                <rect key="frame" x="150" y="120" width="251" height="32"/>
+                                <buttonCell key="cell" type="push" title="Open Safari Extensions Preferences" bezelStyle="rounded" alignment="center" state="on" borderStyle="border" inset="2" id="OEh-O3-Lzg">
+                                    <behavior key="behavior" lightByBackground="YES" lightByGray="YES" changeBackground="YES" changeGray="YES"/>
                                     <font key="font" metaFont="system"/>
                                 </buttonCell>
                                 <connections>
-                                    <action selector="openSettingsTapped:" target="Tij-Zd-5Zv" id="TxZ-ht-IdJ"/>
+                                    <action selector="openSettingsClicked:" target="wHy-46-YsA" id="tJF-CU-WlH"/>
                                 </connections>
                             </button>
+                            <stackView distribution="fillProportionally" orientation="horizontal" alignment="top" spacing="0.0" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="SPM-ta-mTk">
+                                <rect key="frame" x="208" y="91" width="135" height="16"/>
+                                <subviews>
+                                    <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" translatesAutoresizingMaskIntoConstraints="NO" id="Gu6-IO-r8Z">
+                                        <rect key="frame" x="-2" y="0.0" width="35" height="16"/>
+                                        <textFieldCell key="cell" selectable="YES" alignment="center" title="Visit" id="wLh-N5-pUP">
+                                            <font key="font" metaFont="system"/>
+                                            <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                            <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                        </textFieldCell>
+                                    </textField>
+                                    <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" translatesAutoresizingMaskIntoConstraints="NO" id="Kfn-Ds-Qob" customClass="LinkTextField" customModule="Qwant_for_Safari" customModuleProvider="target">
+                                        <rect key="frame" x="29" y="0.0" width="108" height="16"/>
+                                        <gestureRecognizers>
+                                            <clickGestureRecognizer delaysPrimaryMouseButtonEvents="YES" numberOfClicksRequired="1" id="iYx-pe-Uh3">
+                                                <connections>
+                                                    <action selector="visitQwantComClicked:" target="wHy-46-YsA" id="aoK-zf-rOx"/>
+                                                </connections>
+                                            </clickGestureRecognizer>
+                                        </gestureRecognizers>
+                                        <textFieldCell key="cell" selectable="YES" alignment="center" title="www.qwant.com" id="V9S-0f-ozB">
+                                            <font key="font" metaFont="system"/>
+                                            <color key="textColor" name="linkColor" catalog="System" colorSpace="catalog"/>
+                                            <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                        </textFieldCell>
+                                    </textField>
+                                </subviews>
+                                <visibilityPriorities>
+                                    <integer value="1000"/>
+                                    <integer value="1000"/>
+                                </visibilityPriorities>
+                                <customSpacing>
+                                    <real value="3.4028234663852886e+38"/>
+                                    <real value="3.4028234663852886e+38"/>
+                                </customSpacing>
+                            </stackView>
                         </subviews>
                         <constraints>
-                            <constraint firstItem="ixQ-sT-t6Y" firstAttribute="top" secondItem="ypc-aH-bN4" secondAttribute="bottom" constant="20" id="4L6-0L-01e"/>
-                            <constraint firstAttribute="trailing" secondItem="Ktl-3r-9jS" secondAttribute="trailing" constant="-70" id="4ef-AB-EAT"/>
-                            <constraint firstItem="tja-Tp-Me2" firstAttribute="leading" secondItem="XQ8-bE-mCw" secondAttribute="leading" constant="20" symbolic="YES" id="6mG-VV-GIn"/>
-                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="ixQ-sT-t6Y" secondAttribute="trailing" constant="20" symbolic="YES" id="8fw-ZI-gHM"/>
-                            <constraint firstAttribute="trailing" secondItem="ypc-aH-bN4" secondAttribute="trailing" constant="20" symbolic="YES" id="D19-b6-RDk"/>
-                            <constraint firstItem="PYv-ry-XIB" firstAttribute="leading" secondItem="XQ8-bE-mCw" secondAttribute="leading" constant="20" symbolic="YES" id="MGx-0g-NiM"/>
-                            <constraint firstAttribute="bottom" secondItem="PYv-ry-XIB" secondAttribute="bottom" constant="20" symbolic="YES" id="RHq-j6-uL8"/>
-                            <constraint firstItem="ypc-aH-bN4" firstAttribute="leading" secondItem="XQ8-bE-mCw" secondAttribute="leading" constant="20" symbolic="YES" id="S2H-Qf-xer"/>
-                            <constraint firstItem="ypc-aH-bN4" firstAttribute="top" secondItem="tja-Tp-Me2" secondAttribute="bottom" constant="30" id="UrD-FB-AeH"/>
-                            <constraint firstItem="ixQ-sT-t6Y" firstAttribute="leading" secondItem="XQ8-bE-mCw" secondAttribute="leading" constant="20" symbolic="YES" id="X4N-5i-B54"/>
-                            <constraint firstItem="Ktl-3r-9jS" firstAttribute="leading" secondItem="PYv-ry-XIB" secondAttribute="trailing" constant="-45" id="aFe-72-bvg"/>
-                            <constraint firstItem="tja-Tp-Me2" firstAttribute="top" secondItem="XQ8-bE-mCw" secondAttribute="top" constant="20" symbolic="YES" id="fdk-mg-u0b"/>
-                            <constraint firstItem="tja-Tp-Me2" firstAttribute="width" secondItem="XQ8-bE-mCw" secondAttribute="width" multiplier="0.8" id="iEz-Pb-Tgp"/>
-                            <constraint firstAttribute="bottom" secondItem="Ktl-3r-9jS" secondAttribute="bottom" constant="-20" id="zjd-RN-61P"/>
+                            <constraint firstItem="wUl-ep-t0j" firstAttribute="top" secondItem="mhX-5e-pyY" secondAttribute="bottom" constant="20" id="8Rn-Mr-fL2"/>
+                            <constraint firstItem="SPM-ta-mTk" firstAttribute="centerX" secondItem="iGO-c3-v3e" secondAttribute="centerX" id="AZb-BQ-D1s"/>
+                            <constraint firstItem="Wxy-fP-J7w" firstAttribute="top" secondItem="iGO-c3-v3e" secondAttribute="top" constant="64" id="Nk5-dS-ZW8"/>
+                            <constraint firstItem="Wxy-fP-J7w" firstAttribute="centerX" secondItem="iGO-c3-v3e" secondAttribute="centerX" id="SWg-TE-w3O"/>
+                            <constraint firstItem="Wxy-fP-J7w" firstAttribute="width" secondItem="iGO-c3-v3e" secondAttribute="width" multiplier="0.5" id="UCd-Q7-Hls"/>
+                            <constraint firstAttribute="trailing" secondItem="mhX-5e-pyY" secondAttribute="trailing" constant="20" id="Yhc-po-MTy"/>
+                            <constraint firstItem="mhX-5e-pyY" firstAttribute="top" secondItem="Wxy-fP-J7w" secondAttribute="bottom" constant="28" id="lNf-nq-arn"/>
+                            <constraint firstItem="mhX-5e-pyY" firstAttribute="leading" secondItem="iGO-c3-v3e" secondAttribute="leading" constant="20" id="lfT-PR-LHs"/>
+                            <constraint firstItem="SPM-ta-mTk" firstAttribute="top" secondItem="wUl-ep-t0j" secondAttribute="bottom" constant="20" id="qUB-rr-Hta"/>
+                            <constraint firstItem="wUl-ep-t0j" firstAttribute="centerX" secondItem="iGO-c3-v3e" secondAttribute="centerX" id="qxu-eJ-yFd"/>
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="extensionStateDescription" destination="ypc-aH-bN4" id="e8F-x2-1IU"/>
+                        <outlet property="button" destination="wUl-ep-t0j" id="ael-Eo-KfN"/>
+                        <outlet property="header" destination="mhX-5e-pyY" id="RFL-i7-Oi1"/>
+                        <outlet property="link" destination="Kfn-Ds-Qob" id="1bW-Sf-VFy"/>
+                        <outlet property="visit" destination="Gu6-IO-r8Z" id="mGt-Bl-gvH"/>
                     </connections>
                 </viewController>
-                <customObject id="rXD-Ze-q7k" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="76" y="797"/>
+            <point key="canvasLocation" x="74" y="830"/>
         </scene>
     </scenes>
     <resources>
-        <image name="Image" width="375" height="260"/>
-        <image name="Logo large" width="327" height="48"/>
+        <image name="Logo Stacked" width="242" height="136"/>
     </resources>
 </document>

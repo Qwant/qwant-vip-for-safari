@@ -7,16 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		681E0D5928E5D706001DD116 /* macOSAppViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 681E0D5828E5CDE9001DD116 /* macOSAppViewController.swift */; };
+		681E0D5A28E5E2B9001DD116 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 68D2662328DB03E0006BF2FC /* Localizable.strings */; };
+		681E0D5F28E5E4F7001DD116 /* (null) in Resources */ = {isa = PBXBuildFile; };
+		683630B428E6F7170031849D /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 68D2662328DB03E0006BF2FC /* Localizable.strings */; };
+		689C8D6F28E6E7FB0094F58C /* AppConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 689C8D6E28E6E7FB0094F58C /* AppConstants.swift */; };
+		689C8D7028E6E7FB0094F58C /* AppConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 689C8D6E28E6E7FB0094F58C /* AppConstants.swift */; };
+		68A22A5428E7212A00CAC2CC /* icon-38.png in Resources */ = {isa = PBXBuildFile; fileRef = 68A22A4828E7212A00CAC2CC /* icon-38.png */; };
+		68A22A5528E7212A00CAC2CC /* contentScript.bundle.js in Resources */ = {isa = PBXBuildFile; fileRef = 68A22A4928E7212A00CAC2CC /* contentScript.bundle.js */; };
+		68A22A5628E7212A00CAC2CC /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = 68A22A4A28E7212A00CAC2CC /* popup.html */; };
+		68A22A5728E7212A00CAC2CC /* background.bundle.js in Resources */ = {isa = PBXBuildFile; fileRef = 68A22A4B28E7212A00CAC2CC /* background.bundle.js */; };
+		68A22A5828E7212A00CAC2CC /* no-popin.css in Resources */ = {isa = PBXBuildFile; fileRef = 68A22A4C28E7212A00CAC2CC /* no-popin.css */; };
+		68A22A5928E7212A00CAC2CC /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 68A22A4D28E7212A00CAC2CC /* manifest.json */; };
+		68A22A5A28E7212A00CAC2CC /* background.html in Resources */ = {isa = PBXBuildFile; fileRef = 68A22A4E28E7212A00CAC2CC /* background.html */; };
+		68A22A5B28E7212A00CAC2CC /* messages.json in Resources */ = {isa = PBXBuildFile; fileRef = 68A22A5128E7212A00CAC2CC /* messages.json */; };
+		68A22A5C28E7212A00CAC2CC /* icon-128.png in Resources */ = {isa = PBXBuildFile; fileRef = 68A22A5228E7212A00CAC2CC /* icon-128.png */; };
+		68A22A5D28E7212A00CAC2CC /* popup.bundle.js in Resources */ = {isa = PBXBuildFile; fileRef = 68A22A5328E7212A00CAC2CC /* popup.bundle.js */; };
 		68CA6A172886A96F007B62CA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68CA6A162886A96F007B62CA /* AppDelegate.swift */; };
 		68CA6A192886A96F007B62CA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68CA6A182886A96F007B62CA /* SceneDelegate.swift */; };
 		68CA6A1C2886A96F007B62CA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68CA6A1A2886A96F007B62CA /* LaunchScreen.storyboard */; };
 		68CA6A1F2886A96F007B62CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68CA6A1D2886A96F007B62CA /* Main.storyboard */; };
 		68CA6A282886A96F007B62CA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68CA6A272886A96F007B62CA /* AppDelegate.swift */; };
 		68CA6A2B2886A96F007B62CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68CA6A292886A96F007B62CA /* Main.storyboard */; };
-		68CA6A322886A96F007B62CA /* Qwant for Safari Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 68CA6A312886A96F007B62CA /* Qwant for Safari Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		68CA6A3C2886A96F007B62CA /* Qwant for Safari Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 68CA6A3B2886A96F007B62CA /* Qwant for Safari Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		68CA6A4A2886A96F007B62CA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68CA6A022886A96B007B62CA /* ViewController.swift */; };
-		68CA6A4B2886A96F007B62CA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68CA6A022886A96B007B62CA /* ViewController.swift */; };
+		68CA6A322886A96F007B62CA /* Qwant for Safari Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 68CA6A312886A96F007B62CA /* Qwant for Safari Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		68CA6A3C2886A96F007B62CA /* Qwant for Safari Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 68CA6A3B2886A96F007B62CA /* Qwant for Safari Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		68CA6A4C2886A96F007B62CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68CA6A032886A96F007B62CA /* Assets.xcassets */; };
 		68CA6A4D2886A96F007B62CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68CA6A032886A96F007B62CA /* Assets.xcassets */; };
 		68CA6A8D2886FD72007B62CA /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68CA6A8C2886FD72007B62CA /* Media.xcassets */; };
@@ -27,18 +41,10 @@
 		68CA6B4C288941D0007B62CA /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68CA6B43288941D0007B62CA /* Utils.swift */; };
 		68CA6B4D288941D0007B62CA /* SearchEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68CA6B45288941D0007B62CA /* SearchEngine.swift */; };
 		68CA6B4E288941D0007B62CA /* preconfigured-search-engines.json in Resources */ = {isa = PBXBuildFile; fileRef = 68CA6B46288941D0007B62CA /* preconfigured-search-engines.json */; };
-		68CA6B4F288941D0007B62CA /* QwantForSafariViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68CA6B48288941D0007B62CA /* QwantForSafariViewController.swift */; };
-		68CA6B50288941D0007B62CA /* QwantForSafariViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 68CA6B49288941D0007B62CA /* QwantForSafariViewController.xib */; };
-		68DABC3C28898465006835DD /* contentScript.bundle.js in Resources */ = {isa = PBXBuildFile; fileRef = 68DABC3028898464006835DD /* contentScript.bundle.js */; };
-		68DABC3D28898465006835DD /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = 68DABC3128898464006835DD /* popup.html */; };
-		68DABC3E28898465006835DD /* background.bundle.js in Resources */ = {isa = PBXBuildFile; fileRef = 68DABC3228898464006835DD /* background.bundle.js */; };
-		68DABC3F28898465006835DD /* no-popin.css in Resources */ = {isa = PBXBuildFile; fileRef = 68DABC3328898464006835DD /* no-popin.css */; };
-		68DABC4028898465006835DD /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 68DABC3428898464006835DD /* manifest.json */; };
-		68DABC4128898465006835DD /* background.html in Resources */ = {isa = PBXBuildFile; fileRef = 68DABC3528898464006835DD /* background.html */; };
-		68DABC4228898465006835DD /* messages.json in Resources */ = {isa = PBXBuildFile; fileRef = 68DABC3828898464006835DD /* messages.json */; };
-		68DABC4528898465006835DD /* popup.bundle.js in Resources */ = {isa = PBXBuildFile; fileRef = 68DABC3B28898464006835DD /* popup.bundle.js */; };
-		68F3485C28D0709700F62F9C /* icon-128.png in Resources */ = {isa = PBXBuildFile; fileRef = 68F3485A28D0709700F62F9C /* icon-128.png */; };
-		68F3485D28D0709700F62F9C /* icon-38.png in Resources */ = {isa = PBXBuildFile; fileRef = 68F3485B28D0709700F62F9C /* icon-38.png */; };
+		68CA6B4F288941D0007B62CA /* macOSExtensionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68CA6B48288941D0007B62CA /* macOSExtensionViewController.swift */; };
+		68CA6B50288941D0007B62CA /* macOSExtensionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 68CA6B49288941D0007B62CA /* macOSExtensionViewController.xib */; };
+		68D2662128DB03E0006BF2FC /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 68D2662328DB03E0006BF2FC /* Localizable.strings */; };
+		68D2662628DB0435006BF2FC /* iOSAppViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68D2662528DB0435006BF2FC /* iOSAppViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,48 +65,59 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		68CA6A652886A96F007B62CA /* Embed App Extensions */ = {
+		68CA6A652886A96F007B62CA /* Embed Foundation Extensions */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				68CA6A322886A96F007B62CA /* Qwant for Safari Extension.appex in Embed App Extensions */,
+				68CA6A322886A96F007B62CA /* Qwant for Safari Extension.appex in Embed Foundation Extensions */,
 			);
-			name = "Embed App Extensions";
+			name = "Embed Foundation Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		68CA6A6C2886A96F007B62CA /* Embed App Extensions */ = {
+		68CA6A6C2886A96F007B62CA /* Embed Foundation Extensions */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				68CA6A3C2886A96F007B62CA /* Qwant for Safari Extension.appex in Embed App Extensions */,
+				68CA6A3C2886A96F007B62CA /* Qwant for Safari Extension.appex in Embed Foundation Extensions */,
 			);
-			name = "Embed App Extensions";
+			name = "Embed Foundation Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		6869B98828D1D1590065E034 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		68CA6A022886A96B007B62CA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		681E0D5828E5CDE9001DD116 /* macOSAppViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = macOSAppViewController.swift; sourceTree = "<group>"; };
+		683630C028E7182F0031849D /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		683630C228E718750031849D /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		683630C428E718D60031849D /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		683630CD28E719F00031849D /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		689C8D6E28E6E7FB0094F58C /* AppConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConstants.swift; sourceTree = "<group>"; };
+		68A22A4828E7212A00CAC2CC /* icon-38.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-38.png"; sourceTree = "<group>"; };
+		68A22A4928E7212A00CAC2CC /* contentScript.bundle.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = contentScript.bundle.js; sourceTree = "<group>"; };
+		68A22A4A28E7212A00CAC2CC /* popup.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = popup.html; sourceTree = "<group>"; };
+		68A22A4B28E7212A00CAC2CC /* background.bundle.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = background.bundle.js; sourceTree = "<group>"; };
+		68A22A4C28E7212A00CAC2CC /* no-popin.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = "no-popin.css"; sourceTree = "<group>"; };
+		68A22A4D28E7212A00CAC2CC /* manifest.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = manifest.json; sourceTree = "<group>"; };
+		68A22A4E28E7212A00CAC2CC /* background.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = background.html; sourceTree = "<group>"; };
+		68A22A5128E7212A00CAC2CC /* messages.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = messages.json; sourceTree = "<group>"; };
+		68A22A5228E7212A00CAC2CC /* icon-128.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-128.png"; sourceTree = "<group>"; };
+		68A22A5328E7212A00CAC2CC /* popup.bundle.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = popup.bundle.js; sourceTree = "<group>"; };
 		68CA6A032886A96F007B62CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		68CA6A132886A96F007B62CA /* Qwant for Safari.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Qwant for Safari.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		68CA6A162886A96F007B62CA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		68CA6A182886A96F007B62CA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		68CA6A1B2886A96F007B62CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		68CA6A1E2886A96F007B62CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		68CA6A202886A96F007B62CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		68CA6A252886A96F007B62CA /* Qwant for Safari.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Qwant for Safari.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		68CA6A272886A96F007B62CA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		68CA6A2A2886A96F007B62CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		68CA6A2C2886A96F007B62CA /* Qwant for Safari.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Qwant for Safari.entitlements"; sourceTree = "<group>"; };
 		68CA6A312886A96F007B62CA /* Qwant for Safari Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Qwant for Safari Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
-		68CA6A362886A96F007B62CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		68CA6A3B2886A96F007B62CA /* Qwant for Safari Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Qwant for Safari Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
-		68CA6A402886A96F007B62CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		68CA6A412886A96F007B62CA /* Qwant for Safari.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Qwant for Safari.entitlements"; sourceTree = "<group>"; };
 		68CA6A872886F692007B62CA /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
 		68CA6A8C2886FD72007B62CA /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
@@ -109,18 +126,11 @@
 		68CA6B43288941D0007B62CA /* Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
 		68CA6B45288941D0007B62CA /* SearchEngine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchEngine.swift; sourceTree = "<group>"; };
 		68CA6B46288941D0007B62CA /* preconfigured-search-engines.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "preconfigured-search-engines.json"; sourceTree = "<group>"; };
-		68CA6B48288941D0007B62CA /* QwantForSafariViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QwantForSafariViewController.swift; sourceTree = "<group>"; };
-		68CA6B49288941D0007B62CA /* QwantForSafariViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QwantForSafariViewController.xib; sourceTree = "<group>"; };
-		68DABC3028898464006835DD /* contentScript.bundle.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = contentScript.bundle.js; sourceTree = "<group>"; };
-		68DABC3128898464006835DD /* popup.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = popup.html; sourceTree = "<group>"; };
-		68DABC3228898464006835DD /* background.bundle.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = background.bundle.js; sourceTree = "<group>"; };
-		68DABC3328898464006835DD /* no-popin.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = "no-popin.css"; sourceTree = "<group>"; };
-		68DABC3428898464006835DD /* manifest.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = manifest.json; sourceTree = "<group>"; };
-		68DABC3528898464006835DD /* background.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = background.html; sourceTree = "<group>"; };
-		68DABC3828898464006835DD /* messages.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = messages.json; sourceTree = "<group>"; };
-		68DABC3B28898464006835DD /* popup.bundle.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = popup.bundle.js; sourceTree = "<group>"; };
-		68F3485A28D0709700F62F9C /* icon-128.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-128.png"; sourceTree = "<group>"; };
-		68F3485B28D0709700F62F9C /* icon-38.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-38.png"; sourceTree = "<group>"; };
+		68CA6B48288941D0007B62CA /* macOSExtensionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = macOSExtensionViewController.swift; sourceTree = "<group>"; };
+		68CA6B49288941D0007B62CA /* macOSExtensionViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = macOSExtensionViewController.xib; sourceTree = "<group>"; };
+		68D2662228DB03E0006BF2FC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		68D2662428DB03ED006BF2FC /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		68D2662528DB0435006BF2FC /* iOSAppViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSAppViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -155,6 +165,39 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		68A22A4728E7212A00CAC2CC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				68A22A4828E7212A00CAC2CC /* icon-38.png */,
+				68A22A4928E7212A00CAC2CC /* contentScript.bundle.js */,
+				68A22A4A28E7212A00CAC2CC /* popup.html */,
+				68A22A4B28E7212A00CAC2CC /* background.bundle.js */,
+				68A22A4C28E7212A00CAC2CC /* no-popin.css */,
+				68A22A4D28E7212A00CAC2CC /* manifest.json */,
+				68A22A4E28E7212A00CAC2CC /* background.html */,
+				68A22A4F28E7212A00CAC2CC /* _locales */,
+				68A22A5228E7212A00CAC2CC /* icon-128.png */,
+				68A22A5328E7212A00CAC2CC /* popup.bundle.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		68A22A4F28E7212A00CAC2CC /* _locales */ = {
+			isa = PBXGroup;
+			children = (
+				68A22A5028E7212A00CAC2CC /* en */,
+			);
+			path = _locales;
+			sourceTree = "<group>";
+		};
+		68A22A5028E7212A00CAC2CC /* en */ = {
+			isa = PBXGroup;
+			children = (
+				68A22A5128E7212A00CAC2CC /* messages.json */,
+			);
+			path = en;
+			sourceTree = "<group>";
+		};
 		68CA69F62886A96B007B62CA = {
 			isa = PBXGroup;
 			children = (
@@ -171,7 +214,8 @@
 		68CA69FB2886A96B007B62CA /* Shared (App) */ = {
 			isa = PBXGroup;
 			children = (
-				68CA6A022886A96B007B62CA /* ViewController.swift */,
+				689C8D6E28E6E7FB0094F58C /* AppConstants.swift */,
+				68D2662328DB03E0006BF2FC /* Localizable.strings */,
 				68CA6A032886A96F007B62CA /* Assets.xcassets */,
 			);
 			path = "Shared (App)";
@@ -201,9 +245,10 @@
 			children = (
 				68CA6A162886A96F007B62CA /* AppDelegate.swift */,
 				68CA6A182886A96F007B62CA /* SceneDelegate.swift */,
+				68D2662528DB0435006BF2FC /* iOSAppViewController.swift */,
 				68CA6A1A2886A96F007B62CA /* LaunchScreen.storyboard */,
 				68CA6A1D2886A96F007B62CA /* Main.storyboard */,
-				68CA6A202886A96F007B62CA /* Info.plist */,
+				683630CD28E719F00031849D /* Info.plist */,
 			);
 			path = "iOS (App)";
 			sourceTree = "<group>";
@@ -212,9 +257,10 @@
 			isa = PBXGroup;
 			children = (
 				68CA6A272886A96F007B62CA /* AppDelegate.swift */,
+				681E0D5828E5CDE9001DD116 /* macOSAppViewController.swift */,
 				68CA6A292886A96F007B62CA /* Main.storyboard */,
 				68CA6A2C2886A96F007B62CA /* Qwant for Safari.entitlements */,
-				6869B98828D1D1590065E034 /* Info.plist */,
+				683630C428E718D60031849D /* Info.plist */,
 			);
 			path = "macOS (App)";
 			sourceTree = "<group>";
@@ -222,9 +268,9 @@
 		68CA6A352886A96F007B62CA /* iOS (Extension) */ = {
 			isa = PBXGroup;
 			children = (
-				68DABC2F28898464006835DD /* Resources */,
+				68A22A4728E7212A00CAC2CC /* Resources */,
 				68CA6A872886F692007B62CA /* SafariWebExtensionHandler.swift */,
-				68CA6A362886A96F007B62CA /* Info.plist */,
+				683630C228E718750031849D /* Info.plist */,
 			);
 			path = "iOS (Extension)";
 			sourceTree = "<group>";
@@ -237,7 +283,7 @@
 				68CA6B40288941CF007B62CA /* SafariExtensionHandler.swift */,
 				68CA6B43288941D0007B62CA /* Utils.swift */,
 				68CA6B47288941D0007B62CA /* View */,
-				68CA6A402886A96F007B62CA /* Info.plist */,
+				683630C028E7182F0031849D /* Info.plist */,
 				68CA6A412886A96F007B62CA /* Qwant for Safari.entitlements */,
 			);
 			path = "macOS (Extension)";
@@ -263,43 +309,10 @@
 		68CA6B47288941D0007B62CA /* View */ = {
 			isa = PBXGroup;
 			children = (
-				68CA6B48288941D0007B62CA /* QwantForSafariViewController.swift */,
-				68CA6B49288941D0007B62CA /* QwantForSafariViewController.xib */,
+				68CA6B48288941D0007B62CA /* macOSExtensionViewController.swift */,
+				68CA6B49288941D0007B62CA /* macOSExtensionViewController.xib */,
 			);
 			path = View;
-			sourceTree = "<group>";
-		};
-		68DABC2F28898464006835DD /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				68DABC3028898464006835DD /* contentScript.bundle.js */,
-				68DABC3128898464006835DD /* popup.html */,
-				68DABC3228898464006835DD /* background.bundle.js */,
-				68DABC3328898464006835DD /* no-popin.css */,
-				68DABC3428898464006835DD /* manifest.json */,
-				68DABC3528898464006835DD /* background.html */,
-				68DABC3628898464006835DD /* _locales */,
-				68F3485B28D0709700F62F9C /* icon-38.png */,
-				68F3485A28D0709700F62F9C /* icon-128.png */,
-				68DABC3B28898464006835DD /* popup.bundle.js */,
-			);
-			path = Resources;
-			sourceTree = "<group>";
-		};
-		68DABC3628898464006835DD /* _locales */ = {
-			isa = PBXGroup;
-			children = (
-				68DABC3728898464006835DD /* en */,
-			);
-			path = _locales;
-			sourceTree = "<group>";
-		};
-		68DABC3728898464006835DD /* en */ = {
-			isa = PBXGroup;
-			children = (
-				68DABC3828898464006835DD /* messages.json */,
-			);
-			path = en;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -312,7 +325,7 @@
 				68CA6A0F2886A96F007B62CA /* Sources */,
 				68CA6A102886A96F007B62CA /* Frameworks */,
 				68CA6A112886A96F007B62CA /* Resources */,
-				68CA6A652886A96F007B62CA /* Embed App Extensions */,
+				68CA6A652886A96F007B62CA /* Embed Foundation Extensions */,
 				6869B98528D1BFA30065E034 /* Swiftlint */,
 			);
 			buildRules = (
@@ -332,7 +345,7 @@
 				68CA6A212886A96F007B62CA /* Sources */,
 				68CA6A222886A96F007B62CA /* Frameworks */,
 				68CA6A232886A96F007B62CA /* Resources */,
-				68CA6A6C2886A96F007B62CA /* Embed App Extensions */,
+				68CA6A6C2886A96F007B62CA /* Embed Foundation Extensions */,
 				6869B98628D1BFDA0065E034 /* SwiftLint */,
 			);
 			buildRules = (
@@ -387,7 +400,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1340;
-				LastUpgradeCheck = 1340;
+				LastUpgradeCheck = 1400;
 				TargetAttributes = {
 					68CA6A122886A96F007B62CA = {
 						CreatedOnToolsVersion = 13.4.1;
@@ -411,6 +424,7 @@
 			knownRegions = (
 				en,
 				Base,
+				fr,
 			);
 			mainGroup = 68CA69F62886A96B007B62CA;
 			productRefGroup = 68CA6A142886A96F007B62CA /* Products */;
@@ -431,6 +445,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				68CA6A1C2886A96F007B62CA /* LaunchScreen.storyboard in Resources */,
+				68D2662128DB03E0006BF2FC /* Localizable.strings in Resources */,
 				68CA6A4C2886A96F007B62CA /* Assets.xcassets in Resources */,
 				68CA6A1F2886A96F007B62CA /* Main.storyboard in Resources */,
 			);
@@ -441,6 +456,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				68CA6A2B2886A96F007B62CA /* Main.storyboard in Resources */,
+				681E0D5A28E5E2B9001DD116 /* Localizable.strings in Resources */,
 				68CA6A4D2886A96F007B62CA /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -449,17 +465,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				68DABC4128898465006835DD /* background.html in Resources */,
-				68DABC3C28898465006835DD /* contentScript.bundle.js in Resources */,
-				68DABC4528898465006835DD /* popup.bundle.js in Resources */,
-				68DABC3F28898465006835DD /* no-popin.css in Resources */,
-				68DABC3D28898465006835DD /* popup.html in Resources */,
-				68F3485D28D0709700F62F9C /* icon-38.png in Resources */,
 				68CA6A8D2886FD72007B62CA /* Media.xcassets in Resources */,
-				68DABC4228898465006835DD /* messages.json in Resources */,
-				68F3485C28D0709700F62F9C /* icon-128.png in Resources */,
-				68DABC4028898465006835DD /* manifest.json in Resources */,
-				68DABC3E28898465006835DD /* background.bundle.js in Resources */,
+				68A22A5B28E7212A00CAC2CC /* messages.json in Resources */,
+				68A22A5D28E7212A00CAC2CC /* popup.bundle.js in Resources */,
+				68A22A5A28E7212A00CAC2CC /* background.html in Resources */,
+				68A22A5728E7212A00CAC2CC /* background.bundle.js in Resources */,
+				68A22A5C28E7212A00CAC2CC /* icon-128.png in Resources */,
+				68A22A5828E7212A00CAC2CC /* no-popin.css in Resources */,
+				68A22A5628E7212A00CAC2CC /* popup.html in Resources */,
+				68A22A5928E7212A00CAC2CC /* manifest.json in Resources */,
+				681E0D5F28E5E4F7001DD116 /* (null) in Resources */,
+				68A22A5528E7212A00CAC2CC /* contentScript.bundle.js in Resources */,
+				68A22A5428E7212A00CAC2CC /* icon-38.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -467,7 +484,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				68CA6B50288941D0007B62CA /* QwantForSafariViewController.xib in Resources */,
+				683630B428E6F7170031849D /* Localizable.strings in Resources */,
+				68CA6B50288941D0007B62CA /* macOSExtensionViewController.xib in Resources */,
 				68CA6B4B288941D0007B62CA /* icon.png in Resources */,
 				68CA6A8E2886FD72007B62CA /* Media.xcassets in Resources */,
 				68CA6B4E288941D0007B62CA /* preconfigured-search-engines.json in Resources */,
@@ -479,6 +497,7 @@
 /* Begin PBXShellScriptBuildPhase section */
 		6869B98528D1BFA30065E034 /* Swiftlint */ = {
 			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
 			buildActionMask = 2147483647;
 			files = (
 			);
@@ -520,9 +539,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				68CA6A4A2886A96F007B62CA /* ViewController.swift in Sources */,
+				68D2662628DB0435006BF2FC /* iOSAppViewController.swift in Sources */,
 				68CA6A172886A96F007B62CA /* AppDelegate.swift in Sources */,
 				68CA6A192886A96F007B62CA /* SceneDelegate.swift in Sources */,
+				689C8D6F28E6E7FB0094F58C /* AppConstants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -530,8 +550,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				68CA6A4B2886A96F007B62CA /* ViewController.swift in Sources */,
 				68CA6A282886A96F007B62CA /* AppDelegate.swift in Sources */,
+				681E0D5928E5D706001DD116 /* macOSAppViewController.swift in Sources */,
+				689C8D7028E6E7FB0094F58C /* AppConstants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -547,7 +568,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				68CA6B4F288941D0007B62CA /* QwantForSafariViewController.swift in Sources */,
+				68CA6B4F288941D0007B62CA /* macOSExtensionViewController.swift in Sources */,
 				68CA6B4D288941D0007B62CA /* SearchEngine.swift in Sources */,
 				68CA6B4A288941D0007B62CA /* SafariExtensionHandler.swift in Sources */,
 				68CA6B4C288941D0007B62CA /* Utils.swift in Sources */,
@@ -594,6 +615,15 @@
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
+		68D2662328DB03E0006BF2FC /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				68D2662228DB03E0006BF2FC /* en */,
+				68D2662428DB03ED006BF2FC /* fr */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
@@ -601,6 +631,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
@@ -630,7 +661,8 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEVELOPMENT_TEAM = 76Z29F769J;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -664,6 +696,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
@@ -693,7 +726,8 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = 76Z29F769J;
 				ENABLE_NS_ASSERTIONS = NO;
@@ -863,6 +897,7 @@
 				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/Qwant for Safari.entitlements";
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Manual;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = 76Z29F769J;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -897,6 +932,7 @@
 				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/Qwant for Safari.entitlements";
 				CODE_SIGN_IDENTITY = "3rd Party Mac Developer Application";
 				CODE_SIGN_STYLE = Manual;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = 76Z29F769J;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -932,6 +968,7 @@
 				CODE_SIGN_ENTITLEMENTS = "macOS (App)/Qwant for Safari.entitlements";
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Manual;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = 76Z29F769J;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -969,6 +1006,7 @@
 				CODE_SIGN_ENTITLEMENTS = "macOS (App)/Qwant for Safari.entitlements";
 				CODE_SIGN_IDENTITY = "3rd Party Mac Developer Application";
 				CODE_SIGN_STYLE = Manual;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = 76Z29F769J;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;

@@ -20,7 +20,7 @@ class SafariExtensionHandler: SFSafariExtensionHandler {
     }
 
     override func popoverViewController() -> SFSafariExtensionViewController {
-        QwantForSafariViewController.shared
+        macOSExtensionViewController.shared
     }
 
     private func qwantURL(from url: URL) -> URL? {
@@ -28,7 +28,7 @@ class SafariExtensionHandler: SFSafariExtensionHandler {
             return nil
         }
 
-        return URL(string: "https://www.qwant.com/?t=web&q=\(partner.userQuery(url))")
+        return URL(string: "https://www.qwant.com/?client=ext-safari-macos-sb&t=web&q=\(partner.userQuery(url))")
     }
 
     private func partnerSearchEngine(from url: URL) -> SearchEngine? {

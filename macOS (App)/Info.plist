@@ -4,5 +4,18 @@
 <dict>
 	<key>NSHumanReadableDescription</key>
 	<string>Qwant for Safari makes Qwant as the default search engine in Safari - The search engine that doesn't know anything about you, and that changes everything!</string>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLName</key>
+			<string>com.qwant.for.safari</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>qwantforsafari</string>
+			</array>
+		</dict>
+	</array>
 </dict>
 </plist>
