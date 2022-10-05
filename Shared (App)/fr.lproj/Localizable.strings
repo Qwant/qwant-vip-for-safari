@@ -18,9 +18,9 @@
 "iOS.App.StartButton" = "Commencer";
 
 "macOS.App.Header" = "Pour activer Qwant for Safari, allez dans les réglages des extensions de Safari";
-"macOS.App.SettingsButton" = "Ouvrir les réglages des extensions de Safari";
+"macOS.App.SettingsButton" = "Ouvrir les préférences Safari";
 "macOS.App.Visit" = "Visiter";
 
-"macOS.Extension.Power" = "Faites de Qwant votre moteur de recherche par défaut";
-"macOS.Extension.Visit" = "Visitez Qwant.com";
+"macOS.Extension.Power" = "Moteur de recherche par défaut";
+"macOS.Extension.Visit" = "Visiter qwant.com";
 "macOS.Extension.Settings" = "Gérer";

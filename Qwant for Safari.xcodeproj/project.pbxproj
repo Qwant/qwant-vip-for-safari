@@ -9,20 +9,17 @@
 /* Begin PBXBuildFile section */
 		681E0D5928E5D706001DD116 /* macOSAppViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 681E0D5828E5CDE9001DD116 /* macOSAppViewController.swift */; };
 		681E0D5A28E5E2B9001DD116 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 68D2662328DB03E0006BF2FC /* Localizable.strings */; };
-		681E0D5F28E5E4F7001DD116 /* (null) in Resources */ = {isa = PBXBuildFile; };
 		683630B428E6F7170031849D /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 68D2662328DB03E0006BF2FC /* Localizable.strings */; };
+		687286D028ED7EAF00FD0BC2 /* popup.bundle.js in Resources */ = {isa = PBXBuildFile; fileRef = 687286CF28ED7EAF00FD0BC2 /* popup.bundle.js */; };
+		687286DE28ED892000FD0BC2 /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = 687286DD28ED892000FD0BC2 /* popup.html */; };
+		6872876B28EDB74F00FD0BC2 /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = 6872876928EDB74F00FD0BC2 /* _locales */; };
+		6872876C28EDB74F00FD0BC2 /* images in Resources */ = {isa = PBXBuildFile; fileRef = 6872876A28EDB74F00FD0BC2 /* images */; };
 		689C8D6F28E6E7FB0094F58C /* AppConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 689C8D6E28E6E7FB0094F58C /* AppConstants.swift */; };
 		689C8D7028E6E7FB0094F58C /* AppConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 689C8D6E28E6E7FB0094F58C /* AppConstants.swift */; };
-		68A22A5428E7212A00CAC2CC /* icon-38.png in Resources */ = {isa = PBXBuildFile; fileRef = 68A22A4828E7212A00CAC2CC /* icon-38.png */; };
 		68A22A5528E7212A00CAC2CC /* contentScript.bundle.js in Resources */ = {isa = PBXBuildFile; fileRef = 68A22A4928E7212A00CAC2CC /* contentScript.bundle.js */; };
-		68A22A5628E7212A00CAC2CC /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = 68A22A4A28E7212A00CAC2CC /* popup.html */; };
 		68A22A5728E7212A00CAC2CC /* background.bundle.js in Resources */ = {isa = PBXBuildFile; fileRef = 68A22A4B28E7212A00CAC2CC /* background.bundle.js */; };
 		68A22A5828E7212A00CAC2CC /* no-popin.css in Resources */ = {isa = PBXBuildFile; fileRef = 68A22A4C28E7212A00CAC2CC /* no-popin.css */; };
 		68A22A5928E7212A00CAC2CC /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 68A22A4D28E7212A00CAC2CC /* manifest.json */; };
-		68A22A5A28E7212A00CAC2CC /* background.html in Resources */ = {isa = PBXBuildFile; fileRef = 68A22A4E28E7212A00CAC2CC /* background.html */; };
-		68A22A5B28E7212A00CAC2CC /* messages.json in Resources */ = {isa = PBXBuildFile; fileRef = 68A22A5128E7212A00CAC2CC /* messages.json */; };
-		68A22A5C28E7212A00CAC2CC /* icon-128.png in Resources */ = {isa = PBXBuildFile; fileRef = 68A22A5228E7212A00CAC2CC /* icon-128.png */; };
-		68A22A5D28E7212A00CAC2CC /* popup.bundle.js in Resources */ = {isa = PBXBuildFile; fileRef = 68A22A5328E7212A00CAC2CC /* popup.bundle.js */; };
 		68CA6A172886A96F007B62CA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68CA6A162886A96F007B62CA /* AppDelegate.swift */; };
 		68CA6A192886A96F007B62CA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68CA6A182886A96F007B62CA /* SceneDelegate.swift */; };
 		68CA6A1C2886A96F007B62CA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68CA6A1A2886A96F007B62CA /* LaunchScreen.storyboard */; };
@@ -95,17 +92,15 @@
 		683630C228E718750031849D /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		683630C428E718D60031849D /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		683630CD28E719F00031849D /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		687286CF28ED7EAF00FD0BC2 /* popup.bundle.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = popup.bundle.js; sourceTree = "<group>"; };
+		687286DD28ED892000FD0BC2 /* popup.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = popup.html; sourceTree = "<group>"; };
+		6872876928EDB74F00FD0BC2 /* _locales */ = {isa = PBXFileReference; lastKnownFileType = folder; path = _locales; sourceTree = "<group>"; };
+		6872876A28EDB74F00FD0BC2 /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
 		689C8D6E28E6E7FB0094F58C /* AppConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConstants.swift; sourceTree = "<group>"; };
-		68A22A4828E7212A00CAC2CC /* icon-38.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-38.png"; sourceTree = "<group>"; };
 		68A22A4928E7212A00CAC2CC /* contentScript.bundle.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = contentScript.bundle.js; sourceTree = "<group>"; };
-		68A22A4A28E7212A00CAC2CC /* popup.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = popup.html; sourceTree = "<group>"; };
 		68A22A4B28E7212A00CAC2CC /* background.bundle.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = background.bundle.js; sourceTree = "<group>"; };
 		68A22A4C28E7212A00CAC2CC /* no-popin.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = "no-popin.css"; sourceTree = "<group>"; };
 		68A22A4D28E7212A00CAC2CC /* manifest.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = manifest.json; sourceTree = "<group>"; };
-		68A22A4E28E7212A00CAC2CC /* background.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = background.html; sourceTree = "<group>"; };
-		68A22A5128E7212A00CAC2CC /* messages.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = messages.json; sourceTree = "<group>"; };
-		68A22A5228E7212A00CAC2CC /* icon-128.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-128.png"; sourceTree = "<group>"; };
-		68A22A5328E7212A00CAC2CC /* popup.bundle.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = popup.bundle.js; sourceTree = "<group>"; };
 		68CA6A032886A96F007B62CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		68CA6A132886A96F007B62CA /* Qwant for Safari.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Qwant for Safari.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		68CA6A162886A96F007B62CA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -168,34 +163,16 @@
 		68A22A4728E7212A00CAC2CC /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				68A22A4828E7212A00CAC2CC /* icon-38.png */,
-				68A22A4928E7212A00CAC2CC /* contentScript.bundle.js */,
-				68A22A4A28E7212A00CAC2CC /* popup.html */,
+				6872876928EDB74F00FD0BC2 /* _locales */,
 				68A22A4B28E7212A00CAC2CC /* background.bundle.js */,
-				68A22A4C28E7212A00CAC2CC /* no-popin.css */,
+				68A22A4928E7212A00CAC2CC /* contentScript.bundle.js */,
+				6872876A28EDB74F00FD0BC2 /* images */,
 				68A22A4D28E7212A00CAC2CC /* manifest.json */,
-				68A22A4E28E7212A00CAC2CC /* background.html */,
-				68A22A4F28E7212A00CAC2CC /* _locales */,
-				68A22A5228E7212A00CAC2CC /* icon-128.png */,
-				68A22A5328E7212A00CAC2CC /* popup.bundle.js */,
+				68A22A4C28E7212A00CAC2CC /* no-popin.css */,
+				687286CF28ED7EAF00FD0BC2 /* popup.bundle.js */,
+				687286DD28ED892000FD0BC2 /* popup.html */,
 			);
 			path = Resources;
-			sourceTree = "<group>";
-		};
-		68A22A4F28E7212A00CAC2CC /* _locales */ = {
-			isa = PBXGroup;
-			children = (
-				68A22A5028E7212A00CAC2CC /* en */,
-			);
-			path = _locales;
-			sourceTree = "<group>";
-		};
-		68A22A5028E7212A00CAC2CC /* en */ = {
-			isa = PBXGroup;
-			children = (
-				68A22A5128E7212A00CAC2CC /* messages.json */,
-			);
-			path = en;
 			sourceTree = "<group>";
 		};
 		68CA69F62886A96B007B62CA = {
@@ -465,18 +442,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6872876C28EDB74F00FD0BC2 /* images in Resources */,
 				68CA6A8D2886FD72007B62CA /* Media.xcassets in Resources */,
-				68A22A5B28E7212A00CAC2CC /* messages.json in Resources */,
-				68A22A5D28E7212A00CAC2CC /* popup.bundle.js in Resources */,
-				68A22A5A28E7212A00CAC2CC /* background.html in Resources */,
 				68A22A5728E7212A00CAC2CC /* background.bundle.js in Resources */,
-				68A22A5C28E7212A00CAC2CC /* icon-128.png in Resources */,
 				68A22A5828E7212A00CAC2CC /* no-popin.css in Resources */,
-				68A22A5628E7212A00CAC2CC /* popup.html in Resources */,
+				687286D028ED7EAF00FD0BC2 /* popup.bundle.js in Resources */,
+				687286DE28ED892000FD0BC2 /* popup.html in Resources */,
 				68A22A5928E7212A00CAC2CC /* manifest.json in Resources */,
-				681E0D5F28E5E4F7001DD116 /* (null) in Resources */,
 				68A22A5528E7212A00CAC2CC /* contentScript.bundle.js in Resources */,
-				68A22A5428E7212A00CAC2CC /* icon-38.png in Resources */,
+				6872876B28EDB74F00FD0BC2 /* _locales in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -661,7 +635,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 3;
 				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEVELOPMENT_TEAM = 76Z29F769J;
@@ -726,7 +700,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 3;
 				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = 76Z29F769J;

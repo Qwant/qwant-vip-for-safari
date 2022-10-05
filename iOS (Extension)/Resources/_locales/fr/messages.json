@@ -3,10 +3,10 @@
         "message": "Qwant for Safari"
     },
     "extension_description": {
-        "message": "Qwant for Safari sets Qwant as the default search engine in Safari."
+        "message": "Qwant for Safari fait de Qwant le moteur de recherce par défaut dans Safari."
     },
     "tagline_prefix": {
-        "message": "Your searches are automatically launched with "
+        "message": "Vos recherches sont automatiquement lancées sur "
     },
     "tagline_website": {
         "message": "qwant.com"
@@ -15,6 +15,6 @@
         "message": ""
     },
     "cta": {
-        "message": "Visit qwant.com"
+        "message": "Visiter qwant.com"
     }
 }

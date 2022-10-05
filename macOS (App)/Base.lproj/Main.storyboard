@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.Storyboard.XIB" version="3.0" toolsVersion="19455" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" initialViewController="B8D-0N-5wS">
+<document type="com.apple.InterfaceBuilder3.Cocoa.Storyboard.XIB" version="3.0" toolsVersion="21225" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" initialViewController="B8D-0N-5wS">
     <dependencies>
         <deployment identifier="macosx"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="19455"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="21225"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -118,18 +118,8 @@
                                 </constraints>
                                 <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyUpOrDown" image="Logo Stacked" id="fLO-MB-hZR"/>
                             </imageView>
-                            <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="wUl-ep-t0j">
-                                <rect key="frame" x="150" y="120" width="251" height="32"/>
-                                <buttonCell key="cell" type="push" title="Open Safari Extensions Preferences" bezelStyle="rounded" alignment="center" state="on" borderStyle="border" inset="2" id="OEh-O3-Lzg">
-                                    <behavior key="behavior" lightByBackground="YES" lightByGray="YES" changeBackground="YES" changeGray="YES"/>
-                                    <font key="font" metaFont="system"/>
-                                </buttonCell>
-                                <connections>
-                                    <action selector="openSettingsClicked:" target="wHy-46-YsA" id="tJF-CU-WlH"/>
-                                </connections>
-                            </button>
                             <stackView distribution="fillProportionally" orientation="horizontal" alignment="top" spacing="0.0" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="SPM-ta-mTk">
-                                <rect key="frame" x="208" y="91" width="135" height="16"/>
+                                <rect key="frame" x="224" y="83" width="102" height="16"/>
                                 <subviews>
                                     <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" translatesAutoresizingMaskIntoConstraints="NO" id="Gu6-IO-r8Z">
                                         <rect key="frame" x="-2" y="0.0" width="35" height="16"/>
@@ -140,7 +130,7 @@
                                         </textFieldCell>
                                     </textField>
                                     <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" translatesAutoresizingMaskIntoConstraints="NO" id="Kfn-Ds-Qob" customClass="LinkTextField" customModule="Qwant_for_Safari" customModuleProvider="target">
-                                        <rect key="frame" x="29" y="0.0" width="108" height="16"/>
+                                        <rect key="frame" x="29" y="0.0" width="75" height="16"/>
                                         <gestureRecognizers>
                                             <clickGestureRecognizer delaysPrimaryMouseButtonEvents="YES" numberOfClicksRequired="1" id="iYx-pe-Uh3">
                                                 <connections>
@@ -148,7 +138,7 @@
                                                 </connections>
                                             </clickGestureRecognizer>
                                         </gestureRecognizers>
-                                        <textFieldCell key="cell" selectable="YES" alignment="center" title="www.qwant.com" id="V9S-0f-ozB">
+                                        <textFieldCell key="cell" selectable="YES" alignment="center" title="qwant.com" id="V9S-0f-ozB">
                                             <font key="font" metaFont="system"/>
                                             <color key="textColor" name="linkColor" catalog="System" colorSpace="catalog"/>
                                             <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
@@ -164,6 +154,20 @@
                                     <real value="3.4028234663852886e+38"/>
                                 </customSpacing>
                             </stackView>
+                            <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="wUl-ep-t0j">
+                                <rect key="frame" x="154" y="115" width="243" height="35"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="28" id="Ae9-ih-HxA"/>
+                                </constraints>
+                                <buttonCell key="cell" type="bevel" title="Open Safari Extensions Preferences" bezelStyle="regularSquare" alignment="center" state="on" borderStyle="border" inset="2" id="OEh-O3-Lzg">
+                                    <behavior key="behavior" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" metaFont="system"/>
+                                </buttonCell>
+                                <color key="bezelColor" red="0.35853198841408285" green="0.72450156882027272" blue="0.98068728146853146" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <connections>
+                                    <action selector="openSettingsClicked:" target="wHy-46-YsA" id="tJF-CU-WlH"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <constraints>
                             <constraint firstItem="wUl-ep-t0j" firstAttribute="top" secondItem="mhX-5e-pyY" secondAttribute="bottom" constant="20" id="8Rn-Mr-fL2"/>

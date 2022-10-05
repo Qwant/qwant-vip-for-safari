@@ -21,6 +21,6 @@
 "macOS.App.SettingsButton" = "Open Safari extensions preferences";
 "macOS.App.Visit" = "Visit";
 
-"macOS.Extension.Power" = "Make Qwant your default search engine";
-"macOS.Extension.Visit" = "Visit Qwant.com";
+"macOS.Extension.Power" = "Default search engine";
+"macOS.Extension.Visit" = "Visit qwant.com";
 "macOS.Extension.Settings" = "Settings";
