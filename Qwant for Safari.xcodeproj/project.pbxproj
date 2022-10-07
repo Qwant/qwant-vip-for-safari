@@ -42,6 +42,8 @@
 		68CA6B50288941D0007B62CA /* macOSExtensionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 68CA6B49288941D0007B62CA /* macOSExtensionViewController.xib */; };
 		68D2662128DB03E0006BF2FC /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 68D2662328DB03E0006BF2FC /* Localizable.strings */; };
 		68D2662628DB0435006BF2FC /* iOSAppViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68D2662528DB0435006BF2FC /* iOSAppViewController.swift */; };
+		68EEC68D28EF14A000E61A91 /* MacConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68EEC68B28EF14A000E61A91 /* MacConstants.swift */; };
+		68EEC68E28EF14A600E61A91 /* MacConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68EEC68B28EF14A000E61A91 /* MacConstants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -126,6 +128,7 @@
 		68D2662228DB03E0006BF2FC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		68D2662428DB03ED006BF2FC /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
 		68D2662528DB0435006BF2FC /* iOSAppViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSAppViewController.swift; sourceTree = "<group>"; };
+		68EEC68B28EF14A000E61A91 /* MacConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacConstants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -192,6 +195,7 @@
 			isa = PBXGroup;
 			children = (
 				689C8D6E28E6E7FB0094F58C /* AppConstants.swift */,
+				68EEC68B28EF14A000E61A91 /* MacConstants.swift */,
 				68D2662328DB03E0006BF2FC /* Localizable.strings */,
 				68CA6A032886A96F007B62CA /* Assets.xcassets */,
 			);
@@ -527,6 +531,7 @@
 				68CA6A282886A96F007B62CA /* AppDelegate.swift in Sources */,
 				681E0D5928E5D706001DD116 /* macOSAppViewController.swift in Sources */,
 				689C8D7028E6E7FB0094F58C /* AppConstants.swift in Sources */,
+				68EEC68D28EF14A000E61A91 /* MacConstants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -544,6 +549,7 @@
 			files = (
 				68CA6B4F288941D0007B62CA /* macOSExtensionViewController.swift in Sources */,
 				68CA6B4D288941D0007B62CA /* SearchEngine.swift in Sources */,
+				68EEC68E28EF14A600E61A91 /* MacConstants.swift in Sources */,
 				68CA6B4A288941D0007B62CA /* SafariExtensionHandler.swift in Sources */,
 				68CA6B4C288941D0007B62CA /* Utils.swift in Sources */,
 			);
@@ -635,7 +641,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
-				CURRENT_PROJECT_VERSION = 3;
+				CURRENT_PROJECT_VERSION = 4;
 				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEVELOPMENT_TEAM = 76Z29F769J;
@@ -700,7 +706,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
-				CURRENT_PROJECT_VERSION = 3;
+				CURRENT_PROJECT_VERSION = 4;
 				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = 76Z29F769J;

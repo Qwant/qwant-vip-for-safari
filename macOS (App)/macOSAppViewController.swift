@@ -20,7 +20,7 @@ class macOSAppViewController: NSViewController {
     }
 
     @IBAction func openSettingsClicked(_ sender: NSButton) {
-        sender.state = .on
+        sender.state = .off
         SFSafariApplication.showPreferencesForExtension(withIdentifier: extensionBundleIdentifier)
     }
 

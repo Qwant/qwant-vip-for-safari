@@ -6,6 +6,7 @@
 //
 
 import Cocoa
+import SafariServices
 
 @main
 class AppDelegate: NSObject, NSApplicationDelegate {
@@ -15,5 +16,15 @@ class AppDelegate: NSObject, NSApplicationDelegate {
 
     func applicationShouldTerminateAfterLastWindowClosed(_ sender: NSApplication) -> Bool {
         true
+    }
+
+    func application(_ application: NSApplication, open urls: [URL]) {
+        if urls.contains(SchemeRoot.safariSettings.url) {
+            SFSafariApplication.showPreferencesForExtension(withIdentifier: extensionBundleIdentifier) { _ in
+                DispatchQueue.main.async {
+                    NSApplication.shared.terminate(nil)
+                }
+            }
+        }
     }
 }

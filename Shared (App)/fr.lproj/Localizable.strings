@@ -15,7 +15,6 @@
 "iOS.App.Footer.1" = "Ensuite, si vous le souhaitez, vous pouvez supprimer l’app de l’écran d’accueil :";
 "iOS.App.Footer.2" = "Supprimer l’app › Supprimer de l’écran d’accueil";
 "iOS.App.Footer.3" = "Elle doit être conservée dans votre bibliothèque d’apps pour fonctionner correctement.";
-"iOS.App.StartButton" = "Commencer";
 
 "macOS.App.Header" = "Pour activer Qwant for Safari, allez dans les réglages des extensions de Safari";
 "macOS.App.SettingsButton" = "Ouvrir les préférences Safari";

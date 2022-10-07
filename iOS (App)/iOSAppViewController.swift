@@ -17,19 +17,10 @@ class iOSAppViewController: UIViewController {
     @IBOutlet var footer1: UILabel!
     @IBOutlet var footer2: UILabel!
     @IBOutlet var footer3: UILabel!
-    @IBOutlet var button: UIButton!
 
     override func viewDidLoad() {
         super.viewDidLoad()
         doLayout()
-    }
-
-    @IBAction func openSettingsTapped(_ sender: UIButton) {
-        openSettings()
-    }
-
-    func openSettings() {
-        UIApplication.shared.open(URL(string: UIApplication.openSettingsURLString)!)
     }
 
     func doLayout() {
@@ -42,7 +33,6 @@ class iOSAppViewController: UIViewController {
         footer1.text = NSLocalizedString("iOS.App.Footer.1", comment: "")
         footer2.text = NSLocalizedString("iOS.App.Footer.2", comment: "")
         footer3.text = NSLocalizedString("iOS.App.Footer.3", comment: "")
-        button.setTitle(NSLocalizedString("iOS.App.StartButton", comment: ""), for: .normal)
     }
 }
 

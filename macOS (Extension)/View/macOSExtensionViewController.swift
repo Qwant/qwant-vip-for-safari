@@ -7,8 +7,6 @@
 
 import SafariServices
 
-let extensionBundleIdentifier = "com.qwant.safari.macos.Qwant-for-Safari.Extension"
-
 class macOSExtensionViewController: SFSafariExtensionViewController {
     @IBOutlet var power: NSButton!
     @IBOutlet var visit: NSButton!
@@ -28,10 +26,11 @@ class macOSExtensionViewController: SFSafariExtensionViewController {
 
     @IBAction func visitQwantComClicked(_ sender: NSButton) {
         NSWorkspace.shared.open(URL(string: "https://www.qwant.com/?client=ext-safari-macos-sb&t=web")!)
+        dismiss(self)
     }
 
     @IBAction func settingsClicked(_ sender: NSButton) {
-        NSWorkspace.shared.open(URL(string: "qwantforsafari://")!)
+        NSWorkspace.shared.open(SchemeRoot.safariSettings.url)
     }
 
     private func updateLayout() {
