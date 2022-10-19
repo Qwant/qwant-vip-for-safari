@@ -10,6 +10,11 @@
 		681E0D5928E5D706001DD116 /* macOSAppViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 681E0D5828E5CDE9001DD116 /* macOSAppViewController.swift */; };
 		681E0D5A28E5E2B9001DD116 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 68D2662328DB03E0006BF2FC /* Localizable.strings */; };
 		683630B428E6F7170031849D /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 68D2662328DB03E0006BF2FC /* Localizable.strings */; };
+		6849168728FFE399006B4230 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 68D2662328DB03E0006BF2FC /* Localizable.strings */; };
+		684916AC28FFFC5F006B4230 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 684916AE28FFFC5F006B4230 /* InfoPlist.strings */; };
+		684916B228FFFC89006B4230 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 684916B428FFFC89006B4230 /* InfoPlist.strings */; };
+		684916B828FFFCBC006B4230 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 684916BA28FFFCBC006B4230 /* InfoPlist.strings */; };
+		684916BE28FFFCE3006B4230 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 684916C028FFFCE3006B4230 /* InfoPlist.strings */; };
 		687286D028ED7EAF00FD0BC2 /* popup.bundle.js in Resources */ = {isa = PBXBuildFile; fileRef = 687286CF28ED7EAF00FD0BC2 /* popup.bundle.js */; };
 		687286DE28ED892000FD0BC2 /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = 687286DD28ED892000FD0BC2 /* popup.html */; };
 		6872876B28EDB74F00FD0BC2 /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = 6872876928EDB74F00FD0BC2 /* _locales */; };
@@ -94,6 +99,14 @@
 		683630C228E718750031849D /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		683630C428E718D60031849D /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		683630CD28E719F00031849D /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		684916AD28FFFC5F006B4230 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		684916AF28FFFC61006B4230 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		684916B328FFFC89006B4230 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		684916B528FFFC8B006B4230 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		684916B928FFFCBC006B4230 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		684916BB28FFFCC5006B4230 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		684916BF28FFFCE3006B4230 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		684916C128FFFCE7006B4230 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		687286CF28ED7EAF00FD0BC2 /* popup.bundle.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = popup.bundle.js; sourceTree = "<group>"; };
 		687286DD28ED892000FD0BC2 /* popup.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = popup.html; sourceTree = "<group>"; };
 		6872876928EDB74F00FD0BC2 /* _locales */ = {isa = PBXFileReference; lastKnownFileType = folder; path = _locales; sourceTree = "<group>"; };
@@ -230,6 +243,7 @@
 				68CA6A1A2886A96F007B62CA /* LaunchScreen.storyboard */,
 				68CA6A1D2886A96F007B62CA /* Main.storyboard */,
 				683630CD28E719F00031849D /* Info.plist */,
+				684916C028FFFCE3006B4230 /* InfoPlist.strings */,
 			);
 			path = "iOS (App)";
 			sourceTree = "<group>";
@@ -242,6 +256,7 @@
 				68CA6A292886A96F007B62CA /* Main.storyboard */,
 				68CA6A2C2886A96F007B62CA /* Qwant for Safari.entitlements */,
 				683630C428E718D60031849D /* Info.plist */,
+				684916BA28FFFCBC006B4230 /* InfoPlist.strings */,
 			);
 			path = "macOS (App)";
 			sourceTree = "<group>";
@@ -252,6 +267,7 @@
 				68A22A4728E7212A00CAC2CC /* Resources */,
 				68CA6A872886F692007B62CA /* SafariWebExtensionHandler.swift */,
 				683630C228E718750031849D /* Info.plist */,
+				684916B428FFFC89006B4230 /* InfoPlist.strings */,
 			);
 			path = "iOS (Extension)";
 			sourceTree = "<group>";
@@ -266,6 +282,7 @@
 				68CA6B47288941D0007B62CA /* View */,
 				683630C028E7182F0031849D /* Info.plist */,
 				68CA6A412886A96F007B62CA /* Qwant for Safari.entitlements */,
+				684916AE28FFFC5F006B4230 /* InfoPlist.strings */,
 			);
 			path = "macOS (Extension)";
 			sourceTree = "<group>";
@@ -429,6 +446,7 @@
 				68D2662128DB03E0006BF2FC /* Localizable.strings in Resources */,
 				68CA6A4C2886A96F007B62CA /* Assets.xcassets in Resources */,
 				68CA6A1F2886A96F007B62CA /* Main.storyboard in Resources */,
+				684916BE28FFFCE3006B4230 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,6 +455,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				68CA6A2B2886A96F007B62CA /* Main.storyboard in Resources */,
+				684916B828FFFCBC006B4230 /* InfoPlist.strings in Resources */,
 				681E0D5A28E5E2B9001DD116 /* Localizable.strings in Resources */,
 				68CA6A4D2886A96F007B62CA /* Assets.xcassets in Resources */,
 			);
@@ -451,9 +470,11 @@
 				68A22A5728E7212A00CAC2CC /* background.bundle.js in Resources */,
 				68A22A5828E7212A00CAC2CC /* no-popin.css in Resources */,
 				687286D028ED7EAF00FD0BC2 /* popup.bundle.js in Resources */,
+				6849168728FFE399006B4230 /* Localizable.strings in Resources */,
 				687286DE28ED892000FD0BC2 /* popup.html in Resources */,
 				68A22A5928E7212A00CAC2CC /* manifest.json in Resources */,
 				68A22A5528E7212A00CAC2CC /* contentScript.bundle.js in Resources */,
+				684916B228FFFC89006B4230 /* InfoPlist.strings in Resources */,
 				6872876B28EDB74F00FD0BC2 /* _locales in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -463,6 +484,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				683630B428E6F7170031849D /* Localizable.strings in Resources */,
+				684916AC28FFFC5F006B4230 /* InfoPlist.strings in Resources */,
 				68CA6B50288941D0007B62CA /* macOSExtensionViewController.xib in Resources */,
 				68CA6B4B288941D0007B62CA /* icon.png in Resources */,
 				68CA6A8E2886FD72007B62CA /* Media.xcassets in Resources */,
@@ -571,6 +593,42 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		684916AE28FFFC5F006B4230 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				684916AD28FFFC5F006B4230 /* en */,
+				684916AF28FFFC61006B4230 /* fr */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		684916B428FFFC89006B4230 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				684916B328FFFC89006B4230 /* en */,
+				684916B528FFFC8B006B4230 /* fr */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		684916BA28FFFCBC006B4230 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				684916B928FFFCBC006B4230 /* en */,
+				684916BB28FFFCC5006B4230 /* fr */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		684916C028FFFCE3006B4230 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				684916BF28FFFCE3006B4230 /* en */,
+				684916C128FFFCE7006B4230 /* fr */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
 		68CA6A1A2886A96F007B62CA /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -641,7 +699,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEVELOPMENT_TEAM = 76Z29F769J;
@@ -706,7 +764,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = 76Z29F769J;

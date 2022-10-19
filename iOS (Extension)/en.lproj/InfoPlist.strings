@@ -1,0 +1,8 @@
+/* 
+  InfoPlist.strings
+  Qwant for Safari
+
+  Created by Jerome Boursier on 19/10/2022.
+  
+*/
+"NSHumanReadableDescription" = "Qwant for Safari makes Qwant as the default search engine in Safari - The search engine that doesn't know anything about you, and that changes everything!";
