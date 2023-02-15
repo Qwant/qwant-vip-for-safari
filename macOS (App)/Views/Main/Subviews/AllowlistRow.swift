@@ -13,7 +13,7 @@ struct AllowlistRow: View {
     var body: some View {
         VStack(spacing: -8) {
             HStack {
-                Text(localized("Main.Allowlist.Title"))
+                Text(localized("macOS.App.Main.Allowlist.Title"))
                     .font(.system(size: 17, weight: .bold))
                     .padding()
                 Spacer()
@@ -27,7 +27,7 @@ struct AllowlistRow: View {
                     onTap?()
                 }
             }
-            Text(localized("Main.Allowlist.Footer"))
+            Text(localized("macOS.App.Main.Allowlist.Footer"))
                 .font(.system(size: 15))
                 .frame(maxWidth: .infinity, alignment: .leading)
                 .padding(.leading)

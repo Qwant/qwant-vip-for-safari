@@ -16,47 +16,36 @@
 "iOS.App.Footer.2" = "Supprimer l’app › Supprimer de l’écran d’accueil";
 "iOS.App.Footer.3" = "Elle doit être conservée dans votre bibliothèque d’apps pour fonctionner correctement.";
 
-"macOS.App.Header" = "Pour activer Qwant for Safari, allez dans les réglages des extensions de Safari";
-"macOS.App.SettingsButton" = "Ouvrir les préférences Safari";
-"macOS.App.Visit" = "Visiter";
+"macOS.App.Main.GlobalProtection.Title.Enabled" = "Protection activée";
+"macOS.App.Main.GlobalProtection.Title.Disabled" = "Protection desactivée";
+"macOS.App.Main.ProtectionLevel.Title" = "Niveau de protection";
+"macOS.App.Main.Allowlist.Title" = "Liste d'exceptions";
+"macOS.App.Main.Allowlist.Footer" = "La protection Qwant est désactivée pour les sites de cette liste";
+"macOS.App.Main.FixIssues.Description" = "Certains bloqueurs de contenu sont désactivés";
+"macOS.App.Main.FixIssues.CTA" = "Corriger";
 
-"macOS.Extension.Power" = "Moteur de recherche par défaut";
-"macOS.Extension.Visit" = "Visiter qwant.com";
-"macOS.Extension.Settings" = "Gérer";
+"macOS.App.Tutorial.Title" = "Activez l'extension\nQwant VIPrivacy";
+"macOS.App.Tutorial.Step.1" = "1. Allez à";
+"macOS.App.Tutorial.Step.1.CTA" = "Safari › Préférences › Extensions";
+"macOS.App.Tutorial.Step.2" = "2. Réglez **tous les commutateurs Qwant sur Activé.** Hop voilà c’est fait !";
 
+"macOS.App.ProtectionLevel.Title" = "Niveau de protection";
+"macOS.App.ProtectionLevel.Standard.Title" = "Standard";
+"macOS.App.ProtectionLevel.Standard.Description" = "Bloque la plupart des cookies & trackers efficacement.";
+"macOS.App.ProtectionLevel.Strict.Title" = "Strict";
+"macOS.App.ProtectionLevel.Strict.Description" = "Bloque tous les traqueurs et cookies, peut modifier les fonctionnalités de certains sites.";
 
+"macOS.App.Allowlist.Title" = "Liste d'exceptions";
+"macOS.App.Allowlist.Description.1" = "Saisissez ici les noms de domaines que Qwant VIPrivacy **ne doit pas** filtrer.";
+"macOS.App.Allowlist.Description.2" = "Cette liste prévaut sur toutes les autres listes.";
+"macOS.App.Allowlist.Description.3" = "_Une url par ligne, format : domain.com_";
 
-"Main.GlobalProtection.Title.Enabled" = "Protection activée";
-"Main.GlobalProtection.Title.Disabled" = "Protection desactivée";
-"Main.ProtectionLevel.Title" = "Niveau de protection";
-"Main.Allowlist.Title" = "Liste d'exceptions";
-"Main.Allowlist.Footer" = "La protection Qwant est désactivée pour les sites de cette liste";
-"Main.FixIssues.Description" = "Certains bloqueurs de contenu sont désactivés";
-"Main.FixIssues.CTA" = "Corriger";
-
-"Tutorial.Title" = "Activez l'extension\nQwant VIPrivacy";
-"Tutorial.Step.1" = "1. Allez à";
-"Tutorial.Step.1.CTA" = "Safari › Préférences › Extensions";
-"Tutorial.Step.2" = "2. Réglez **tous les commutateurs Qwant sur Activé.** Hop voilà c’est fait !";
-
-"ProtectionLevel.Title" = "Niveau de protection";
-
-"Allowlist.Title" = "Liste d'exceptions";
-"Allowlist.Description.1" = "Saisissez ici les noms de domaines que Qwant VIPrivacy **ne doit pas** filtrer.";
-"Allowlist.Description.2" = "Cette liste prévaut sur toutes les autres listes.";
-"Allowlist.Description.3" = "_Une url par ligne, format : domain.com_";
-
-"ProtectionLevel.Standard.Title" = "Standard";
-"ProtectionLevel.Standard.Description" = "Bloque la plupart des cookies & trackers efficacement.";
-"ProtectionLevel.Strict.Title" = "Strict";
-"ProtectionLevel.Strict.Description" = "Bloque tous les traqueurs et cookies, peut modifier les fonctionnalités de certains sites.";
-
-"SafariPopup.Loading" = "Veuillez patienter";
-"SafariPopup.Main.Allowlisting" = "Veuillez patienter pendant que nous mettons le site en liste d'exceptions";
-"SafariPopup.Main.Unallowlisting" = "Veuillez patienter pendant que nous supprimons le site de la liste d'exceptions";
-"SafariPopup.Main.Protection.Allowlisted" = "Protection désactivée sur ce site";
-"SafariPopup.Main.Protection.NotAllowlisted" = "Protection activée sur ce site";
-"SafariPopup.Main.GlobalProtection.Disabled" = "Protection désactivée";
-"SafariPopup.Main.GlobalProtection.TurnOn" = "Réactiver la protection";
-"SafariPopup.Main.DefaultSearchEngine" = "Utiliser Qwant comme moteur de recherche par défaut";
-"SafariPopup.Main.Settings" = "Gérer les paramètres";
+"macOS.Extension.Loading" = "Veuillez patienter";
+"macOS.Extension.Main.Allowlisting" = "Veuillez patienter pendant que nous mettons le site en liste d'exceptions";
+"macOS.Extension.Main.Unallowlisting" = "Veuillez patienter pendant que nous supprimons le site de la liste d'exceptions";
+"macOS.Extension.Main.Protection.Allowlisted" = "Protection désactivée sur ce site";
+"macOS.Extension.Main.Protection.NotAllowlisted" = "Protection activée sur ce site";
+"macOS.Extension.Main.GlobalProtection.Disabled" = "Protection désactivée";
+"macOS.Extension.Main.GlobalProtection.TurnOn" = "Réactiver la protection";
+"macOS.Extension.Main.DefaultSearchEngine" = "Utiliser Qwant comme moteur de recherche par défaut";
+"macOS.Extension.Main.Settings" = "Gérer les paramètres";

@@ -15,11 +15,11 @@ struct FixIssuesView: View {
 
     var body: some View {
         VStack {
-            Text(localized("Main.FixIssues.Description"))
+            Text(localized("macOS.App.Main.FixIssues.Description"))
             Button(action: {
                 shouldPresentTutorial = true
             }) {
-                Text(localized("Main.FixIssues.CTA"))
+                Text(localized("macOS.App.Main.FixIssues.CTA"))
                     .padding(.horizontal, 16)
                     .padding(.vertical, 6)
             }

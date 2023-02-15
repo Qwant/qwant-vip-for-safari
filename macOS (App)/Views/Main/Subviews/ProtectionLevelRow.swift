@@ -12,7 +12,7 @@ struct ProtectionLevelRow: View {
 
     var body: some View {
         HStack {
-            Text(localized("Main.ProtectionLevel.Title"))
+            Text(localized("macOS.App.Main.ProtectionLevel.Title"))
                 .font(.system(size: 17, weight: .bold))
                 .padding()
             Spacer()

@@ -20,12 +20,12 @@ struct AllowlistView: View {
 
     var body: some View {
         VStack(alignment: .leading) {
-            NavigationHeaderView(title: localized("Allowlist.Title"), show: $show)
+            NavigationHeaderView(title: localized("macOS.App.Allowlist.Title"), show: $show)
 
             VStack(alignment: .leading) {
-                Text(.init(localized("Allowlist.Description.1")))
-                Text(localized("Allowlist.Description.2"))
-                Text(.init(localized("Allowlist.Description.3")))
+                Text(.init(localized("macOS.App.Allowlist.Description.1")))
+                Text(localized("macOS.App.Allowlist.Description.2"))
+                Text(.init(localized("macOS.App.Allowlist.Description.3")))
                     .font(.caption)
                     .foregroundColor(.qw_text_secondary)
             }

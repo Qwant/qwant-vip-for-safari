@@ -16,46 +16,36 @@
 "iOS.App.Footer.2" = "Remove App › Remove from Home Screen";
 "iOS.App.Footer.3" = "It still needs to be in your app library to work properly though.";
 
-"macOS.App.Header" = "To turn on Qwant for Safari, go to Safari extension preferences";
-"macOS.App.SettingsButton" = "Open Safari preferences";
-"macOS.App.Visit" = "Visit";
+"macOS.App.Main.GlobalProtection.Title.Enabled" = "Protection enabled";
+"macOS.App.Main.GlobalProtection.Title.Disabled" = "Protection disabled";
+"macOS.App.Main.ProtectionLevel.Title" = "Protection level";
+"macOS.App.Main.Allowlist.Title" = "Allowlist";
+"macOS.App.Main.Allowlist.Footer" = "Qwant's protection is disabled for the websites within this list";
+"macOS.App.Main.FixIssues.Description" = "Some content blockers are disabled";
+"macOS.App.Main.FixIssues.CTA" = "Fix it";
 
-"macOS.Extension.Power" = "Default search engine";
-"macOS.Extension.Visit" = "Visit qwant.com";
-"macOS.Extension.Settings" = "Settings";
+"macOS.App.Tutorial.Title" = "Activate the extension\nQwant VIPrivacy";
+"macOS.App.Tutorial.Step.1" = "1. Go to";
+"macOS.App.Tutorial.Step.1.CTA" = "Safari › Preferences › Extensions";
+"macOS.App.Tutorial.Step.2" = "2. Set **all Qwant toggles on.** You're done!";
 
+"macOS.App.ProtectionLevel.Title" = "Protection level";
+"macOS.App.ProtectionLevel.Standard.Title" = "Standard";
+"macOS.App.ProtectionLevel.Standard.Description" = "Blocks most cookies & trackers efficiently.";
+"macOS.App.ProtectionLevel.Strict.Title" = "Strict";
+"macOS.App.ProtectionLevel.Strict.Description" = "Blocks even more cookies & trackers, but also ads and annoyances. Can alter the behaviour of some websites.";
 
-"Main.GlobalProtection.Title.Enabled" = "Protection enabled";
-"Main.GlobalProtection.Title.Disabled" = "Protection disabled";
-"Main.ProtectionLevel.Title" = "Protection level";
-"Main.Allowlist.Title" = "Allowlist";
-"Main.Allowlist.Footer" = "Qwant's protection is disabled for the websites within this list";
-"Main.FixIssues.Description" = "Some content blockers are disabled";
-"Main.FixIssues.CTA" = "Fix it";
+"macOS.App.Allowlist.Title" = "Allowlist";
+"macOS.App.Allowlist.Description.1" = "Type here the domains **you do not want** Qwant to filter.";
+"macOS.App.Allowlist.Description.2" = "This list prevails over all other lists.";
+"macOS.App.Allowlist.Description.3" = "_One url per line, format: domain.com_";
 
-"Tutorial.Title" = "Activate the extension\nQwant VIPrivacy";
-"Tutorial.Step.1" = "1. Go to";
-"Tutorial.Step.1.CTA" = "Safari › Preferences › Extensions";
-"Tutorial.Step.2" = "2. Set **all Qwant toggles on.** You're done!";
-
-"ProtectionLevel.Title" = "Protection level";
-
-"Allowlist.Title" = "Allowlist";
-"Allowlist.Description.1" = "Type here the domains **you do not want** Qwant to filter.";
-"Allowlist.Description.2" = "This list prevails over all other lists.";
-"Allowlist.Description.3" = "_One url per line, format: domain.com_";
-
-"ProtectionLevel.Standard.Title" = "Standard";
-"ProtectionLevel.Standard.Description" = "Blocks most cookies & trackers efficiently.";
-"ProtectionLevel.Strict.Title" = "Strict";
-"ProtectionLevel.Strict.Description" = "Blocks even more cookies & trackers, but also ads and annoyances. Can alter the behaviour of some websites.";
-
-"SafariPopup.Loading" = "Please wait";
-"SafariPopup.Main.Allowlisting" = "Please wait while we are allowlisting the website";
-"SafariPopup.Main.Unallowlisting" = "Please wait while we remove the website from the allowlist";
-"SafariPopup.Main.Protection.Allowlisted" = "Protection disabled on this website";
-"SafariPopup.Main.Protection.NotAllowlisted" = "Protection enabled on this website";
-"SafariPopup.Main.GlobalProtection.Disabled" = "Protection disabled";
-"SafariPopup.Main.GlobalProtection.TurnOn" = "Turn it back on";
-"SafariPopup.Main.DefaultSearchEngine" = "Use Qwant as the default search engine";
-"SafariPopup.Main.Settings" = "Go to settings";
+"macOS.Extension.Loading" = "Please wait";
+"macOS.Extension.Main.Allowlisting" = "Please wait while we are allowlisting the website";
+"macOS.Extension.Main.Unallowlisting" = "Please wait while we remove the website from the allowlist";
+"macOS.Extension.Main.Protection.Allowlisted" = "Protection disabled on this website";
+"macOS.Extension.Main.Protection.NotAllowlisted" = "Protection enabled on this website";
+"macOS.Extension.Main.GlobalProtection.Disabled" = "Protection disabled";
+"macOS.Extension.Main.GlobalProtection.TurnOn" = "Turn it back on";
+"macOS.Extension.Main.DefaultSearchEngine" = "Use Qwant as the default search engine";
+"macOS.Extension.Main.Settings" = "Go to settings";

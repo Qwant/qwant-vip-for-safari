@@ -15,15 +15,15 @@ enum ProtectionLevel: String, CaseIterable, Identifiable {
 
     var title: String {
         switch self {
-            case .standard: return localized("ProtectionLevel.Standard.Title")
-            case .strict: return localized("ProtectionLevel.Strict.Title")
+            case .standard: return localized("macOS.App.ProtectionLevel.Standard.Title")
+            case .strict: return localized("macOS.App.ProtectionLevel.Strict.Title")
         }
     }
 
     var description: String {
         switch self {
-            case .standard: return localized("ProtectionLevel.Standard.Description")
-            case .strict: return localized("ProtectionLevel.Strict.Description")
+            case .standard: return localized("macOS.App.ProtectionLevel.Standard.Description")
+            case .strict: return localized("macOS.App.ProtectionLevel.Strict.Description")
         }
     }
 

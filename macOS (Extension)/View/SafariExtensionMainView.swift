@@ -32,7 +32,7 @@ struct SafariExtensionMainView: View {
                     HStack {
                         Spacer()
                         ProgressView {
-                            Text(isInAllowlist ? localized("SafariPopup.Main.Allowlisting") : localized("SafariPopup.Main.Unallowlisting"))
+                            Text(isInAllowlist ? localized("macOS.Extension.Main.Allowlisting") : localized("macOS.Extension.Main.Unallowlisting"))
                                 .foregroundColor(.qw_text_secondary)
                                 .multilineTextAlignment(.center)
                         }
@@ -44,7 +44,7 @@ struct SafariExtensionMainView: View {
                 if !isAllowlisting {
                     if isProtectionEnabled {
                         HStack {
-                            Text(isInAllowlist ? localized("SafariPopup.Main.Protection.Allowlisted") : localized("SafariPopup.Main.Protection.NotAllowlisted"))
+                            Text(isInAllowlist ? localized("macOS.Extension.Main.Protection.Allowlisted") : localized("macOS.Extension.Main.Protection.NotAllowlisted"))
                                 .font(.system(size: 15, weight: .bold))
                                 .foregroundColor(isInAllowlist ? .qw_red : .qw_green)
 
@@ -60,7 +60,7 @@ struct SafariExtensionMainView: View {
                         }
                     } else {
                         HStack {
-                            Text(localized("SafariPopup.Main.GlobalProtection.Disabled"))
+                            Text(localized("macOS.Extension.Main.GlobalProtection.Disabled"))
                                 .font(.system(size: 15, weight: .bold))
                                 .foregroundColor(.qw_text_secondary)
 
@@ -70,7 +70,7 @@ struct SafariExtensionMainView: View {
                                 let scheme = URL(string: "qwantvip://prefs:root=app")!
                                 NSWorkspace.shared.open(scheme)
                             } label: {
-                                Text(localized("SafariPopup.Main.GlobalProtection.TurnOn"))
+                                Text(localized("macOS.Extension.Main.GlobalProtection.TurnOn"))
                                     .padding(.horizontal, 16)
                                     .padding(.vertical, 6)
                                     .frame(minWidth: 170)
@@ -81,7 +81,7 @@ struct SafariExtensionMainView: View {
                 }
 
                 HStack {
-                    Text(localized("SafariPopup.Main.DefaultSearchEngine"))
+                    Text(localized("macOS.Extension.Main.DefaultSearchEngine"))
                         .font(.system(size: 15))
 
                     Spacer()
@@ -102,7 +102,7 @@ struct SafariExtensionMainView: View {
                 } label: {
                     HStack {
                         Spacer()
-                        Text(localized("SafariPopup.Main.Settings"))
+                        Text(localized("macOS.Extension.Main.Settings"))
                             .padding(.vertical, 6)
                         Spacer()
                     }

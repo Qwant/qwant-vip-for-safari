@@ -14,7 +14,7 @@ struct ProtectionLevelView: View {
 
     var body: some View {
         VStack(alignment: .leading) {
-            NavigationHeaderView(title: localized("ProtectionLevel.Title"), show: $show)
+            NavigationHeaderView(title: localized("macOS.App.ProtectionLevel.Title"), show: $show)
 
             VStack(alignment: .leading) {
                 ForEach(ProtectionLevel.allCases) { level in

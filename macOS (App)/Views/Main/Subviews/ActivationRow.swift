@@ -15,7 +15,7 @@ struct ActivationRow: View {
 
     var body: some View {
         HStack {
-            Text(isProtectionEnabled ? localized("Main.GlobalProtection.Title.Enabled") : localized("Main.GlobalProtection.Title.Disabled"))
+            Text(isProtectionEnabled ? localized("macOS.App.Main.GlobalProtection.Title.Enabled") : localized("macOS.App.Main.GlobalProtection.Title.Disabled"))
                 .font(.system(size: 17, weight: .bold))
                 .foregroundColor(isProtectionEnabled ? .qw_green : .qw_text_secondary)
                 .padding()
