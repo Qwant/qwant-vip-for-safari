@@ -1,0 +1,9 @@
+/* 
+  ContentBlockers-Social-InfoPlist.strings
+  Qwant VIP for macOS
+
+  Created by Jerome Boursier on 09/02/2023.
+  
+*/
+"NSHumanReadableDescription" = "Contains rules to help blocking social widgets.";
+"CFBundleDisplayName" = "Qwant social blocker";

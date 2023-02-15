@@ -1,0 +1,9 @@
+/* 
+  ContentBlockers-Language-InfoPlist.strings
+  Qwant VIP for macOS
+
+  Created by Jerome Boursier on 09/02/2023.
+  
+*/
+"NSHumanReadableDescription" = "Contient des règles pour aider à bloquer les nuisances locales (spécifiques à la langue).";
+"CFBundleDisplayName" = "Qwant bloque les nuisances locales";

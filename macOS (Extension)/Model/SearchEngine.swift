@@ -22,6 +22,20 @@ struct SearchEngine: Codable {
     }
 }
 
+private extension URL {
+    func valueFor(queryParam: String) -> String? {
+        guard let components = URLComponents(url: self, resolvingAgainstBaseURL: false) else {
+            return nil
+        }
+
+        return components
+            .queryItems?
+            .first { $0.name == queryParam }?
+            .value?
+            .addingPercentEncoding(withAllowedCharacters: .urlQueryAllowed)
+    }
+}
+
 // July 2022
 // Google ->        google.com/search       ? q=test & client=safari    & rls=en        & ie=UTF-8      & oe=UTF-8
 // Yahoo ->         search.yahoo.com/search ? p=test & fr=aaplw         & ei=utf-8

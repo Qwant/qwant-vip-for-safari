@@ -1,0 +1,3 @@
+FilterUnblockingSearchAdsAndSelfPromotion;standard;https://filters.adtidy.org/mac/filters/10_optimized.txt;Filter unblocking search ads and self-promotion
+AdGuardDNSFilter;off;https://filters.adtidy.org/mac/filters/15_optimized.txt;AdGuard DNS filter
+AdGuardExperimentalFilter;off;https://filters.adtidy.org/mac/filters/5_optimized.txt;AdGuard Experimental filter

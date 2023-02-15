@@ -4,6 +4,16 @@
 <dict>
 	<key>NSExtension</key>
 	<dict>
+		<key>SFSafariAssociatedContentBlockers</key>
+		<array>
+			<string>com.qwant.safari.Qwant-for-Safari.Ads-Blocker-Extension</string>
+			<string>com.qwant.safari.Qwant-for-Safari.Privacy-Blocker-Extension</string>
+			<string>com.qwant.safari.Qwant-for-Safari.Social-Blocker-Extension</string>
+			<string>com.qwant.safari.Qwant-for-Safari.Annoyances-Blocker-Extension</string>
+			<string>com.qwant.safari.Qwant-for-Safari.Security-Blocker-Extension</string>
+			<string>com.qwant.safari.Qwant-for-Safari.Other-Blocker-Extension</string>
+			<string>com.qwant.safari.Qwant-for-Safari.Language-Blocker-Extension</string>
+		</array>
 		<key>NSExtensionPointIdentifier</key>
 		<string>com.apple.Safari.extension</string>
 		<key>NSExtensionPrincipalClass</key>
@@ -17,7 +27,7 @@
 			<key>Image</key>
 			<string>icon.png</string>
 			<key>Label</key>
-			<string>Qwant for Safari</string>
+			<string>Qwant VIP</string>
 		</dict>
 		<key>SFSafariWebsiteAccess</key>
 		<dict>

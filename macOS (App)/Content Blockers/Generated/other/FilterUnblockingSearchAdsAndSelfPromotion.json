@@ -1,0 +1,238 @@
+[
+  {
+    "trigger" : {
+      "url-filter" : ".*",
+      "if-domain" : [
+        "*ecosia.org"
+      ]
+    },
+    "action" : {
+      "type" : "ignore-previous-rules"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?r\\.bat\\.bing\\.com\\\/\\?ld="
+    },
+    "action" : {
+      "type" : "ignore-previous-rules"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : ":\\\/\\\/www\\.google\\..*\\\/aclk",
+      "resource-type" : [
+        "document"
+      ]
+    },
+    "action" : {
+      "type" : "ignore-previous-rules"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?startpage\\.com\\\/adsense\\\/search\\\/async-ads\\.js",
+      "if-domain" : [
+        "*startpage.com"
+      ]
+    },
+    "action" : {
+      "type" : "ignore-previous-rules"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?startpage\\.com([\\\/:&\\?].*)?$",
+      "resource-type" : [
+        "document"
+      ]
+    },
+    "action" : {
+      "type" : "ignore-previous-rules"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?an\\.yandex\\.ru",
+      "if-domain" : [
+        "*irr.ru"
+      ]
+    },
+    "action" : {
+      "type" : "ignore-previous-rules"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?an\\.yandex\\.ru",
+      "if-domain" : [
+        "*nigma.ru"
+      ]
+    },
+    "action" : {
+      "type" : "ignore-previous-rules"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?an\\.yandex\\.ru",
+      "if-domain" : [
+        "*search.tut.by"
+      ]
+    },
+    "action" : {
+      "type" : "ignore-previous-rules"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "\\\/gb\\.php\\?idb_=",
+      "if-domain" : [
+        "*ek.ua",
+        "*m.ua"
+      ]
+    },
+    "action" : {
+      "type" : "ignore-previous-rules"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?info\\.price\\.nadavi\\..*\\\/.*\\.php\\?p4g_api_type_=iframe",
+      "load-type" : [
+        "third-party"
+      ]
+    },
+    "action" : {
+      "type" : "ignore-previous-rules"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?adwolf\\.ru([\\\/:&\\?].*)?$",
+      "if-domain" : [
+        "*retrofm.ru",
+        "*radio7.ru",
+        "*europaplus.ru"
+      ]
+    },
+    "action" : {
+      "type" : "ignore-previous-rules"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?retrofm\\.ru\\\/template\\\/Retro-2012\\\/js\\\/adwolf\\.js",
+      "if-domain" : [
+        "*retrofm.ru"
+      ]
+    },
+    "action" : {
+      "type" : "ignore-previous-rules"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?shop\\.kicker\\.de([\\\/:&\\?].*)?$"
+    },
+    "action" : {
+      "type" : "ignore-previous-rules"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?securepubads\\.g\\.doubleclick\\.net\\\/tag\\\/js\\\/gpt\\.js",
+      "if-domain" : [
+        "*adda247.com"
+      ]
+    },
+    "action" : {
+      "type" : "ignore-previous-rules"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?securepubads\\.g\\.doubleclick\\.net\\\/gpt\\\/pubads_impl_.*\\.js",
+      "if-domain" : [
+        "*adda247.com"
+      ]
+    },
+    "action" : {
+      "type" : "ignore-previous-rules"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?securepubads\\.g\\.doubleclick\\.net\\\/gampad\\\/ads\\?gdfp_req=1",
+      "if-domain" : [
+        "*adda247.com"
+      ]
+    },
+    "action" : {
+      "type" : "ignore-previous-rules"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?tpc\\.googlesyndication\\.com\\\/simgad\\\/",
+      "if-domain" : [
+        "*adda247.com"
+      ],
+      "resource-type" : [
+        "image"
+      ]
+    },
+    "action" : {
+      "type" : "ignore-previous-rules"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?adclick\\.g\\.doubleclick\\.net\\\/pcs\\\/click\\?xai=",
+      "resource-type" : [
+        "document"
+      ]
+    },
+    "action" : {
+      "type" : "ignore-previous-rules"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : ".*",
+      "if-domain" : [
+        "*search.yahoo.com"
+      ]
+    },
+    "action" : {
+      "type" : "ignore-previous-rules"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?ask\\.com\\\/web"
+    },
+    "action" : {
+      "type" : "ignore-previous-rules"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?nova\\.rambler\\.ru\\\/search"
+    },
+    "action" : {
+      "type" : "ignore-previous-rules"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : ".*",
+      "if-domain" : [
+        "*images.rambler.ru"
+      ]
+    },
+    "action" : {
+      "type" : "ignore-previous-rules"
+    }
+  }
+]

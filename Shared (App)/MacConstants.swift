@@ -7,11 +7,11 @@
 
 import Foundation
 
-enum SchemeRoot: String {
-    case app
-    case safariSettings = "safari-settings"
-
-    var url: URL {
-        URL(string: "qwantforsafari://prefs:root=\(rawValue)")!
-    }
-}
+// enum SchemeRoot: String {
+//    case app
+//    case safariSettings = "safari-settings"
+//
+//    var url: URL {
+//        URL(string: "qwantforsafari://prefs:root=\(rawValue)")!
+//    }
+// }

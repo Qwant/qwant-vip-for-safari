@@ -1,0 +1,9 @@
+/* 
+  ContentBlockers-Privacy-InfoPlist.strings
+  Qwant VIP for macOS
+
+  Created by Jerome Boursier on 09/02/2023.
+  
+*/
+"NSHumanReadableDescription" = "Contient des règles pour améliorer la vie privée.";
+"CFBundleDisplayName" = "Qwant améliore la vie privée";

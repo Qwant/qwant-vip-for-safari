@@ -1,0 +1,2 @@
+AdGuardSocialMediaFilter;standard;https://filters.adtidy.org/mac/filters/4_optimized.txt;AdGuard Social Media filter
+FanboysSocialBlockingList;off;https://easylist-downloads.adblockplus.org/fanboy-social.txt;Fanboy's Social Blocking List

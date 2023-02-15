@@ -1,0 +1,9 @@
+@@||qwant.com/impression/
+@@||qwant.com/action/
+@@||qwant.com/apm/
+@@||qwant.com^$document
+@@||api.qwant.com^$document
+@@||about.qwant.com^$document
+@@||qwant.com^$domain=about.qwant.com
+@@||qwant.ninja^$document
+@@||qwant.plive^$document

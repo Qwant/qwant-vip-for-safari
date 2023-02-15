@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21225" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="YlF-Fq-Noo">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="YlF-Fq-Noo">
     <device id="ipad12_9rounded" orientation="portrait" layout="fullscreen" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21207"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
         <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
@@ -57,7 +57,7 @@
                                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FMU-Fb-QN6">
                                                                         <rect key="frame" x="12" y="0.0" width="44" height="50"/>
                                                                         <subviews>
-                                                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Cog" translatesAutoresizingMaskIntoConstraints="NO" id="b6u-1Q-yyg">
+                                                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Cog icon" translatesAutoresizingMaskIntoConstraints="NO" id="b6u-1Q-yyg">
                                                                                 <rect key="frame" x="5.5" y="8.5" width="33" height="33"/>
                                                                                 <color key="tintColor" name="AccentColor"/>
                                                                                 <constraints>
@@ -105,7 +105,7 @@
                                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Sh2-OZ-w4g">
                                                                         <rect key="frame" x="12" y="0.0" width="44" height="50"/>
                                                                         <subviews>
-                                                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Safari" translatesAutoresizingMaskIntoConstraints="NO" id="aXG-e1-8Fb">
+                                                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Safari icon" translatesAutoresizingMaskIntoConstraints="NO" id="aXG-e1-8Fb">
                                                                                 <rect key="frame" x="5.5" y="8.5" width="33" height="33"/>
                                                                                 <color key="tintColor" name="AccentColor"/>
                                                                                 <constraints>
@@ -150,7 +150,7 @@
                                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="P3A-jV-TE4">
                                                                         <rect key="frame" x="12" y="0.0" width="44" height="50"/>
                                                                         <subviews>
-                                                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Puzzle" translatesAutoresizingMaskIntoConstraints="NO" id="i6p-FP-T6v">
+                                                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Puzzle icon" translatesAutoresizingMaskIntoConstraints="NO" id="i6p-FP-T6v">
                                                                                 <rect key="frame" x="5.5" y="8.5" width="33" height="33"/>
                                                                                 <color key="tintColor" name="AccentColor"/>
                                                                                 <constraints>
@@ -240,7 +240,7 @@
                                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fzu-v3-7lc">
                                                                         <rect key="frame" x="12" y="0.0" width="44" height="50"/>
                                                                         <subviews>
-                                                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Tick" translatesAutoresizingMaskIntoConstraints="NO" id="To0-Ei-lwM">
+                                                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Tick icon" translatesAutoresizingMaskIntoConstraints="NO" id="To0-Ei-lwM">
                                                                                 <rect key="frame" x="5.5" y="8.5" width="33" height="33"/>
                                                                                 <color key="tintColor" name="AccentColor"/>
                                                                                 <constraints>
@@ -375,11 +375,11 @@
         </scene>
     </scenes>
     <resources>
-        <image name="Cog" width="30" height="30"/>
+        <image name="Cog icon" width="30" height="30"/>
         <image name="Logo Inline" width="199" height="40"/>
-        <image name="Puzzle" width="31" height="30"/>
-        <image name="Safari" width="30" height="30"/>
-        <image name="Tick" width="30" height="30"/>
+        <image name="Puzzle icon" width="31" height="30"/>
+        <image name="Safari icon" width="30" height="30"/>
+        <image name="Tick icon" width="30" height="30"/>
         <image name="Toggle" width="30" height="30"/>
         <namedColor name="AccentColor">
             <color red="0.36100000143051147" green="0.59200000762939453" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>

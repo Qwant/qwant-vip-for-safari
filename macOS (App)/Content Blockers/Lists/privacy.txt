@@ -1,0 +1,5 @@
+AdGuardTrackingProtectionFilter;standard;https://filters.adtidy.org/mac/filters/3_optimized.txt;AdGuard Tracking Protection filter
+EasyPrivacy;strict;https://easylist.to/easylist/easyprivacy.txt;Easy Privacy
+FanboysEnhancedTrackingList;off;https://secure.fanboy.co.nz/enhancedstats.txt;Fanboy's Enhanced Tracking List
+FanboysAntiFacebookList;off;https://www.fanboy.co.nz/fanboy-antifacebook.txt;Fanboy's Anti-Facebook List
+FanboysAntiThirdPartyFonts;off;https://fanboy.co.nz/fanboy-antifonts.txt;Fanboy's Anti-thirdparty Fonts

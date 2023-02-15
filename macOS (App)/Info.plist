@@ -2,20 +2,28 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>NSHumanReadableDescription</key>
-	<string>Qwant for Safari makes Qwant as the default search engine in Safari - The search engine that doesn't know anything about you, and that changes everything!</string>
 	<key>CFBundleURLTypes</key>
 	<array>
 		<dict>
 			<key>CFBundleTypeRole</key>
 			<string>Editor</string>
 			<key>CFBundleURLName</key>
-			<string>com.qwant.for.safari</string>
+			<string>com.qwant.vip</string>
 			<key>CFBundleURLSchemes</key>
 			<array>
-				<string>qwantforsafari</string>
+				<string>qwantvip</string>
 			</array>
 		</dict>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLName</key>
+			<string></string>
+			<key>CFBundleURLSchemes</key>
+			<array/>
+		</dict>
 	</array>
+	<key>NSHumanReadableDescription</key>
+	<string>Qwant for Safari makes Qwant as the default search engine in Safari - The search engine that doesn't know anything about you, and that changes everything!</string>
 </dict>
 </plist>

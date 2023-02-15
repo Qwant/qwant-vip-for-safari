@@ -1,0 +1,9 @@
+/* 
+  ContentBlockers-Other-InfoPlist.strings
+  Qwant VIP for macOS
+
+  Created by Jerome Boursier on 09/02/2023.
+  
+*/
+"NSHumanReadableDescription" = "Contient des règles pour aider à bloquer d'autres choses.";
+"CFBundleDisplayName" = "Qwant bloqueur générique";

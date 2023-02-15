@@ -1,0 +1,7546 @@
+[
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?1q2w3\\.fun([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*1q2w3.fun"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?1q2w3\\.me([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*1q2w3.me"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?1q2w3\\.top([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*1q2w3.top"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?1q2w3\\.website([\\\/:&\\?].*)?$"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?2giga\\.download([\\\/:&\\?].*)?$"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?8jd2lfsq\\.me([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*8jd2lfsq.me"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?35\\.194\\.26\\.233([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?35\\.239\\.57\\.233([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?45\\.32\\.105\\.134([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?77\\.162\\.125\\.199([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?185\\.165\\.169\\.108([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?a-calc\\.com([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*a-calc.com"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?a-calc\\.de([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*a-calc.de"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?aalbbh84\\.info([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*aalbbh84.info"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?abc\\.pema\\.cl([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*abc.pema.cl"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?acbp0020171456\\.page\\.tl([\\\/:&\\?].*)?$"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?ad-miner\\.com([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*ad-miner.com"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?adless\\.io([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*adless.io"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?adminer\\.com([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*adminer.com"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?adplusplus\\.fr([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*adplusplus.fr"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?adzjzewsma\\.cf([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*adzjzewsma.cf"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?aeros01\\.tk([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*aeros01.tk"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?aeros02\\.tk([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*aeros02.tk"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?aeros03\\.tk([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*aeros03.tk"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?aeros04\\.tk([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*aeros04.tk"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?aeros05\\.tk([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*aeros05.tk"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?aeros06\\.tk([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*aeros06.tk"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?aeros07\\.tk([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*aeros07.tk"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?aeros08\\.tk([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*aeros08.tk"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?aeros09\\.tk([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*aeros09.tk"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?aeros10\\.tk([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*aeros10.tk"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?aeros11\\.tk([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*aeros11.tk"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?aeros12\\.tk([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*aeros12.tk"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?afflow\\.18-plus\\.net([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*afflow.18-plus.net"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?afminer\\.com([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*afminer.com"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?altavista\\.ovh([\\\/:&\\?].*)?$"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?analytics\\.blue([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*analytics.blue"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?andlache\\.com([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*andlache.com"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?api\\.inwemo\\.com([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*api.inwemo.com"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?appelamule\\.com([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*appelamule.com"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?aservices\\.party([\\\/:&\\?].*)?$"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?aster18cdn\\.nl([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*aster18cdn.nl"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?authcaptcha\\.com([\\\/:&\\?].*)?$"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?authedmine\\.com([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*authedmine.com"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?authedmine\\.eu([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*authedmine.eu"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?authedwebmine\\.cz([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*webmine.cz",
+        "*authedwebmine.cz"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?autologica\\.ga([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*autologica.ga"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?axoncoho\\.tk([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*axoncoho.tk"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?aymcsx\\.ru([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*aymcsx.ru"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?bablace\\.com([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*bablace.com"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?bafybeidravcab5p3acvthxtwosm4rfpl4yypwwm52s7sazgxaezfzn5xn4\\.ipfs\\.infura-ipfs\\.io([\\\/:&\\?].*)?$"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?baiduccdn1\\.com([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*baiduccdn1.com"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?bauersagtnein\\.myeffect\\.net([\\\/:&\\?].*)?$"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?baywttgdhe\\.download([\\\/:&\\?].*)?$"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?beatingbytes\\.com([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*beatingbytes.com"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?becanium\\.com([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*becanium.com"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?beeppool\\.org([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*beeppool.org"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?belicimo\\.pw([\\\/:&\\?].*)?$"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?berateveng\\.ru([\\\/:&\\?].*)?$"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?berserkpl\\.net\\.pl([\\\/:&\\?].*)?$",
+      "resource-type" : [
+        "websocket"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?besocial\\.online([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*besocial.online"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?besstahete\\.info([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*besstahete.info"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?bestcoinsignals\\.com([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*bestcoinsignals.com"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?besti\\.ga([\\\/:&\\?].*)?$"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?bestsrv\\.de([\\\/:&\\?].*)?$"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?bewaslac\\.com([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*bewaslac.com"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?bhzejltg\\.info([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*bhzejltg.info"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?biberukalap\\.com([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*biberukalap.com"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?binarybusiness\\.de([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*binarybusiness.de"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?bitcoin-cashcard\\.com([\\\/:&\\?].*)?$"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?bitcoin-cashcard\\.de([\\\/:&\\?].*)?$"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?bitcoin-cashcard\\.eu([\\\/:&\\?].*)?$"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?bitcoin-pay\\.eu([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*bitcoin-pay.eu"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?bitcoin-pocket\\.de([\\\/:&\\?].*)?$"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?bitcoin-pocket\\.eu([\\\/:&\\?].*)?$"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?bjorksta\\.men([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*bjorksta.men"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?bmcm\\.ml([\\\/:&\\?].*)?$"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?bmcm\\.pw([\\\/:&\\?].*)?$"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?bmnr\\.pw([\\\/:&\\?].*)?$"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?bmst\\.pw([\\\/:&\\?].*)?$"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?bowithow\\.com([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*bowithow.com"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?brominer\\.com([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*brominer.com"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?browsermine\\.com([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*browsermine.com"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?bsyauqwerd\\.party([\\\/:&\\?].*)?$"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?butcalve\\.com([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*butcalve.com"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?candid\\.zone([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*candid.zone"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?cashbeet\\.com([\\\/:&\\?].*)?$"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?ccvwtdtwyu\\.trade([\\\/:&\\?].*)?$"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?cdn-analytics\\.pl([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*cdn-analytics.pl"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?cdn-code\\.host([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*cdn-code.host"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?cdn-jquery\\.host([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*cdn-jquery.host"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?cdn\\.cloudcoins\\.co([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*cdn.cloudcoins.co"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?cfcdist\\.gdn([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*cfcdist.gdn"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?cfcdist\\.loan([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*cfcdist.loan"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?cfcnet\\.top([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*cfcnet.top"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?chainblock\\.science([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*chainblock.science"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?clgserv\\.pro([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*clgserv.pro"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?cloud-miner\\.de([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*cloud-miner.de"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?cloud-miner\\.eu([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*cloud-miner.eu"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?cloudcdn\\.gdn([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*cloudcdn.gdn"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?cloudflane\\.com([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*cloudflane.com"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?cnhv\\.co([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*cnhv.co"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?coin-cube\\.com([\\\/:&\\?].*)?$"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?coin-have\\.com([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*coin-have.com"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?coin-service\\.com([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*coin-service.com"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?coin-services\\.info([\\\/:&\\?].*)?$"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?coinblind\\.com([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*coinblind.com"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?coinerra\\.com([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*coinerra.com"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?coinhiveproxy\\.com([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*coinhiveproxy.com"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?coinimp\\.com",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*coinimp.com"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?coinimp\\.net",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*coinimp.net"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?coinlab\\.biz([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*coinlab.biz"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?coinminingonline\\.com([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*coinminingonline.com"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?coinnebula\\.com([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*coinnebula.com"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?coinpirate\\.cf([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*coinpirate.cf"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?coinpot\\.co([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*coinpot.co"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?coinrail\\.io([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*coinrail.io"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?cpufan\\.club([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*cpufan.club"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?cryptaloot\\.pro([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*cryptaloot.pro"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?crypto-loot\\.com([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*crypto-loot.com"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?crypto-webminer\\.com([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*crypto-webminer.com"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?crypto\\.csgocpu\\.com([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*crypto.csgocpu.com"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?cryptobara\\.com([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*cryptobara.com"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?cryptoloot\\.pro([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*cryptoloot.pro"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?cryptonoter\\.com([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*cryptonoter.com"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?ctlrnwbv\\.ru([\\\/:&\\?].*)?$"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?d8acddffe978b5dfcae6\\.date([\\\/:&\\?].*)?$"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?dark-utilities\\.me([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*dark-utilities.me"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?dark-utilities\\.pw([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*dark-utilities.pw"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?dark-utilities\\.xyz([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*dark-utilities.xyz"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?datasecu\\.download([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*datasecu.download"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?de-mi-nis-ner\\.info([\\\/:&\\?].*)?$"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?de-mi-nis-ner2\\.info([\\\/:&\\?].*)?$"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?de-ner-mi-nis4\\.info([\\\/:&\\?].*)?$"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?de-nis-ner-mi-5\\.info([\\\/:&\\?].*)?$"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?depttake\\.ga([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*depttake.ga"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?devphp\\.org\\.ua([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*devphp.org.ua"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?dexim\\.space([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*dexim.space"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?didnkinrab\\.com([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*didnkinrab.com"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?djfhwosjck\\.bid([\\\/:&\\?].*)?$"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?dontbeevils\\.de([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*dontbeevils.de"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?donttbeevils\\.de([\\\/:&\\?].*)?$"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?dronml\\.ml([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*dronml.ml"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?dzizsih\\.ru([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*dzizsih.ru"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?easyhash\\.de([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*easyhash.de"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?encoding\\.ovh([\\\/:&\\?].*)?$"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?ermaseuc\\.ru([\\\/:&\\?].*)?$"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?etacontent\\.com([\\\/:&\\?].*)?$"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?eth-pocket\\.com([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*eth-pocket.com"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?eth-pocket\\.de([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*eth-pocket.de"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?eth-pocket\\.eu([\\\/:&\\?].*)?$"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?ethereum-cashcard\\.com([\\\/:&\\?].*)?$"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?ethereum-cashcard\\.de([\\\/:&\\?].*)?$"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?ethereum-cashcard\\.eu([\\\/:&\\?].*)?$"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?ethereum-pocket\\.com([\\\/:&\\?].*)?$"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?ethereum-pocket\\.de([\\\/:&\\?].*)?$"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?ethereum-pocket\\.eu([\\\/:&\\?].*)?$"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?ethmedialab\\.info([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*ethmedialab.info"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?ethtrader\\.de([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*ethtrader.de"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?etzbnfuigipwvs\\.ru([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*etzbnfuigipwvs.ru"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?eucsoft\\.com([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*eucsoft.com"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?evengparme\\.com([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*evengparme.com"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?evilsbedont\\.de([\\\/:&\\?].*)?$"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?f1tbit\\.com([\\\/:&\\?].*)?$"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?feesocrald\\.com([\\\/:&\\?].*)?$"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?ffinwwfpqi\\.gq([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*ffinwwfpqi.gq"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?filmoljupci\\.com([\\\/:&\\?].*)?$"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?flare-analytics\\.com([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*flare-analytics.com"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?flophous\\.cf([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*flophous.cf"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?flowplayer\\.space([\\\/:&\\?].*)?$"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?formulawire\\.com([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*formulawire.com"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?freshrefresher\\.com([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*freshrefresher.com"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?fruitice\\.realnetwrk\\.com([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*fruitice.realnetwrk.com"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?g-content\\.bid([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*g-content.bid"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?g1thub\\.com([\\\/:&\\?].*)?$"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?gasolina\\.ml([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*gasolina.ml"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?gay-hotvideo\\.net([\\\/:&\\?].*)?$"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?gitgrub\\.pro([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*gitgrub.pro"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?gnrdomimplementation\\.com([\\\/:&\\?].*)?$"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?go\\.bestmobiworld\\.com([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*go.bestmobiworld.com"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?go\\.fastspot\\.io([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*go.fastspot.io"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?go\\.megabanners\\.cf([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*go.megabanners.cf"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?go\\.megabanners\\.cf([\\\/:&\\?].*)?$",
+      "resource-type" : [
+        "websocket"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?gobba\\.myeffect\\.net([\\\/:&\\?].*)?$"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?goldoffer\\.online([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*goldoffer.online"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?graftpool\\.ovh([\\\/:&\\?].*)?$"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?gramombird\\.com([\\\/:&\\?].*)?$"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?gridiogrid\\.com([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*gridiogrid.com"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?gustaver\\.ddns\\.net([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*gustaver.ddns.net"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?gxbrowser\\.net([\\\/:&\\?].*)?$"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?hallaert\\.online([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*hallaert.online"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?hatcalter\\.com([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*hatcalter.com"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?hegrinhar\\.com([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*hegrinhar.com"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?hemnes\\.win([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*hemnes.win"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?herominers\\.com([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*herominers.com"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?hhb123\\.tk([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*hhb123.tk"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?hide\\.ovh([\\\/:&\\?].*)?$"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?hodlers\\.party([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*hodlers.party"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?hodling\\.faith([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*hodling.faith"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?host\\.d-ns\\.ga([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*host.d-ns.ga"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?httpp\\.gdn([\\\/:&\\?].*)?$"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?iaheyftbsn\\.review([\\\/:&\\?].*)?$"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?icemining\\.ca([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*icemining.ca"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?igrid\\.org([\\\/:&\\?].*)?$"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?ijfcm7bu6ocerxsfq56ka3dtdanunyp4ytwk745b54agtravj2wr2qqd\\.onion\\.pet([\\\/:&\\?].*)?$"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?ininmacerad\\.pro([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*ininmacerad.pro"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?intellecthosting\\.net([\\\/:&\\?].*)?$"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?intelserviceupdate\\.com([\\\/:&\\?].*)?$"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?interestingz\\.pw([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*interestingz.pw"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?istlandoll\\.com([\\\/:&\\?].*)?$"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?jqassets\\.download([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*jqassets.download"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?jqcdn\\.download([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*jqcdn.download"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?jqrcdn\\.download([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*jqrcdn.download"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?jquerrycdn\\.download([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*jquerrycdn.download"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?jquery-cdn\\.download([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*jquery-cdn.download"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?jquery-uim\\.download([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*jquery-uim.download"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?jqwww\\.download([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*jqwww.download"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?js\\.vidoza\\.co([\\\/:&\\?].*)?$"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?js\\.vidoza\\.net([\\\/:&\\?].*)?$"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?jsccnn\\.com([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*jsccnn.com"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?jscdndel\\.com([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*jscdndel.com"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?jscoinminer\\.com([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*jscoinminer.com"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?jsecoin\\.com([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*jsecoin.com"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?jurty\\.ml([\\\/:&\\?].*)?$"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?jurtym\\.cf([\\\/:&\\?].*)?$"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?kdmkauchahynhrs\\.ru([\\\/:&\\?].*)?$"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?kedtise\\.com([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*kedtise.com"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?kippbeak\\.cf([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*kippbeak.cf"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?laserveradedomaina\\.com([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*laserveradedomaina.com"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?ledhenone\\.com([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*ledhenone.com"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?ledinund\\.com([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*ledinund.com"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?lightminer\\.co([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*lightminer.co"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?losital\\.ru([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*losital.ru"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?m\\.anyfiles\\.ovh([\\\/:&\\?].*)?$"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?machieved\\.com([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*machieved.com"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?malictuiar\\.com([\\\/:&\\?].*)?$"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?mebablo\\.com([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*mebablo.com"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?mepirtedic\\.com([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*mepirtedic.com"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?mercy\\.ga([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*mercy.ga"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?mfio\\.cf([\\\/:&\\?].*)?$"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?mhiobjnirs\\.gq([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*mhiobjnirs.gq"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?mi-de-ner-nis3\\.info([\\\/:&\\?].*)?$"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?mine\\.blank\\.drawpad\\.org([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*mine.blank.drawpad.org"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?mine\\.terorie\\.com([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*mine.terorie.com"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?minemytraffic\\.com([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*minemytraffic.com"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?miner\\.nimiq\\.com([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*miner.nimiq.com"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?miner\\.pr0gramm\\.com([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*miner.pr0gramm.com"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?miner\\.pr0gramm\\.com([\\\/:&\\?].*)?$",
+      "resource-type" : [
+        "websocket"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?minerad\\.com([\\\/:&\\?].*)?$"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?minercry\\.pt([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*minercry.pt"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?minero-proxy-.*\\.now\\.sh([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?minero\\.pw([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*minero.pw"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?minescripts\\.info([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*minescripts.info"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?minexmr\\.stream([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*minexmr.stream"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?mining\\.best([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*mining.best"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?minr\\.pw([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*minr.pw"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?mm\\.zubovskaya-banya\\.ru([\\\/:&\\?].*)?$"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?moneone\\.ga([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*moneone.ga"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?monero-miner\\.com([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*monero-miner.com"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?monerominer\\.rocks([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*monerominer.rocks"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?money-maker-default\\.info([\\\/:&\\?].*)?$"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?money-maker-script\\.info([\\\/:&\\?].*)?$"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?monkeyminer\\.net([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*monkeyminer.net"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?moonsade\\.com([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*moonsade.com"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?mutuza\\.win([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*mutuza.win"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?mwor\\.gq([\\\/:&\\?].*)?$"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?my\\.domain([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*my.domain"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?myregeneaf\\.com([\\\/:&\\?].*)?$"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?mysite\\.irkdsu\\.ru([\\\/:&\\?].*)?$"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?mytestminer\\.xyz([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*mytestminer.xyz"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?nablabee\\.com([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*nablabee.com"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?najsiejfnc\\.win([\\\/:&\\?].*)?$"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?nametraff\\.com([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*nametraff.com"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?nathetsof\\.com([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*nathetsof.com"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?nddmcconmqsy\\.ru([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*nddmcconmqsy.ru"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?nebabrop\\.com([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*nebabrop.com"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?nerohut\\.com([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*nerohut.com"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?netflare\\.info([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*netflare.info"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?never\\.ovh([\\\/:&\\?].*)?$"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?nexioniect\\.com([\\\/:&\\?].*)?$"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?nexttime\\.ovh([\\\/:&\\?].*)?$"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?nfwebminer\\.com([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*nfwebminer.com"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?niematego\\.tk([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*niematego.tk"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?nim\\.sh([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*nim.sh"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?nimiq\\.agency([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*nimiq.agency"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?nimiq\\.jp([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*nimiq.jp"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?nimiq\\.network([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*nimiq.network"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?nimiq\\.surf([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*nimiq.surf"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?nimiq\\.terorie\\.com([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*nimiq.terorie.com"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?nimiq\\.watch([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*nimiq.watch"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?nimiqchina\\.com([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*nimiqchina.com"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?nimiqpool\\.com([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*nimiqpool.com"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?nimiqtest\\.ml([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*nimiqtest.ml"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?nimwss-us-shark\\.lolopool\\.com([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*nimwss-us-shark.lolopool.com"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?ninaning\\.com([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*ninaning.com"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?nitrokod\\.com([\\\/:&\\?].*)?$"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?nmq\\.zxnexus\\.com([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*nmq.zxnexus.com"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?noblock\\.pro([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*noblock.pro"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?notmining\\.org([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*notmining.org"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?nvidiacenter\\.com([\\\/:&\\?].*)?$"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?oei1\\.gq([\\\/:&\\?].*)?$"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?offerreality\\.com([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*offerreality.com"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?ogrid\\.org([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*ogrid.org"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?okeyletsgo\\.ml([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*okeyletsgo.ml"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?open-hive-server-1\\.pp\\.ua([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*open-hive-server-1.pp.ua"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?pampopholf\\.com([\\\/:&\\?].*)?$"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?panelsave\\.com([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*panelsave.com"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?papoto\\.com([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*papoto.com"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?party-vqgdyvoycc\\.now\\.sh([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*party-vqgdyvoycc.now.sh"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?pasoherb\\.gq([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*pasoherb.gq"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?pdheuryopd\\.loan([\\\/:&\\?].*)?$"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?pearno\\.com([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*pearno.com"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?pertholin\\.com([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*pertholin.com"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?play\\.mix\\.kinostuff\\.com([\\\/:&\\?].*)?$"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?play\\.vidzi\\.tv([\\\/:&\\?].*)?$"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?play1\\.flashx\\."
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?play2\\.flashx\\."
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?play4\\.flashx\\."
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?play5\\.flashx\\."
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?playerassets\\.info([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*playerassets.info"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?plexcoin\\.info([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*plexcoin.info"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?pon\\.ewtuyytdf45\\.com([\\\/:&\\?].*)?$"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?premiumstats\\.xyz([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*premiumstats.xyz"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?pr0gram\\.org([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*pr0gram.org"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?proofly\\.win([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*proofly.win"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?pzoifaum\\.info([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*pzoifaum.info"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?rand\\.com\\.ru([\\\/:&\\?].*)?$"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?reauthenticator\\.com([\\\/:&\\?].*)?$"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?renhertfo\\.com([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*renhertfo.com"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?reservedoffers\\.club([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*reservedoffers.club"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?rintindown\\.com([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*rintindown.com"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?rintinwa\\.com([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*rintinwa.com"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?roastedvolt\\.net([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*roastedvolt.net"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?rocks\\.io([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*rocks.io"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?salamaleyum\\.com([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*salamaleyum.com"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?scaleway\\.ovh([\\\/:&\\?].*)?$"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?seed-.*\\.nimiq-network\\.com([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?seed-.*\\.nimiq\\.com([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?seed-.*\\.nimiq\\.network([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?seed\\.nimiq\\.by([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*seed.nimiq.by"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?seed1\\.sushipool\\.com([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*seed1.sushipool.com"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?serie-vostfr\\.com([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*serie-vostfr.com"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?serv1swork\\.com([\\\/:&\\?].*)?$"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?service4refresh\\.info([\\\/:&\\?].*)?$"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?silimbompom\\.com([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*silimbompom.com"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?site\\.flashx\\."
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?skencituer\\.com([\\\/:&\\?].*)?$"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?smartoffer\\.site([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*smartoffer.site"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?smectapop12\\.pl([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*smectapop12.pl"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?soodatmish\\.com([\\\/:&\\?].*)?$"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?sourcecode\\.pro([\\\/:&\\?].*)?$"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?spacepools\\.org([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*spacepools.org"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?sparechange\\.io([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*sparechange.io"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?sparnove\\.com([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*sparnove.com"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?srcip\\.com([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*srcip.com"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?srcips\\.com([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*srcips.com"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?statdynamic\\.com([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*statdynamic.com"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?static-cnt\\.bid([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*static-cnt.bid"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?staticsfs\\.host([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*staticsfs.host"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?statistic\\.date([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*statistic.date"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?stonecalcom\\.com([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*stonecalcom.com"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?str1kee\\.com([\\\/:&\\?].*)?$"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?streambeam\\.io([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*streambeam.io"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?sunnimiq\\.cf([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*sunnimiq.cf"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?sunnimiq1\\.cf([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*sunnimiq1.cf"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?sunnimiq2\\.cf([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*sunnimiq2.cf"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?sunnimiq3\\.cf([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*sunnimiq3.cf"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?sunnimiq4\\.cf([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*sunnimiq4.cf"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?sunnimiq5\\.cf([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*sunnimiq5.cf"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?sunnimiq6\\.cf([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*sunnimiq6.cf"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?swiftmining\\.win([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*swiftmining.win"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?synconnector\\.com([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*synconnector.com"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?tainiesonline\\.pw([\\\/:&\\?].*)?$"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?tercabilis\\.info([\\\/:&\\?].*)?$"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?terethat\\.ru([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*terethat.ru"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?thersprens\\.com([\\\/:&\\?].*)?$"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?thewhizmarketing\\.com([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*thewhizmarketing.com"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?thewhizproducts\\.com([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*thewhizproducts.com"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?thewise\\.com([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*thewise.com"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?tidafors\\.xyz([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*tidafors.xyz"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?to-support\\.me([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*to-support.me"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?toftofcal\\.com([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*toftofcal.com"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?tokyodrift\\.ga([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*tokyodrift.ga"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?traffic\\.tc-clicks\\.com([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*traffic.tc-clicks.com"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?traviilo\\.com([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*traviilo.com"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?trustaproiam\\.de([\\\/:&\\?].*)?$"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?trusteverything\\.de([\\\/:&\\?].*)?$"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?trustiseverything\\.de([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*trustiseverything.de"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?trustmeiamapro\\.de([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*trustmeiamapro.de"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?tulip18\\.com([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*tulip18.com"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?ugmfvqsu\\.ru([\\\/:&\\?].*)?$"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?unrummaged\\.com([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*unrummaged.com"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?uoldid\\.ru([\\\/:&\\?].*)?$"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?vcfs6ip5h6\\.bid([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*vcfs6ip5h6.bid"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?verifier\\.live([\\\/:&\\?].*)?$"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?verresof\\.com([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*verresof.com"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?videoplayer2\\.xyz([\\\/:&\\?].*)?$"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?vkcdnservice\\.com([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*vkcdnservice.com"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?vmi503011\\.contaboserver\\.net([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*vmi503011.contaboserver.net"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?vuryua\\.ru([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*vuryua.ru"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?wasm24\\.ru([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*wasm24.ru"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?web\\.dle-news\\.pw([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*web.dle-news.pw"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?webapi\\.salamantex\\.com([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*webapi.salamantex.com"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?webapi\\.staging\\.salamantex\\.com([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*webapi.staging.salamantex.com"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?webmine\\.cz([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*webmine.cz"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?webmine\\.pro([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*webmine.pro"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?webminepool\\.com([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*webminepool.com"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?webminepool\\.tk([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*webminepool.tk"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?webminerpool\\.com([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*webminerpool.com"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?webmining\\.co([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*webmining.co"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?webxmr\\.com([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*webxmr.com"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?whysoserius\\.club([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*whysoserius.club"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?willacrit\\.com([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*willacrit.com"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?witthethim\\.com([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*witthethim.com"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?wmtech\\.website([\\\/:&\\?].*)?$"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?wordc\\.ga([\\\/:&\\?].*)?$"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?wp-monero-miner\\.de([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*wp-monero-miner.de"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?wsp\\.marketgid\\.com([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*wsp.marketgid.com"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?wtm\\.monitoringservice\\.co([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*wtm.monitoringservice.co"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?xmr\\.cool([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*xmr.cool"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?xvideosharing\\.site([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*xvideosharing.site"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?xy\\.nullrefexcep\\.com([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*xy.nullrefexcep.com"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?yololike\\.space([\\\/:&\\?].*)?$"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?yqaywudifu\\.date([\\\/:&\\?].*)?$"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?yrdrtzmsmt\\.com([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*yrdrtzmsmt.com"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?zlx\\.com\\.br([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*zlx.com.br"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?zminer\\.zaloapp\\.com([\\\/:&\\?].*)?$"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?zndaowjdnf\\.stream([\\\/:&\\?].*)?$"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?blockchained\\.party"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?freecontent\\.bid"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?freecontent\\.date"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?freecontent\\.download"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?freecontent\\.faith"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?freecontent\\.live"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?freecontent\\.loan"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?freecontent\\.party"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?freecontent\\.racing"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?freecontent\\.review"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?freecontent\\.science"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?freecontent\\.stream"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?freecontent\\.trade"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?freecontent\\.win"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?hostcontent\\.live"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?hostingcloud\\.accountant"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?hostingcloud\\.bid"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?hostingcloud\\.date"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?hostingcloud\\.download"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?hostingcloud\\.faith"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?hostingcloud\\.live"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?hostingcloud\\.loan"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?hostingcloud\\.party"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?hostingcloud\\.racing"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?hostingcloud\\.review"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?hostingcloud\\.science"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?hostingcloud\\.stream"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?hostingcloud\\.trade"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?hostingcloud\\.win"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?jshosting\\.bid"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?jshosting\\.date"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?jshosting\\.download"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?jshosting\\.faith"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?jshosting\\.live"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?jshosting\\.loan"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?jshosting\\.party"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?jshosting\\.racing"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?jshosting\\.review"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?jshosting\\.science"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?jshosting\\.stream"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?jshosting\\.trade"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?jshosting\\.win"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?wasm\\.stream"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?alflying\\.bid"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?alflying\\.date"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?alflying\\.win"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?anybest\\.host"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?anybest\\.pw"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?anybest\\.site"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?anybest\\.space"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?dubester\\.pw"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?dubester\\.site"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?dubester\\.space"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?flightsy\\.bid"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?flightsy\\.date"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?flightsy\\.win"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?flighty\\.win"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?flightzy\\.bid"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?flightzy\\.date"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?flightzy\\.win"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?gettate\\.date"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?gettate\\.faith"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?gettate\\.racing"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?hashing\\.win"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?mighbest\\.host"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?mighbest\\.pw"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?mighbest\\.site"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?webassembly\\.stream"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?zymerget\\.bid"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?zymerget\\.date"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?zymerget\\.faith"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?zymerget\\.party"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?zymerget\\.stream"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?zymerget\\.win"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "-coin-hive\\.js"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "-crypto-miner\\\/.*"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "-monero-miner-"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "-monero-miner\\.",
+      "unless-domain" : [
+        "*wp-monero-miner.com"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "-monero-miner\\\/.*"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "\\\/authedmine\\.",
+      "unless-domain" : [
+        "*authedmine.com",
+        "*authedmine.eu"
+      ],
+      "resource-type" : [
+        "script"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "\\\/authedminer\\.js"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "\\\/bitcoin-plus-miner\\\/.*"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "\\\/bitcoincore\\\/\\?ref="
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "\\\/bootstrap\\.wasm",
+      "load-type" : [
+        "third-party"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "\\\/bootstrap\\.wasm",
+      "resource-type" : [
+        "fetch"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "\\\/browsermine\\.js"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "\\\/c-hive\\.js"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "\\\/c\\.wasm"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "\\\/cloudcoins\\.js"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "\\\/cloudcoins\\.min\\.js"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "\\\/cn\\.wasm",
+      "load-type" : [
+        "third-party"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "\\\/coin-hive-proxy-"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "\\\/coinblind\\.js"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "\\\/coinblind_beta\\."
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "\\\/coinGofile\\."
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "\\\/coinhive-proxy-"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "\\\/coinhive\\.min\\.js"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "\\\/coinlab\\.js"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "\\\/compact_miner\\?"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "\\\/crn\\.wasm"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "\\\/crypta\\.js"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "\\\/crypto-webminer\\.",
+      "unless-domain" : [
+        "*crypto-webminer.com"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "\\\/cryptocpu\\.js"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "\\\/cryptonight-worker\\."
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "\\\/cryptonight\\.wasm"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "\\\/cryptonoter\\."
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "\\\/deepMiner\\.js"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "\\\/deepMiner\\.min\\.js"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "\\\/dprocessor\\.js"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "\\\/hash\\.wasm"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "\\\/helper\\.wasm",
+      "load-type" : [
+        "third-party"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "\\\/inject\\.js\\?key=",
+      "resource-type" : [
+        "script"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "\\\/jsecoin\\..*\\\/\\?"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "\\\/lhnhelpouttab-current\\.min\\.js"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "\\\/lib\\\/crlt\\.js",
+      "load-type" : [
+        "third-party"
+      ],
+      "resource-type" : [
+        "script"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "\\\/media\\\/miner\\."
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "\\\/mine\\\/bitcoincore\\\/.*"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "\\\/miner_proxy"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "\\\/miner-ui\\.js"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "\\\/miner\\..*\\\/crypto-"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "\\\/miner\\..*\\\/loader\\."
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "\\\/miner\\.full\\.js"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "\\\/miner\\.js"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "\\\/miner\\.min\\.js"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "\\\/miner\\?key="
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "\\\/minera\\.js"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "\\\/minero-proxy-"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "\\\/minescripts\\.js"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "\\\/nano\\.wasm"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "\\\/noblock\\.js"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "\\\/obfus\\.min\\.js"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "\\\/projectpoi\\.min\\.js"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "\\\/poolstatus\\?"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "\\\/safelinkconverter\\.js"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "\\\/script_cry\\.js"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "\\\/streambeam-jw\\.js"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "\\\/streambeam-video\\.js"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "\\\/web_miner\\\/.*"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "\\\/webcoin\\.js"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "\\\/webcoin\\.min\\.js"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "\\\/webmr\\.js"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "\\\/webxmr\\.js"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^wss?:\\\/\\\/.*\\\/wproxy",
+      "load-type" : [
+        "first-party"
+      ],
+      "resource-type" : [
+        "websocket"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "\\\/xminer\\.js"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "\\\/xminer\\.min\\.js"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "\\\/xmr-monero\\.js"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "\\\/xmr\\.js"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "\\\/xmr\\.min\\.js"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "\\?.*\\.spacepools\\."
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "\\.spacepools\\..*:"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "\\.aspx\\?poolid="
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "\\.cfm\\?poolid="
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "=ws:\\\/\\\/.*\\?pool="
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "=ws:\\\/\\\/.*\\?pools="
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "=wss:\\\/\\\/.*\\?pool="
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "=wss:\\\/\\\/.*\\?pools="
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "\\?proxy=.*\\?pool="
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "\\?proxy=.*\\?pools="
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^wss?:\\\/\\\/.*\\?proxy=ws:\\\/\\\/",
+      "resource-type" : [
+        "script",
+        "websocket"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^wss?:\\\/\\\/.*\\?proxy=wss:\\\/\\\/",
+      "resource-type" : [
+        "script",
+        "websocket"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "\\.info([\\\/:&\\?].*)?$",
+      "if-domain" : [
+        "*hdyayinmac1.com",
+        "*sleeptimer.org"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "\\.website\\\/lib\\\/.*\\.wasm",
+      "load-type" : [
+        "third-party"
+      ],
+      "resource-type" : [
+        "fetch"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?clickwith\\.bid([\\\/:&\\?].*)?$"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?intactoffers\\.club([\\\/:&\\?].*)?$"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^wss?:\\\/\\\/",
+      "if-domain" : [
+        "*123moviesgo.nl",
+        "*123movieshub.cx",
+        "*123telugu.com",
+        "*1q2w3.website",
+        "*300mbfilms.co",
+        "*7tors.com",
+        "*adfreetv.ch",
+        "*ajplugins.com",
+        "*akvideo.stream",
+        "*alltube.pl",
+        "*alltube.tv",
+        "*alstreams.org",
+        "*animeteatr.ru",
+        "*annuaire-bleu.net",
+        "*arnaques-internet.info",
+        "*atk-exotics.com",
+        "*atkebony.com",
+        "*babyjav.com",
+        "*bamekoohrang.ir",
+        "*bigspeeds.com",
+        "*bitcoincashfaucet.co",
+        "*biter.tv",
+        "*bitvid.sx",
+        "*bmovie123.me",
+        "*bmoviego.me",
+        "*bmovies123.me",
+        "*btstors.com",
+        "*bustrain.net",
+        "*bypassed.in",
+        "*bypassed.ws",
+        "*bypassed.wtf",
+        "*byter.tv",
+        "*catrumahminimalis.me",
+        "*centrum-dramy.pl",
+        "*chemikino.ru",
+        "*cinemafacil.com",
+        "*citypaintsupplyghana.com",
+        "*clipwatching.com",
+        "*cloudtime.to",
+        "*cmovieshd.nl",
+        "*coinfaucet.eu",
+        "*coinhub.win",
+        "*coinminingonline.com",
+        "*cracklists.com",
+        "*crictime.com",
+        "*crictime.is",
+        "*crimedocumentary.com",
+        "*ddmix.net",
+        "*dekoder.ws",
+        "*deltabit.co",
+        "*descargas2020.com",
+        "*djs.sk",
+        "*domnuleprimar.ro",
+        "*dragonballzpolo.blogspot.com",
+        "*drama-cool.me",
+        "*eduardolegatti.blogspot.com",
+        "*emuleed2k.com",
+        "*estream.nu",
+        "*estream.to",
+        "*estream.xyz",
+        "*extratorrent.cd",
+        "*extratorrent.si",
+        "*fbmovies.org",
+        "*fileone.tv",
+        "*filmai.ws",
+        "*filmonet.com",
+        "*filmovix.com",
+        "*filmovix.net",
+        "*filmovix.org",
+        "*filmstreamvk.biz",
+        "*filmstreamvk.co",
+        "*filmstreamvk.com",
+        "*filmstreamvk.io",
+        "*filmstreamvk.me",
+        "*filmstreamvk.net",
+        "*filmstreamvk.org",
+        "*filmstreamvk.site",
+        "*filmstreamvk.top",
+        "*filmstreamvk.ws",
+        "*filmstreamvk1.net",
+        "*filmyhd.cz",
+        "*firstone.tv",
+        "*firstonetv.eu",
+        "*firstonetv.live",
+        "*flashx.cc",
+        "*flashx.co",
+        "*flashx.pw",
+        "*flashx.sx",
+        "*flashx.to",
+        "*flashx.tv",
+        "*flashx.ws",
+        "*fmoviesgo.me",
+        "*fruitadblock.net",
+        "*fruithosts.net",
+        "*fruitstreams.com",
+        "*full-mp3.com",
+        "*funtik.tv",
+        "*genashowalter.com",
+        "*gomovie123.me",
+        "*gomovies123.me",
+        "*happyjav.com",
+        "*hdvid.life",
+        "*hdvid.tv",
+        "*vidon.xyz",
+        "*hdvid.xyz",
+        "*hdyayinmac1.com",
+        "*hentai-online.pl",
+        "*hospital.plus",
+        "*hq-porns.com",
+        "*hqq.tv",
+        "*hqq.watch",
+        "*ianimes.co",
+        "*ianimes.top",
+        "*idope.tv",
+        "*ifrp.xyz",
+        "*ikwildepiratebay.xyz",
+        "*indiaproxydl.org",
+        "*inside-out.xyz",
+        "*intactoffers.club",
+        "*javbros.com",
+        "*javdl.co",
+        "*javsuper.com",
+        "*jkanime.net",
+        "*kapuso.be",
+        "*kickass.cd",
+        "*kinohabr.net",
+        "*kinokongo.cc",
+        "*kinoprofi.org",
+        "*kinosha.cc",
+        "*kinostuff.com",
+        "*lafmacun.net",
+        "*leitor.net",
+        "*lewd.ninja",
+        "*litecoinfaucet.co",
+        "*logovo.net",
+        "*love-drama.pl",
+        "*luckybitco.in",
+        "*mladipodnikatelia.sk",
+        "*mobology.ir",
+        "*monero-miner.com",
+        "*movie4k.is",
+        "*mp3free.pw",
+        "*mrunlock.icu",
+        "*myfeed4u.net",
+        "*myvidaanime.com",
+        "*nahnoji.cz",
+        "*netiap.com",
+        "*neurozinzin.com",
+        "*nod-key.su",
+        "*novator.az",
+        "*novoscrb.ru",
+        "*nowvideo.sx",
+        "*oipeirates.online",
+        "*oladblock.me",
+        "*oladblock.services",
+        "*oladblock.xyz",
+        "*oload.best",
+        "*oload.biz",
+        "*oload.cc",
+        "*oload.cloud",
+        "*oload.club",
+        "*oload.download",
+        "*oload.fun",
+        "*oload.info",
+        "*oload.life",
+        "*oload.live",
+        "*oload.monster",
+        "*oload.press",
+        "*oload.services",
+        "*oload.site",
+        "*oload.space",
+        "*oload.stream",
+        "*oload.tv",
+        "*oload.website",
+        "*oload.win",
+        "*olpair.com",
+        "*onlinevideoconverter.com",
+        "*onvid.club",
+        "*onvid.fun",
+        "*onvid.host",
+        "*onvid.icu",
+        "*onvid.online",
+        "*onvid.pro",
+        "*onvid.pw",
+        "*onvid.site",
+        "*onvid.space",
+        "*onvid.website",
+        "*onvid.xyz",
+        "*openload.cc",
+        "*openload.co",
+        "*openload.fun",
+        "*openload.pw",
+        "*openloed.co",
+        "*ovid.club",
+        "*ovid.fun",
+        "*ovid.host",
+        "*ovid.icu",
+        "*ovid.life",
+        "*ovid.live",
+        "*ovid.online",
+        "*ovid.pro",
+        "*ovid.pw",
+        "*ovid.site",
+        "*ovid.space",
+        "*ovid.website",
+        "*ovid.world",
+        "*ovid.xyz",
+        "*pebx.pl",
+        "*peliculas24.me",
+        "*pelisplus.online",
+        "*pezeshk.us",
+        "*pinoyrewind.info",
+        "*piratebay.tel",
+        "*potomy.ru",
+        "*povwideo.cc",
+        "*povwideo.net",
+        "*powvideo.cc",
+        "*powvideo.net",
+        "*protect-iframe.com",
+        "*protect-link.biz",
+        "*proxyportal.eu",
+        "*rapidvideo.com",
+        "*reactor.cc",
+        "*rednubes.de",
+        "*reservedoffers.club",
+        "*salon.com",
+        "*seriesenlinea.net",
+        "*seventorrents.cc",
+        "*severita-service.ru",
+        "*sherlockonline.ru",
+        "*shrink-service.it",
+        "*shush.se",
+        "*sickrage.ca",
+        "*skyback.ru",
+        "*skytorrents.co",
+        "*skytorrents.me",
+        "*sleeptimer.org",
+        "*sorteosrd.com",
+        "*stream247.me",
+        "*streamango.com",
+        "*streambeam.io",
+        "*streamcherry.com",
+        "*streamplay.me",
+        "*streamplay.top",
+        "*studio100.it",
+        "*szukajka.tv",
+        "*tainies.online",
+        "*tapemovie.com",
+        "*tarntercum.ru",
+        "*theappguruz.com"
+      ],
+      "resource-type" : [
+        "websocket"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^wss?:\\\/\\\/",
+      "if-domain" : [
+        "*thehdvid.club",
+        "*thehdvid.fun",
+        "*thehdvid.host",
+        "*thehdvid.icu",
+        "*thehdvid.life",
+        "*thehdvid.live",
+        "*thehdvid.online",
+        "*thehdvid.pro",
+        "*thehdvid.pw",
+        "*thehdvid.site",
+        "*thehdvid.space",
+        "*thehdvid.tv",
+        "*thehdvid.website",
+        "*thehdvid.world",
+        "*thehdvid.xyz",
+        "*thevideo.ch",
+        "*thevideo.io",
+        "*thevideo.me",
+        "*thevideo.us",
+        "*thevidhd.club",
+        "*thevidhd.fun",
+        "*thevidhd.host",
+        "*thevidhd.icu",
+        "*thevidhd.life",
+        "*thevidhd.live",
+        "*thevidhd.online",
+        "*thevidhd.pro",
+        "*thevidhd.pw",
+        "*thevidhd.site",
+        "*thevidhd.space",
+        "*thevidhd.tv",
+        "*thevidhd.website",
+        "*thevidhd.world",
+        "*thevidhd.xyz",
+        "*thisjav.com",
+        "*tokyodrift.ga",
+        "*tomadivx.tv",
+        "*torrentrapid.com",
+        "*tpbay.xyz",
+        "*tubetitties.com",
+        "*tugaanimado.net",
+        "*unblockall.org",
+        "*unblocked.app",
+        "*unblocked.gdn",
+        "*unblocked.ms",
+        "*unblocked.vet",
+        "*unblocked.wtf",
+        "*uptobox.com",
+        "*uptostream.com",
+        "*vev.io",
+        "*videodwn.com",
+        "*vidfile.net",
+        "*vidgg.to",
+        "*vidhd.club",
+        "*vidhd.fun",
+        "*vidhd.host",
+        "*vidhd.online",
+        "*vidhd.pro",
+        "*vidhd.pw",
+        "*vidhd.site",
+        "*vidhd.space",
+        "*vidhd.world",
+        "*vidoza.co",
+        "*vidoza.net",
+        "*vidstodo.me",
+        "*vidto.me",
+        "*vidto.se",
+        "*vidtod.me",
+        "*vidtodo.com",
+        "*vidtodo.me",
+        "*vidtodo.pro",
+        "*vidtudu.com",
+        "*vidup.io",
+        "*vidup.me",
+        "*vidup.tv",
+        "*vidzi.si",
+        "*vidzi.tv",
+        "*void.cat",
+        "*voirfilm.ws",
+        "*voirfilms.mx",
+        "*voirfilms.ws",
+        "*wallpoper.com",
+        "*watch-free.co",
+        "*watchfreemovies.tv",
+        "*wearesaudis.net",
+        "*wwtors.com",
+        "*xmovies8.nl",
+        "*ya3ale.com",
+        "*yazilir.com",
+        "*yourjav.com",
+        "*ytvideoindir.com",
+        "*zenexplayer.com",
+        "*ziurim.eu",
+        "*zona.plus"
+      ],
+      "resource-type" : [
+        "websocket"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/",
+      "if-domain" : [
+        "*adfreetv.ch",
+        "*auroravid.to",
+        "*ddmix.net",
+        "*dekoder.ws",
+        "*nowvideo.sx",
+        "*povwideo.cc",
+        "*povwideo.net",
+        "*powvideo.cc",
+        "*powvideo.net",
+        "*sorteosrd.com",
+        "*streambeam.io",
+        "*streamplay.top",
+        "*szukajka.tv",
+        "*tainies.online",
+        "*vidfile.net",
+        "*vidgg.to"
+      ],
+      "resource-type" : [
+        "fetch"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "load-type" : [
+        "third-party"
+      ],
+      "url-filter" : "^[htpsw]+:\\\/\\\/",
+      "resource-type" : [
+        "fetch"
+      ],
+      "if-domain" : [
+        "*alltube.pl",
+        "*alltube.tv"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/",
+      "if-domain" : [
+        "*centrum-dramy.pl",
+        "*hentai-online.pl"
+      ],
+      "resource-type" : [
+        "script"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?dekoder\\.ws[\/:&?]?.*\\?proxy="
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?openkatalog\\.com([\\\/:&\\?].*)?$",
+      "load-context" : [
+        "child-frame"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?mine\\.torrent\\.pw([\\\/:&\\?].*)?$"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?cryptobara\\.com\\\/client\\\/worker\\.js"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?nahnoji\\.cz([\\\/:&\\?].*)?$",
+      "resource-type" : [
+        "websocket"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?js\\.nahnoji\\.cz([\\\/:&\\?].*)?$"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?mine\\.nahnoji\\.cz([\\\/:&\\?].*)?$"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?hive\\.tubetitties\\.com([\\\/:&\\?].*)?$"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?miner\\.nablabee\\.com([\\\/:&\\?].*)?$"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?shrink-service\\.it\\\/js\\\/cM\\.js"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?p\\.estream\\.to([\\\/:&\\?].*)?$"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?www2\\.adfreetv\\.ch([\\\/:&\\?].*)?$"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?adfreetv\\.ch[\/:&?]?.*",
+      "resource-type" : [
+        "fetch"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?adfreetv\\.ch\\\/js\\\/jquery\\.js"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?ddns\\.net[\/:&?]?.*=ws:\\\/\\\/",
+      "load-type" : [
+        "third-party"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?ddns\\.net[\/:&?]?.*=wss:\\\/\\\/",
+      "load-type" : [
+        "third-party"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?myeffect\\.net[\/:&?]?.*=ws:\\\/\\\/",
+      "load-type" : [
+        "third-party"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?myeffect\\.net[\/:&?]?.*=wss:\\\/\\\/",
+      "load-type" : [
+        "third-party"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?worker\\.salon\\.com([\\\/:&\\?].*)?$"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?streamplay\\..*\\.wasm",
+      "resource-type" : [
+        "fetch"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?sleeptimer\\.org\\\/playerc\\.js"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?kinokongo\\.cc[\/:&?]?.*\\.php"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?video\\.videos\\.vidto\\.me([\\\/:&\\?].*)?$"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?play\\.play1\\.videos\\.vidto\\.me([\\\/:&\\?].*)?$"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?playe\\.vidto\\.se([\\\/:&\\?].*)?$"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?video\\.streaming\\.estream\\.to([\\\/:&\\?].*)?$"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?vidzi\\.tv\\\/bootstrap\\."
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?directprimal\\.com([\\\/:&\\?].*)?$",
+      "resource-type" : [
+        "websocket"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?play\\.estream\\.nu([\\\/:&\\?].*)?$"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?play\\.estream\\.to([\\\/:&\\?].*)?$"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?play\\.estream\\.xyz([\\\/:&\\?].*)?$"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?play\\.s01\\.vidtodo\\.pro([\\\/:&\\?].*)?$"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?on\\.animeteatr\\.ru([\\\/:&\\?].*)?$"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?play\\.vb\\.wearesaudis\\.net([\\\/:&\\?].*)?$"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?cinemafacil\\.com\\\/js\\.php"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?cdn1\\.pebx\\.pl([\\\/:&\\?].*)?$"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?wallpoper\\.com[\/:&?]?.*\\\/c\\.js"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?shush\\.se\\\/loader\\\/load\\.js"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?uptostream\\.com\\\/assets\\\/",
+      "load-context" : [
+        "child-frame"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?contribute\\.to-support\\.me([\\\/:&\\?].*)?$"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^wss?:\\\/\\\/",
+      "if-domain" : [
+        "*pirateproxy.buzz",
+        "*pirateproxy.ist",
+        "*pirateproxy.mx",
+        "*thepiratebay.by",
+        "*thepiratebay.cr",
+        "*thepiratebay.org",
+        "*thepiratebay.rocks",
+        "*thepiratebay.se.net",
+        "*thepiratebay10.org",
+        "*unblocktheship.org"
+      ],
+      "resource-type" : [
+        "script",
+        "websocket"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?pool\\.supportxmr\\.com([\\\/:&\\?].*)?$"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?grf\\.easyhash\\.io([\\\/:&\\?].*)?$"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?pool\\.minexmr\\.com([\\\/:&\\?].*)?$"
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?minexmr\\.com([\\\/:&\\?].*)?$",
+      "load-type" : [
+        "third-party"
+      ],
+      "unless-domain" : [
+        "*minexmr.com"
+      ]
+    },
+    "action" : {
+      "type" : "block"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?szukajka\\.tv\\\/jsverify\\.php\\?op=tag$",
+      "load-type" : [
+        "first-party"
+      ],
+      "resource-type" : [
+        "fetch"
+      ]
+    },
+    "action" : {
+      "type" : "ignore-previous-rules"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?szukajka\\.tv\\\/szukaj$",
+      "load-type" : [
+        "first-party"
+      ],
+      "resource-type" : [
+        "fetch"
+      ]
+    },
+    "action" : {
+      "type" : "ignore-previous-rules"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?api\\.nyda\\.pro([\\\/:&\\?].*)?$",
+      "resource-type" : [
+        "websocket"
+      ]
+    },
+    "action" : {
+      "type" : "ignore-previous-rules"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?ws\\.webcaster\\.pro([\\\/:&\\?].*)?$",
+      "resource-type" : [
+        "websocket"
+      ]
+    },
+    "action" : {
+      "type" : "ignore-previous-rules"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?broadcastt\\.xyz\\\/apps\\\/",
+      "resource-type" : [
+        "websocket"
+      ]
+    },
+    "action" : {
+      "type" : "ignore-previous-rules"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?lags\\.win\\\/ctf",
+      "resource-type" : [
+        "websocket"
+      ]
+    },
+    "action" : {
+      "type" : "ignore-previous-rules"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?siteapi\\.idkfa\\.online\\\/v2\\\/units\\\/socket\\\/websocket\\?",
+      "resource-type" : [
+        "websocket"
+      ]
+    },
+    "action" : {
+      "type" : "ignore-previous-rules"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?live\\.api\\.stream([\\\/:&\\?].*)?$",
+      "resource-type" : [
+        "websocket"
+      ]
+    },
+    "action" : {
+      "type" : "ignore-previous-rules"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?quiknode\\.pro([\\\/:&\\?].*)?$",
+      "resource-type" : [
+        "websocket"
+      ]
+    },
+    "action" : {
+      "type" : "ignore-previous-rules"
+    }
+  }
+]

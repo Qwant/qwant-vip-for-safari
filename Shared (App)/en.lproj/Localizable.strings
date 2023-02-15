@@ -23,3 +23,39 @@
 "macOS.Extension.Power" = "Default search engine";
 "macOS.Extension.Visit" = "Visit qwant.com";
 "macOS.Extension.Settings" = "Settings";
+
+
+"Main.GlobalProtection.Title.Enabled" = "Protection enabled";
+"Main.GlobalProtection.Title.Disabled" = "Protection disabled";
+"Main.ProtectionLevel.Title" = "Protection level";
+"Main.Allowlist.Title" = "Allowlist";
+"Main.Allowlist.Footer" = "Qwant's protection is disabled for the websites within this list";
+"Main.FixIssues.Description" = "Some content blockers are disabled";
+"Main.FixIssues.CTA" = "Fix it";
+
+"Tutorial.Title" = "Activate the extension\nQwant VIPrivacy";
+"Tutorial.Step.1" = "1. Go to";
+"Tutorial.Step.1.CTA" = "Safari › Preferences › Extensions";
+"Tutorial.Step.2" = "2. Set **all Qwant toggles on.** You're done!";
+
+"ProtectionLevel.Title" = "Protection level";
+
+"Allowlist.Title" = "Allowlist";
+"Allowlist.Description.1" = "Type here the domains **you do not want** Qwant to filter.";
+"Allowlist.Description.2" = "This list prevails over all other lists.";
+"Allowlist.Description.3" = "_One url per line, format: domain.com_";
+
+"ProtectionLevel.Standard.Title" = "Standard";
+"ProtectionLevel.Standard.Description" = "Blocks most cookies & trackers efficiently.";
+"ProtectionLevel.Strict.Title" = "Strict";
+"ProtectionLevel.Strict.Description" = "Blocks even more cookies & trackers, but also ads and annoyances. Can alter the behaviour of some websites.";
+
+"SafariPopup.Loading" = "Please wait";
+"SafariPopup.Main.Allowlisting" = "Please wait while we are allowlisting the website";
+"SafariPopup.Main.Unallowlisting" = "Please wait while we remove the website from the allowlist";
+"SafariPopup.Main.Protection.Allowlisted" = "Protection disabled on this website";
+"SafariPopup.Main.Protection.NotAllowlisted" = "Protection enabled on this website";
+"SafariPopup.Main.GlobalProtection.Disabled" = "Protection disabled";
+"SafariPopup.Main.GlobalProtection.TurnOn" = "Turn it back on";
+"SafariPopup.Main.DefaultSearchEngine" = "Use Qwant as the default search engine";
+"SafariPopup.Main.Settings" = "Go to settings";

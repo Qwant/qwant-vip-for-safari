@@ -5,4 +5,5 @@
   Created by Jerome Boursier on 19/10/2022.
   
 */
-"NSHumanReadableDescription" = "Qwant for Safari fait de Qwant le moteur de recherche par défaut dans Safari - Le moteur de recherche qui ne sait rien sur vous, et ça change tout !";
+"NSHumanReadableDescription" = "Raccourci vers quelques paramètres de Qwant VIPrivacy, comme la mise en liste d'exception, ou la mise en pause de Qwant comme moteur de recherche par défaut.";
+"CFBundleDisplayName" = "Icône de Qwant pour Safari";

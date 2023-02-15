@@ -7,10 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		681E0D5928E5D706001DD116 /* macOSAppViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 681E0D5828E5CDE9001DD116 /* macOSAppViewController.swift */; };
 		681E0D5A28E5E2B9001DD116 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 68D2662328DB03E0006BF2FC /* Localizable.strings */; };
 		683630B428E6F7170031849D /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 68D2662328DB03E0006BF2FC /* Localizable.strings */; };
-		6849168728FFE399006B4230 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 68D2662328DB03E0006BF2FC /* Localizable.strings */; };
 		684916AC28FFFC5F006B4230 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 684916AE28FFFC5F006B4230 /* InfoPlist.strings */; };
 		684916B228FFFC89006B4230 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 684916B428FFFC89006B4230 /* InfoPlist.strings */; };
 		684916B828FFFCBC006B4230 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 684916BA28FFFCBC006B4230 /* InfoPlist.strings */; };
@@ -19,32 +17,187 @@
 		687286DE28ED892000FD0BC2 /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = 687286DD28ED892000FD0BC2 /* popup.html */; };
 		6872876B28EDB74F00FD0BC2 /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = 6872876928EDB74F00FD0BC2 /* _locales */; };
 		6872876C28EDB74F00FD0BC2 /* images in Resources */ = {isa = PBXBuildFile; fileRef = 6872876A28EDB74F00FD0BC2 /* images */; };
+		6898D65D299CE7980067CAC8 /* Localization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68ADB0E1299BD96E009F8BDF /* Localization.swift */; };
+		6898D65E299CE7990067CAC8 /* Localization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68ADB0E1299BD96E009F8BDF /* Localization.swift */; };
+		6898D65F299CE79A0067CAC8 /* Localization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68ADB0E1299BD96E009F8BDF /* Localization.swift */; };
+		6898D660299CE79A0067CAC8 /* Localization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68ADB0E1299BD96E009F8BDF /* Localization.swift */; };
+		6898D661299CE79B0067CAC8 /* Localization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68ADB0E1299BD96E009F8BDF /* Localization.swift */; };
+		6898D662299CE79B0067CAC8 /* Localization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68ADB0E1299BD96E009F8BDF /* Localization.swift */; };
+		6898D663299CE79C0067CAC8 /* Localization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68ADB0E1299BD96E009F8BDF /* Localization.swift */; };
+		6898D664299CECB70067CAC8 /* ShieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68ADB115299BDEB4009F8BDF /* ShieldView.swift */; };
+		6898D665299CEE5C0067CAC8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68CA6A032886A96F007B62CA /* Assets.xcassets */; };
 		689C8D6F28E6E7FB0094F58C /* AppConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 689C8D6E28E6E7FB0094F58C /* AppConstants.swift */; };
 		689C8D7028E6E7FB0094F58C /* AppConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 689C8D6E28E6E7FB0094F58C /* AppConstants.swift */; };
 		68A22A5528E7212A00CAC2CC /* contentScript.bundle.js in Resources */ = {isa = PBXBuildFile; fileRef = 68A22A4928E7212A00CAC2CC /* contentScript.bundle.js */; };
 		68A22A5728E7212A00CAC2CC /* background.bundle.js in Resources */ = {isa = PBXBuildFile; fileRef = 68A22A4B28E7212A00CAC2CC /* background.bundle.js */; };
 		68A22A5828E7212A00CAC2CC /* no-popin.css in Resources */ = {isa = PBXBuildFile; fileRef = 68A22A4C28E7212A00CAC2CC /* no-popin.css */; };
 		68A22A5928E7212A00CAC2CC /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 68A22A4D28E7212A00CAC2CC /* manifest.json */; };
+		68ADAFA8299BCC21009F8BDF /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68ADAFA7299BCC21009F8BDF /* Cocoa.framework */; };
+		68ADAFB2299BCC21009F8BDF /* Ads Blocker Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 68ADAFA5299BCC21009F8BDF /* Ads Blocker Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		68ADAFBB299BCC43009F8BDF /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68ADAFA7299BCC21009F8BDF /* Cocoa.framework */; };
+		68ADAFC5299BCC43009F8BDF /* Privacy Blocker Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 68ADAFBA299BCC43009F8BDF /* Privacy Blocker Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		68ADAFCE299BCC50009F8BDF /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68ADAFA7299BCC21009F8BDF /* Cocoa.framework */; };
+		68ADAFD8299BCC50009F8BDF /* Social Blocker Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 68ADAFCD299BCC50009F8BDF /* Social Blocker Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		68ADAFE1299BCC58009F8BDF /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68ADAFA7299BCC21009F8BDF /* Cocoa.framework */; };
+		68ADAFEB299BCC58009F8BDF /* Annoyances Blocker Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 68ADAFE0299BCC58009F8BDF /* Annoyances Blocker Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		68ADAFF4299BCC65009F8BDF /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68ADAFA7299BCC21009F8BDF /* Cocoa.framework */; };
+		68ADAFFE299BCC65009F8BDF /* Security Blocker Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 68ADAFF3299BCC65009F8BDF /* Security Blocker Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		68ADB007299BCC6E009F8BDF /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68ADAFA7299BCC21009F8BDF /* Cocoa.framework */; };
+		68ADB011299BCC6F009F8BDF /* Other Blocker Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 68ADB006299BCC6E009F8BDF /* Other Blocker Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		68ADB01A299BCC76009F8BDF /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68ADAFA7299BCC21009F8BDF /* Cocoa.framework */; };
+		68ADB024299BCC76009F8BDF /* Language Blocker Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 68ADB019299BCC76009F8BDF /* Language Blocker Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		68ADB032299BCD3F009F8BDF /* ads.txt in Resources */ = {isa = PBXBuildFile; fileRef = 68ADB02B299BCD3E009F8BDF /* ads.txt */; };
+		68ADB033299BCD3F009F8BDF /* ads.txt in Resources */ = {isa = PBXBuildFile; fileRef = 68ADB02B299BCD3E009F8BDF /* ads.txt */; };
+		68ADB034299BCD3F009F8BDF /* security.txt in Resources */ = {isa = PBXBuildFile; fileRef = 68ADB02C299BCD3E009F8BDF /* security.txt */; };
+		68ADB035299BCD3F009F8BDF /* security.txt in Resources */ = {isa = PBXBuildFile; fileRef = 68ADB02C299BCD3E009F8BDF /* security.txt */; };
+		68ADB036299BCD3F009F8BDF /* social.txt in Resources */ = {isa = PBXBuildFile; fileRef = 68ADB02D299BCD3E009F8BDF /* social.txt */; };
+		68ADB037299BCD3F009F8BDF /* social.txt in Resources */ = {isa = PBXBuildFile; fileRef = 68ADB02D299BCD3E009F8BDF /* social.txt */; };
+		68ADB038299BCD3F009F8BDF /* annoyances.txt in Resources */ = {isa = PBXBuildFile; fileRef = 68ADB02E299BCD3E009F8BDF /* annoyances.txt */; };
+		68ADB039299BCD3F009F8BDF /* annoyances.txt in Resources */ = {isa = PBXBuildFile; fileRef = 68ADB02E299BCD3E009F8BDF /* annoyances.txt */; };
+		68ADB03A299BCD3F009F8BDF /* privacy.txt in Resources */ = {isa = PBXBuildFile; fileRef = 68ADB02F299BCD3E009F8BDF /* privacy.txt */; };
+		68ADB03B299BCD3F009F8BDF /* privacy.txt in Resources */ = {isa = PBXBuildFile; fileRef = 68ADB02F299BCD3E009F8BDF /* privacy.txt */; };
+		68ADB03C299BCD3F009F8BDF /* other.txt in Resources */ = {isa = PBXBuildFile; fileRef = 68ADB030299BCD3E009F8BDF /* other.txt */; };
+		68ADB03D299BCD3F009F8BDF /* other.txt in Resources */ = {isa = PBXBuildFile; fileRef = 68ADB030299BCD3E009F8BDF /* other.txt */; };
+		68ADB03E299BCD3F009F8BDF /* language.txt in Resources */ = {isa = PBXBuildFile; fileRef = 68ADB031299BCD3E009F8BDF /* language.txt */; };
+		68ADB03F299BCD3F009F8BDF /* language.txt in Resources */ = {isa = PBXBuildFile; fileRef = 68ADB031299BCD3E009F8BDF /* language.txt */; };
+		68ADB051299BCD88009F8BDF /* ContentBlockerRequestHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68ADB040299BCD78009F8BDF /* ContentBlockerRequestHandler.swift */; };
+		68ADB052299BCD89009F8BDF /* ContentBlockerRequestHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68ADB040299BCD78009F8BDF /* ContentBlockerRequestHandler.swift */; };
+		68ADB053299BCD89009F8BDF /* ContentBlockerRequestHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68ADB040299BCD78009F8BDF /* ContentBlockerRequestHandler.swift */; };
+		68ADB054299BCD8A009F8BDF /* ContentBlockerRequestHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68ADB040299BCD78009F8BDF /* ContentBlockerRequestHandler.swift */; };
+		68ADB055299BCD8A009F8BDF /* ContentBlockerRequestHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68ADB040299BCD78009F8BDF /* ContentBlockerRequestHandler.swift */; };
+		68ADB056299BCD8B009F8BDF /* ContentBlockerRequestHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68ADB040299BCD78009F8BDF /* ContentBlockerRequestHandler.swift */; };
+		68ADB057299BCD8B009F8BDF /* ContentBlockerRequestHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68ADB040299BCD78009F8BDF /* ContentBlockerRequestHandler.swift */; };
+		68ADB06C299BCE12009F8BDF /* ContentBlockers-Ads-InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 68ADB06E299BCE12009F8BDF /* ContentBlockers-Ads-InfoPlist.strings */; };
+		68ADB070299BCE1A009F8BDF /* ContentBlockers-Annoyances-InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 68ADB072299BCE1A009F8BDF /* ContentBlockers-Annoyances-InfoPlist.strings */; };
+		68ADB074299BCE21009F8BDF /* ContentBlockers-Language-InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 68ADB076299BCE21009F8BDF /* ContentBlockers-Language-InfoPlist.strings */; };
+		68ADB078299BCE28009F8BDF /* ContentBlockers-Other-InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 68ADB07A299BCE28009F8BDF /* ContentBlockers-Other-InfoPlist.strings */; };
+		68ADB07C299BCE30009F8BDF /* ContentBlockers-Privacy-InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 68ADB07E299BCE30009F8BDF /* ContentBlockers-Privacy-InfoPlist.strings */; };
+		68ADB080299BCE37009F8BDF /* ContentBlockers-Security-InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 68ADB082299BCE37009F8BDF /* ContentBlockers-Security-InfoPlist.strings */; };
+		68ADB084299BCE3E009F8BDF /* ContentBlockers-Social-InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 68ADB086299BCE3E009F8BDF /* ContentBlockers-Social-InfoPlist.strings */; };
+		68ADB08A299BCF66009F8BDF /* SwiftyJSON in Frameworks */ = {isa = PBXBuildFile; productRef = 68ADB089299BCF66009F8BDF /* SwiftyJSON */; };
+		68ADB08C299BCF86009F8BDF /* SwiftyJSON in Frameworks */ = {isa = PBXBuildFile; productRef = 68ADB08B299BCF86009F8BDF /* SwiftyJSON */; };
+		68ADB08E299BCF8B009F8BDF /* SwiftyJSON in Frameworks */ = {isa = PBXBuildFile; productRef = 68ADB08D299BCF8B009F8BDF /* SwiftyJSON */; };
+		68ADB090299BCF94009F8BDF /* SwiftyJSON in Frameworks */ = {isa = PBXBuildFile; productRef = 68ADB08F299BCF94009F8BDF /* SwiftyJSON */; };
+		68ADB092299BCF97009F8BDF /* SwiftyJSON in Frameworks */ = {isa = PBXBuildFile; productRef = 68ADB091299BCF97009F8BDF /* SwiftyJSON */; };
+		68ADB094299BCF9A009F8BDF /* SwiftyJSON in Frameworks */ = {isa = PBXBuildFile; productRef = 68ADB093299BCF9A009F8BDF /* SwiftyJSON */; };
+		68ADB096299BCF9E009F8BDF /* SwiftyJSON in Frameworks */ = {isa = PBXBuildFile; productRef = 68ADB095299BCF9E009F8BDF /* SwiftyJSON */; };
+		68ADB098299BCFA1009F8BDF /* SwiftyJSON in Frameworks */ = {isa = PBXBuildFile; productRef = 68ADB097299BCFA1009F8BDF /* SwiftyJSON */; };
+		68ADB09B299BCFBB009F8BDF /* ContentBlockerConverter in Frameworks */ = {isa = PBXBuildFile; productRef = 68ADB09A299BCFBB009F8BDF /* ContentBlockerConverter */; };
+		68ADB09D299BCFC2009F8BDF /* SwiftyJSON in Frameworks */ = {isa = PBXBuildFile; productRef = 68ADB09C299BCFC2009F8BDF /* SwiftyJSON */; };
+		68ADB09F299BCFC2009F8BDF /* ContentBlockerConverter in Frameworks */ = {isa = PBXBuildFile; productRef = 68ADB09E299BCFC2009F8BDF /* ContentBlockerConverter */; };
+		68ADB0AA299BD342009F8BDF /* ads in Resources */ = {isa = PBXBuildFile; fileRef = 68ADB0A9299BD342009F8BDF /* ads */; };
+		68ADB0AB299BD342009F8BDF /* ads in Resources */ = {isa = PBXBuildFile; fileRef = 68ADB0A9299BD342009F8BDF /* ads */; };
+		68ADB0AC299BD342009F8BDF /* ads in Resources */ = {isa = PBXBuildFile; fileRef = 68ADB0A9299BD342009F8BDF /* ads */; };
+		68ADB0AE299BD352009F8BDF /* annoyances in Resources */ = {isa = PBXBuildFile; fileRef = 68ADB0AD299BD352009F8BDF /* annoyances */; };
+		68ADB0AF299BD352009F8BDF /* annoyances in Resources */ = {isa = PBXBuildFile; fileRef = 68ADB0AD299BD352009F8BDF /* annoyances */; };
+		68ADB0B0299BD352009F8BDF /* annoyances in Resources */ = {isa = PBXBuildFile; fileRef = 68ADB0AD299BD352009F8BDF /* annoyances */; };
+		68ADB0B2299BD365009F8BDF /* allow in Resources */ = {isa = PBXBuildFile; fileRef = 68ADB0B1299BD364009F8BDF /* allow */; };
+		68ADB0B3299BD365009F8BDF /* allow in Resources */ = {isa = PBXBuildFile; fileRef = 68ADB0B1299BD364009F8BDF /* allow */; };
+		68ADB0B4299BD365009F8BDF /* allow in Resources */ = {isa = PBXBuildFile; fileRef = 68ADB0B1299BD364009F8BDF /* allow */; };
+		68ADB0B5299BD365009F8BDF /* allow in Resources */ = {isa = PBXBuildFile; fileRef = 68ADB0B1299BD364009F8BDF /* allow */; };
+		68ADB0B6299BD365009F8BDF /* allow in Resources */ = {isa = PBXBuildFile; fileRef = 68ADB0B1299BD364009F8BDF /* allow */; };
+		68ADB0B7299BD365009F8BDF /* allow in Resources */ = {isa = PBXBuildFile; fileRef = 68ADB0B1299BD364009F8BDF /* allow */; };
+		68ADB0B8299BD365009F8BDF /* allow in Resources */ = {isa = PBXBuildFile; fileRef = 68ADB0B1299BD364009F8BDF /* allow */; };
+		68ADB0B9299BD365009F8BDF /* allow in Resources */ = {isa = PBXBuildFile; fileRef = 68ADB0B1299BD364009F8BDF /* allow */; };
+		68ADB0BA299BD365009F8BDF /* allow in Resources */ = {isa = PBXBuildFile; fileRef = 68ADB0B1299BD364009F8BDF /* allow */; };
+		68ADB0BC299BD377009F8BDF /* language in Resources */ = {isa = PBXBuildFile; fileRef = 68ADB0BB299BD377009F8BDF /* language */; };
+		68ADB0BD299BD377009F8BDF /* language in Resources */ = {isa = PBXBuildFile; fileRef = 68ADB0BB299BD377009F8BDF /* language */; };
+		68ADB0BE299BD377009F8BDF /* language in Resources */ = {isa = PBXBuildFile; fileRef = 68ADB0BB299BD377009F8BDF /* language */; };
+		68ADB0C0299BD384009F8BDF /* other in Resources */ = {isa = PBXBuildFile; fileRef = 68ADB0BF299BD384009F8BDF /* other */; };
+		68ADB0C1299BD384009F8BDF /* other in Resources */ = {isa = PBXBuildFile; fileRef = 68ADB0BF299BD384009F8BDF /* other */; };
+		68ADB0C2299BD384009F8BDF /* other in Resources */ = {isa = PBXBuildFile; fileRef = 68ADB0BF299BD384009F8BDF /* other */; };
+		68ADB0C4299BD38D009F8BDF /* privacy in Resources */ = {isa = PBXBuildFile; fileRef = 68ADB0C3299BD38D009F8BDF /* privacy */; };
+		68ADB0C5299BD38D009F8BDF /* privacy in Resources */ = {isa = PBXBuildFile; fileRef = 68ADB0C3299BD38D009F8BDF /* privacy */; };
+		68ADB0C6299BD38D009F8BDF /* privacy in Resources */ = {isa = PBXBuildFile; fileRef = 68ADB0C3299BD38D009F8BDF /* privacy */; };
+		68ADB0C8299BD395009F8BDF /* security in Resources */ = {isa = PBXBuildFile; fileRef = 68ADB0C7299BD395009F8BDF /* security */; };
+		68ADB0C9299BD395009F8BDF /* security in Resources */ = {isa = PBXBuildFile; fileRef = 68ADB0C7299BD395009F8BDF /* security */; };
+		68ADB0CA299BD395009F8BDF /* security in Resources */ = {isa = PBXBuildFile; fileRef = 68ADB0C7299BD395009F8BDF /* security */; };
+		68ADB0CC299BD39D009F8BDF /* social in Resources */ = {isa = PBXBuildFile; fileRef = 68ADB0CB299BD39D009F8BDF /* social */; };
+		68ADB0CD299BD39D009F8BDF /* social in Resources */ = {isa = PBXBuildFile; fileRef = 68ADB0CB299BD39D009F8BDF /* social */; };
+		68ADB0CE299BD39D009F8BDF /* social in Resources */ = {isa = PBXBuildFile; fileRef = 68ADB0CB299BD39D009F8BDF /* social */; };
+		68ADB0D3299BD426009F8BDF /* SafariExtensionMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68ADB0CF299BD426009F8BDF /* SafariExtensionMainView.swift */; };
+		68ADB0D4299BD426009F8BDF /* SafariExtensionRootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68ADB0D0299BD426009F8BDF /* SafariExtensionRootView.swift */; };
+		68ADB0D5299BD426009F8BDF /* SafariExtensionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68ADB0D1299BD426009F8BDF /* SafariExtensionViewController.swift */; };
+		68ADB0D6299BD426009F8BDF /* SafariExtensionLoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68ADB0D2299BD426009F8BDF /* SafariExtensionLoadingView.swift */; };
+		68ADB0D8299BD8BE009F8BDF /* QwantVIP_App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68ADB0D7299BD8BE009F8BDF /* QwantVIP_App.swift */; };
+		68ADB0DE299BD941009F8BDF /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68ADB0DD299BD941009F8BDF /* Theme.swift */; };
+		68ADB0DF299BD941009F8BDF /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68ADB0DD299BD941009F8BDF /* Theme.swift */; };
+		68ADB0E2299BD96E009F8BDF /* Preferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68ADB0E0299BD96E009F8BDF /* Preferences.swift */; };
+		68ADB0E4299BD96E009F8BDF /* Preferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68ADB0E0299BD96E009F8BDF /* Preferences.swift */; };
+		68ADB0E5299BD96E009F8BDF /* Preferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68ADB0E0299BD96E009F8BDF /* Preferences.swift */; };
+		68ADB0E6299BD96E009F8BDF /* Preferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68ADB0E0299BD96E009F8BDF /* Preferences.swift */; };
+		68ADB0E7299BD96E009F8BDF /* Preferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68ADB0E0299BD96E009F8BDF /* Preferences.swift */; };
+		68ADB0E8299BD96E009F8BDF /* Preferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68ADB0E0299BD96E009F8BDF /* Preferences.swift */; };
+		68ADB0E9299BD96E009F8BDF /* Preferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68ADB0E0299BD96E009F8BDF /* Preferences.swift */; };
+		68ADB0EA299BD96E009F8BDF /* Preferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68ADB0E0299BD96E009F8BDF /* Preferences.swift */; };
+		68ADB0EB299BD96E009F8BDF /* Preferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68ADB0E0299BD96E009F8BDF /* Preferences.swift */; };
+		68ADB0EC299BD96E009F8BDF /* Preferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68ADB0E0299BD96E009F8BDF /* Preferences.swift */; };
+		68ADB0ED299BD96E009F8BDF /* Localization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68ADB0E1299BD96E009F8BDF /* Localization.swift */; };
+		68ADB0EF299BD96E009F8BDF /* Localization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68ADB0E1299BD96E009F8BDF /* Localization.swift */; };
+		68ADB0F7299BD96E009F8BDF /* Localization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68ADB0E1299BD96E009F8BDF /* Localization.swift */; };
+		68ADB0F8299BDA85009F8BDF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68CA6A032886A96F007B62CA /* Assets.xcassets */; };
+		68ADB0F9299BDA87009F8BDF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68CA6A032886A96F007B62CA /* Assets.xcassets */; };
+		68ADB0FB299BDAD0009F8BDF /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68ADB0FA299BDAD0009F8BDF /* Colors.xcassets */; };
+		68ADB0FC299BDAD0009F8BDF /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68ADB0FA299BDAD0009F8BDF /* Colors.xcassets */; };
+		68ADB0FD299BDAD0009F8BDF /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68ADB0FA299BDAD0009F8BDF /* Colors.xcassets */; };
+		68ADB0FF299BDBEA009F8BDF /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68ADB0DD299BD941009F8BDF /* Theme.swift */; };
+		68ADB11E299BDEB4009F8BDF /* TutorialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68ADB101299BDEB4009F8BDF /* TutorialView.swift */; };
+		68ADB11F299BDEB4009F8BDF /* ColoredToggleStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68ADB104299BDEB4009F8BDF /* ColoredToggleStyle.swift */; };
+		68ADB120299BDEB4009F8BDF /* FlatRoundedButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68ADB105299BDEB4009F8BDF /* FlatRoundedButtonStyle.swift */; };
+		68ADB121299BDEB4009F8BDF /* ViewSkinningViewBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68ADB107299BDEB4009F8BDF /* ViewSkinningViewBuilder.swift */; };
+		68ADB122299BDEB4009F8BDF /* AddBorderViewBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68ADB108299BDEB4009F8BDF /* AddBorderViewBuilder.swift */; };
+		68ADB123299BDEB4009F8BDF /* IsHiddenViewBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68ADB109299BDEB4009F8BDF /* IsHiddenViewBuilder.swift */; };
+		68ADB124299BDEB4009F8BDF /* RowSkinningViewBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68ADB10A299BDEB4009F8BDF /* RowSkinningViewBuilder.swift */; };
+		68ADB125299BDEB4009F8BDF /* TextArea.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68ADB10C299BDEB4009F8BDF /* TextArea.swift */; };
+		68ADB126299BDEB4009F8BDF /* ProtectionLevelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68ADB10E299BDEB4009F8BDF /* ProtectionLevelView.swift */; };
+		68ADB127299BDEB4009F8BDF /* LevelRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68ADB110299BDEB4009F8BDF /* LevelRow.swift */; };
+		68ADB128299BDEB4009F8BDF /* ActivationRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68ADB113299BDEB4009F8BDF /* ActivationRow.swift */; };
+		68ADB129299BDEB4009F8BDF /* FixIssuesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68ADB114299BDEB4009F8BDF /* FixIssuesView.swift */; };
+		68ADB12A299BDEB4009F8BDF /* ShieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68ADB115299BDEB4009F8BDF /* ShieldView.swift */; };
+		68ADB12B299BDEB4009F8BDF /* AllowlistRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68ADB116299BDEB4009F8BDF /* AllowlistRow.swift */; };
+		68ADB12C299BDEB4009F8BDF /* ProtectionLevelRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68ADB117299BDEB4009F8BDF /* ProtectionLevelRow.swift */; };
+		68ADB12D299BDEB4009F8BDF /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68ADB118299BDEB4009F8BDF /* MainView.swift */; };
+		68ADB12E299BDEB4009F8BDF /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68ADB119299BDEB4009F8BDF /* RootView.swift */; };
+		68ADB12F299BDEB4009F8BDF /* NavigationHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68ADB11B299BDEB4009F8BDF /* NavigationHeaderView.swift */; };
+		68ADB130299BDEB4009F8BDF /* LogoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68ADB11C299BDEB4009F8BDF /* LogoView.swift */; };
+		68ADB131299BDEB4009F8BDF /* AllowlistView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68ADB11D299BDEB4009F8BDF /* AllowlistView.swift */; };
+		68ADB132299BDED8009F8BDF /* FlatRoundedButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68ADB105299BDEB4009F8BDF /* FlatRoundedButtonStyle.swift */; };
+		68ADB133299BDED8009F8BDF /* ColoredToggleStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68ADB104299BDEB4009F8BDF /* ColoredToggleStyle.swift */; };
+		68ADB134299BDEEC009F8BDF /* LogoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68ADB11C299BDEB4009F8BDF /* LogoView.swift */; };
+		68ADB13A299BDF43009F8BDF /* ContentBlockersExceptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68ADB135299BDF43009F8BDF /* ContentBlockersExceptions.swift */; };
+		68ADB13B299BDF43009F8BDF /* ContentBlockersJsonBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68ADB136299BDF43009F8BDF /* ContentBlockersJsonBuilder.swift */; };
+		68ADB13C299BDF43009F8BDF /* ContentBlockersListsHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68ADB137299BDF43009F8BDF /* ContentBlockersListsHandler.swift */; };
+		68ADB13D299BDF43009F8BDF /* ContentBlockersReloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68ADB138299BDF43009F8BDF /* ContentBlockersReloader.swift */; };
+		68ADB13E299BDF43009F8BDF /* ContentBlockersStateProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68ADB139299BDF43009F8BDF /* ContentBlockersStateProvider.swift */; };
+		68ADB13F299BDF54009F8BDF /* ContentBlockersReloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68ADB138299BDF43009F8BDF /* ContentBlockersReloader.swift */; };
+		68ADB140299BDF63009F8BDF /* ContentBlockersExceptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68ADB135299BDF43009F8BDF /* ContentBlockersExceptions.swift */; };
+		68ADB141299BDF74009F8BDF /* ContentBlockersListsHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68ADB137299BDF43009F8BDF /* ContentBlockersListsHandler.swift */; };
+		68ADB142299BDF7A009F8BDF /* ContentBlockersJsonBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68ADB136299BDF43009F8BDF /* ContentBlockersJsonBuilder.swift */; };
+		68ADB146299BDFA0009F8BDF /* BlockList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68ADB143299BDFA0009F8BDF /* BlockList.swift */; };
+		68ADB147299BDFA0009F8BDF /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68ADB144299BDFA0009F8BDF /* Category.swift */; };
+		68ADB148299BDFA0009F8BDF /* ProtectionLevel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68ADB145299BDFA0009F8BDF /* ProtectionLevel.swift */; };
+		68ADB149299BDFB0009F8BDF /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68ADB144299BDFA0009F8BDF /* Category.swift */; };
+		68ADB14A299BDFB3009F8BDF /* ProtectionLevel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68ADB145299BDFA0009F8BDF /* ProtectionLevel.swift */; };
+		68ADB14B299BDFB4009F8BDF /* ProtectionLevel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68ADB145299BDFA0009F8BDF /* ProtectionLevel.swift */; };
+		68ADB14C299BDFB4009F8BDF /* ProtectionLevel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68ADB145299BDFA0009F8BDF /* ProtectionLevel.swift */; };
+		68ADB14D299BDFB5009F8BDF /* ProtectionLevel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68ADB145299BDFA0009F8BDF /* ProtectionLevel.swift */; };
+		68ADB14E299BDFB5009F8BDF /* ProtectionLevel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68ADB145299BDFA0009F8BDF /* ProtectionLevel.swift */; };
+		68ADB14F299BDFB5009F8BDF /* ProtectionLevel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68ADB145299BDFA0009F8BDF /* ProtectionLevel.swift */; };
+		68ADB150299BDFB6009F8BDF /* ProtectionLevel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68ADB145299BDFA0009F8BDF /* ProtectionLevel.swift */; };
+		68ADB151299BDFB6009F8BDF /* ProtectionLevel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68ADB145299BDFA0009F8BDF /* ProtectionLevel.swift */; };
+		68ADB152299BDFB9009F8BDF /* BlockList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68ADB143299BDFA0009F8BDF /* BlockList.swift */; };
 		68CA6A172886A96F007B62CA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68CA6A162886A96F007B62CA /* AppDelegate.swift */; };
 		68CA6A192886A96F007B62CA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68CA6A182886A96F007B62CA /* SceneDelegate.swift */; };
 		68CA6A1C2886A96F007B62CA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68CA6A1A2886A96F007B62CA /* LaunchScreen.storyboard */; };
 		68CA6A1F2886A96F007B62CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68CA6A1D2886A96F007B62CA /* Main.storyboard */; };
-		68CA6A282886A96F007B62CA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68CA6A272886A96F007B62CA /* AppDelegate.swift */; };
-		68CA6A2B2886A96F007B62CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68CA6A292886A96F007B62CA /* Main.storyboard */; };
 		68CA6A322886A96F007B62CA /* Qwant for Safari Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 68CA6A312886A96F007B62CA /* Qwant for Safari Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		68CA6A3C2886A96F007B62CA /* Qwant for Safari Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 68CA6A3B2886A96F007B62CA /* Qwant for Safari Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		68CA6A4C2886A96F007B62CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68CA6A032886A96F007B62CA /* Assets.xcassets */; };
 		68CA6A4D2886A96F007B62CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68CA6A032886A96F007B62CA /* Assets.xcassets */; };
-		68CA6A8D2886FD72007B62CA /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68CA6A8C2886FD72007B62CA /* Media.xcassets */; };
-		68CA6A8E2886FD72007B62CA /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68CA6A8C2886FD72007B62CA /* Media.xcassets */; };
 		68CA6A8F2887E744007B62CA /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68CA6A872886F692007B62CA /* SafariWebExtensionHandler.swift */; };
 		68CA6B4A288941D0007B62CA /* SafariExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68CA6B40288941CF007B62CA /* SafariExtensionHandler.swift */; };
 		68CA6B4B288941D0007B62CA /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 68CA6B42288941D0007B62CA /* icon.png */; };
-		68CA6B4C288941D0007B62CA /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68CA6B43288941D0007B62CA /* Utils.swift */; };
 		68CA6B4D288941D0007B62CA /* SearchEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68CA6B45288941D0007B62CA /* SearchEngine.swift */; };
 		68CA6B4E288941D0007B62CA /* preconfigured-search-engines.json in Resources */ = {isa = PBXBuildFile; fileRef = 68CA6B46288941D0007B62CA /* preconfigured-search-engines.json */; };
-		68CA6B4F288941D0007B62CA /* macOSExtensionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68CA6B48288941D0007B62CA /* macOSExtensionViewController.swift */; };
-		68CA6B50288941D0007B62CA /* macOSExtensionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 68CA6B49288941D0007B62CA /* macOSExtensionViewController.xib */; };
 		68D2662128DB03E0006BF2FC /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 68D2662328DB03E0006BF2FC /* Localizable.strings */; };
 		68D2662628DB0435006BF2FC /* iOSAppViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68D2662528DB0435006BF2FC /* iOSAppViewController.swift */; };
 		68EEC68D28EF14A000E61A91 /* MacConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68EEC68B28EF14A000E61A91 /* MacConstants.swift */; };
@@ -52,6 +205,55 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		68ADAFB0299BCC21009F8BDF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 68CA69F72886A96B007B62CA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 68ADAFA4299BCC21009F8BDF;
+			remoteInfo = "Ads Blocker Extension";
+		};
+		68ADAFC3299BCC43009F8BDF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 68CA69F72886A96B007B62CA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 68ADAFB9299BCC43009F8BDF;
+			remoteInfo = "Privacy Blocker Extension";
+		};
+		68ADAFD6299BCC50009F8BDF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 68CA69F72886A96B007B62CA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 68ADAFCC299BCC50009F8BDF;
+			remoteInfo = "Social Blocker Extension";
+		};
+		68ADAFE9299BCC58009F8BDF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 68CA69F72886A96B007B62CA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 68ADAFDF299BCC58009F8BDF;
+			remoteInfo = "Annoyances Blocker Extension";
+		};
+		68ADAFFC299BCC65009F8BDF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 68CA69F72886A96B007B62CA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 68ADAFF2299BCC65009F8BDF;
+			remoteInfo = "Security Blocker Extension";
+		};
+		68ADB00F299BCC6E009F8BDF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 68CA69F72886A96B007B62CA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 68ADB005299BCC6E009F8BDF;
+			remoteInfo = "Other Blocker Extension";
+		};
+		68ADB022299BCC76009F8BDF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 68CA69F72886A96B007B62CA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 68ADB018299BCC76009F8BDF;
+			remoteInfo = "Language Blocker Extension";
+		};
 		68CA6A332886A96F007B62CA /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 68CA69F72886A96B007B62CA /* Project object */;
@@ -86,7 +288,14 @@
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
+				68ADAFD8299BCC50009F8BDF /* Social Blocker Extension.appex in Embed Foundation Extensions */,
+				68ADAFB2299BCC21009F8BDF /* Ads Blocker Extension.appex in Embed Foundation Extensions */,
+				68ADAFC5299BCC43009F8BDF /* Privacy Blocker Extension.appex in Embed Foundation Extensions */,
 				68CA6A3C2886A96F007B62CA /* Qwant for Safari Extension.appex in Embed Foundation Extensions */,
+				68ADB011299BCC6F009F8BDF /* Other Blocker Extension.appex in Embed Foundation Extensions */,
+				68ADAFFE299BCC65009F8BDF /* Security Blocker Extension.appex in Embed Foundation Extensions */,
+				68ADB024299BCC76009F8BDF /* Language Blocker Extension.appex in Embed Foundation Extensions */,
+				68ADAFEB299BCC58009F8BDF /* Annoyances Blocker Extension.appex in Embed Foundation Extensions */,
 			);
 			name = "Embed Foundation Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -94,7 +303,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		681E0D5828E5CDE9001DD116 /* macOSAppViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = macOSAppViewController.swift; sourceTree = "<group>"; };
 		683630C028E7182F0031849D /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		683630C228E718750031849D /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		683630C428E718D60031849D /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -116,28 +324,105 @@
 		68A22A4B28E7212A00CAC2CC /* background.bundle.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = background.bundle.js; sourceTree = "<group>"; };
 		68A22A4C28E7212A00CAC2CC /* no-popin.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = "no-popin.css"; sourceTree = "<group>"; };
 		68A22A4D28E7212A00CAC2CC /* manifest.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = manifest.json; sourceTree = "<group>"; };
+		68ADAFA5299BCC21009F8BDF /* Ads Blocker Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Ads Blocker Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		68ADAFA7299BCC21009F8BDF /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		68ADAFBA299BCC43009F8BDF /* Privacy Blocker Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Privacy Blocker Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		68ADAFCD299BCC50009F8BDF /* Social Blocker Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Social Blocker Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		68ADAFE0299BCC58009F8BDF /* Annoyances Blocker Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Annoyances Blocker Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		68ADAFF3299BCC65009F8BDF /* Security Blocker Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Security Blocker Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		68ADB006299BCC6E009F8BDF /* Other Blocker Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Other Blocker Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		68ADB019299BCC76009F8BDF /* Language Blocker Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Language Blocker Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		68ADB02B299BCD3E009F8BDF /* ads.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ads.txt; sourceTree = "<group>"; };
+		68ADB02C299BCD3E009F8BDF /* security.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = security.txt; sourceTree = "<group>"; };
+		68ADB02D299BCD3E009F8BDF /* social.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = social.txt; sourceTree = "<group>"; };
+		68ADB02E299BCD3E009F8BDF /* annoyances.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = annoyances.txt; sourceTree = "<group>"; };
+		68ADB02F299BCD3E009F8BDF /* privacy.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = privacy.txt; sourceTree = "<group>"; };
+		68ADB030299BCD3E009F8BDF /* other.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = other.txt; sourceTree = "<group>"; };
+		68ADB031299BCD3E009F8BDF /* language.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = language.txt; sourceTree = "<group>"; };
+		68ADB040299BCD78009F8BDF /* ContentBlockerRequestHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentBlockerRequestHandler.swift; sourceTree = "<group>"; };
+		68ADB041299BCD78009F8BDF /* ContentBlockers-Ads-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "ContentBlockers-Ads-Info.plist"; sourceTree = "<group>"; };
+		68ADB042299BCD79009F8BDF /* ContentBlockers-Social-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "ContentBlockers-Social-Info.plist"; sourceTree = "<group>"; };
+		68ADB043299BCD79009F8BDF /* ContentBlockers-Annoyances-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "ContentBlockers-Annoyances-Info.plist"; sourceTree = "<group>"; };
+		68ADB044299BCD79009F8BDF /* ContentBlockers-Privacy-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "ContentBlockers-Privacy-Info.plist"; sourceTree = "<group>"; };
+		68ADB045299BCD79009F8BDF /* Content_Blocker_Entitlements.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.entitlements; path = Content_Blocker_Entitlements.entitlements; sourceTree = "<group>"; };
+		68ADB046299BCD79009F8BDF /* ContentBlockers-Other-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "ContentBlockers-Other-Info.plist"; sourceTree = "<group>"; };
+		68ADB047299BCD79009F8BDF /* ContentBlockers-Language-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "ContentBlockers-Language-Info.plist"; sourceTree = "<group>"; };
+		68ADB048299BCD79009F8BDF /* ContentBlockers-Security-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "ContentBlockers-Security-Info.plist"; sourceTree = "<group>"; };
+		68ADB06D299BCE12009F8BDF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = "en.lproj/ContentBlockers-Ads-InfoPlist.strings"; sourceTree = "<group>"; };
+		68ADB06F299BCE16009F8BDF /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = "fr.lproj/ContentBlockers-Ads-InfoPlist.strings"; sourceTree = "<group>"; };
+		68ADB071299BCE1A009F8BDF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = "en.lproj/ContentBlockers-Annoyances-InfoPlist.strings"; sourceTree = "<group>"; };
+		68ADB073299BCE1E009F8BDF /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = "fr.lproj/ContentBlockers-Annoyances-InfoPlist.strings"; sourceTree = "<group>"; };
+		68ADB075299BCE21009F8BDF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = "en.lproj/ContentBlockers-Language-InfoPlist.strings"; sourceTree = "<group>"; };
+		68ADB077299BCE24009F8BDF /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = "fr.lproj/ContentBlockers-Language-InfoPlist.strings"; sourceTree = "<group>"; };
+		68ADB079299BCE28009F8BDF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = "en.lproj/ContentBlockers-Other-InfoPlist.strings"; sourceTree = "<group>"; };
+		68ADB07B299BCE2C009F8BDF /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = "fr.lproj/ContentBlockers-Other-InfoPlist.strings"; sourceTree = "<group>"; };
+		68ADB07D299BCE30009F8BDF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = "en.lproj/ContentBlockers-Privacy-InfoPlist.strings"; sourceTree = "<group>"; };
+		68ADB07F299BCE33009F8BDF /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = "fr.lproj/ContentBlockers-Privacy-InfoPlist.strings"; sourceTree = "<group>"; };
+		68ADB081299BCE37009F8BDF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = "en.lproj/ContentBlockers-Security-InfoPlist.strings"; sourceTree = "<group>"; };
+		68ADB083299BCE3A009F8BDF /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = "fr.lproj/ContentBlockers-Security-InfoPlist.strings"; sourceTree = "<group>"; };
+		68ADB085299BCE3E009F8BDF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = "en.lproj/ContentBlockers-Social-InfoPlist.strings"; sourceTree = "<group>"; };
+		68ADB087299BCE41009F8BDF /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = "fr.lproj/ContentBlockers-Social-InfoPlist.strings"; sourceTree = "<group>"; };
+		68ADB0A9299BD342009F8BDF /* ads */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ads; sourceTree = "<group>"; };
+		68ADB0AD299BD352009F8BDF /* annoyances */ = {isa = PBXFileReference; lastKnownFileType = folder; path = annoyances; sourceTree = "<group>"; };
+		68ADB0B1299BD364009F8BDF /* allow */ = {isa = PBXFileReference; lastKnownFileType = folder; path = allow; sourceTree = "<group>"; };
+		68ADB0BB299BD377009F8BDF /* language */ = {isa = PBXFileReference; lastKnownFileType = folder; path = language; sourceTree = "<group>"; };
+		68ADB0BF299BD384009F8BDF /* other */ = {isa = PBXFileReference; lastKnownFileType = folder; path = other; sourceTree = "<group>"; };
+		68ADB0C3299BD38D009F8BDF /* privacy */ = {isa = PBXFileReference; lastKnownFileType = folder; path = privacy; sourceTree = "<group>"; };
+		68ADB0C7299BD395009F8BDF /* security */ = {isa = PBXFileReference; lastKnownFileType = folder; path = security; sourceTree = "<group>"; };
+		68ADB0CB299BD39D009F8BDF /* social */ = {isa = PBXFileReference; lastKnownFileType = folder; path = social; sourceTree = "<group>"; };
+		68ADB0CF299BD426009F8BDF /* SafariExtensionMainView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SafariExtensionMainView.swift; sourceTree = "<group>"; };
+		68ADB0D0299BD426009F8BDF /* SafariExtensionRootView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SafariExtensionRootView.swift; sourceTree = "<group>"; };
+		68ADB0D1299BD426009F8BDF /* SafariExtensionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SafariExtensionViewController.swift; sourceTree = "<group>"; };
+		68ADB0D2299BD426009F8BDF /* SafariExtensionLoadingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SafariExtensionLoadingView.swift; sourceTree = "<group>"; };
+		68ADB0D7299BD8BE009F8BDF /* QwantVIP_App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QwantVIP_App.swift; sourceTree = "<group>"; };
+		68ADB0DD299BD941009F8BDF /* Theme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		68ADB0E0299BD96E009F8BDF /* Preferences.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Preferences.swift; sourceTree = "<group>"; };
+		68ADB0E1299BD96E009F8BDF /* Localization.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Localization.swift; sourceTree = "<group>"; };
+		68ADB0FA299BDAD0009F8BDF /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		68ADB101299BDEB4009F8BDF /* TutorialView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TutorialView.swift; sourceTree = "<group>"; };
+		68ADB104299BDEB4009F8BDF /* ColoredToggleStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColoredToggleStyle.swift; sourceTree = "<group>"; };
+		68ADB105299BDEB4009F8BDF /* FlatRoundedButtonStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlatRoundedButtonStyle.swift; sourceTree = "<group>"; };
+		68ADB107299BDEB4009F8BDF /* ViewSkinningViewBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewSkinningViewBuilder.swift; sourceTree = "<group>"; };
+		68ADB108299BDEB4009F8BDF /* AddBorderViewBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddBorderViewBuilder.swift; sourceTree = "<group>"; };
+		68ADB109299BDEB4009F8BDF /* IsHiddenViewBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IsHiddenViewBuilder.swift; sourceTree = "<group>"; };
+		68ADB10A299BDEB4009F8BDF /* RowSkinningViewBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RowSkinningViewBuilder.swift; sourceTree = "<group>"; };
+		68ADB10C299BDEB4009F8BDF /* TextArea.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextArea.swift; sourceTree = "<group>"; };
+		68ADB10E299BDEB4009F8BDF /* ProtectionLevelView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProtectionLevelView.swift; sourceTree = "<group>"; };
+		68ADB110299BDEB4009F8BDF /* LevelRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LevelRow.swift; sourceTree = "<group>"; };
+		68ADB113299BDEB4009F8BDF /* ActivationRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivationRow.swift; sourceTree = "<group>"; };
+		68ADB114299BDEB4009F8BDF /* FixIssuesView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FixIssuesView.swift; sourceTree = "<group>"; };
+		68ADB115299BDEB4009F8BDF /* ShieldView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShieldView.swift; sourceTree = "<group>"; };
+		68ADB116299BDEB4009F8BDF /* AllowlistRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AllowlistRow.swift; sourceTree = "<group>"; };
+		68ADB117299BDEB4009F8BDF /* ProtectionLevelRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProtectionLevelRow.swift; sourceTree = "<group>"; };
+		68ADB118299BDEB4009F8BDF /* MainView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		68ADB119299BDEB4009F8BDF /* RootView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		68ADB11B299BDEB4009F8BDF /* NavigationHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationHeaderView.swift; sourceTree = "<group>"; };
+		68ADB11C299BDEB4009F8BDF /* LogoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogoView.swift; sourceTree = "<group>"; };
+		68ADB11D299BDEB4009F8BDF /* AllowlistView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AllowlistView.swift; sourceTree = "<group>"; };
+		68ADB135299BDF43009F8BDF /* ContentBlockersExceptions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentBlockersExceptions.swift; sourceTree = "<group>"; };
+		68ADB136299BDF43009F8BDF /* ContentBlockersJsonBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentBlockersJsonBuilder.swift; sourceTree = "<group>"; };
+		68ADB137299BDF43009F8BDF /* ContentBlockersListsHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentBlockersListsHandler.swift; sourceTree = "<group>"; };
+		68ADB138299BDF43009F8BDF /* ContentBlockersReloader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentBlockersReloader.swift; sourceTree = "<group>"; };
+		68ADB139299BDF43009F8BDF /* ContentBlockersStateProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentBlockersStateProvider.swift; sourceTree = "<group>"; };
+		68ADB143299BDFA0009F8BDF /* BlockList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlockList.swift; sourceTree = "<group>"; };
+		68ADB144299BDFA0009F8BDF /* Category.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		68ADB145299BDFA0009F8BDF /* ProtectionLevel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProtectionLevel.swift; sourceTree = "<group>"; };
 		68CA6A032886A96F007B62CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		68CA6A132886A96F007B62CA /* Qwant for Safari.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Qwant for Safari.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		68CA6A162886A96F007B62CA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		68CA6A182886A96F007B62CA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		68CA6A1B2886A96F007B62CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		68CA6A1E2886A96F007B62CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		68CA6A252886A96F007B62CA /* Qwant for Safari.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Qwant for Safari.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		68CA6A272886A96F007B62CA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		68CA6A2A2886A96F007B62CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		68CA6A252886A96F007B62CA /* Qwant VIP for Safari.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Qwant VIP for Safari.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		68CA6A2C2886A96F007B62CA /* Qwant for Safari.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Qwant for Safari.entitlements"; sourceTree = "<group>"; };
 		68CA6A312886A96F007B62CA /* Qwant for Safari Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Qwant for Safari Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		68CA6A3B2886A96F007B62CA /* Qwant for Safari Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Qwant for Safari Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		68CA6A412886A96F007B62CA /* Qwant for Safari.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Qwant for Safari.entitlements"; sourceTree = "<group>"; };
 		68CA6A872886F692007B62CA /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
-		68CA6A8C2886FD72007B62CA /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
 		68CA6B40288941CF007B62CA /* SafariExtensionHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SafariExtensionHandler.swift; sourceTree = "<group>"; };
 		68CA6B42288941D0007B62CA /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
-		68CA6B43288941D0007B62CA /* Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
 		68CA6B45288941D0007B62CA /* SearchEngine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchEngine.swift; sourceTree = "<group>"; };
 		68CA6B46288941D0007B62CA /* preconfigured-search-engines.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "preconfigured-search-engines.json"; sourceTree = "<group>"; };
-		68CA6B48288941D0007B62CA /* macOSExtensionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = macOSExtensionViewController.swift; sourceTree = "<group>"; };
-		68CA6B49288941D0007B62CA /* macOSExtensionViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = macOSExtensionViewController.xib; sourceTree = "<group>"; };
 		68D2662228DB03E0006BF2FC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		68D2662428DB03ED006BF2FC /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
 		68D2662528DB0435006BF2FC /* iOSAppViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSAppViewController.swift; sourceTree = "<group>"; };
@@ -145,6 +430,69 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		68ADAFA2299BCC21009F8BDF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68ADB08C299BCF86009F8BDF /* SwiftyJSON in Frameworks */,
+				68ADAFA8299BCC21009F8BDF /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68ADAFB7299BCC43009F8BDF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68ADB08E299BCF8B009F8BDF /* SwiftyJSON in Frameworks */,
+				68ADAFBB299BCC43009F8BDF /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68ADAFCA299BCC50009F8BDF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68ADB090299BCF94009F8BDF /* SwiftyJSON in Frameworks */,
+				68ADAFCE299BCC50009F8BDF /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68ADAFDD299BCC58009F8BDF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68ADB092299BCF97009F8BDF /* SwiftyJSON in Frameworks */,
+				68ADAFE1299BCC58009F8BDF /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68ADAFF0299BCC65009F8BDF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68ADB094299BCF9A009F8BDF /* SwiftyJSON in Frameworks */,
+				68ADAFF4299BCC65009F8BDF /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68ADB003299BCC6E009F8BDF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68ADB096299BCF9E009F8BDF /* SwiftyJSON in Frameworks */,
+				68ADB007299BCC6E009F8BDF /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68ADB016299BCC76009F8BDF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68ADB098299BCFA1009F8BDF /* SwiftyJSON in Frameworks */,
+				68ADB01A299BCC76009F8BDF /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		68CA6A102886A96F007B62CA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -156,6 +504,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				68ADB09B299BCFBB009F8BDF /* ContentBlockerConverter in Frameworks */,
+				68ADB08A299BCF66009F8BDF /* SwiftyJSON in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -170,6 +520,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				68ADB09F299BCFC2009F8BDF /* ContentBlockerConverter in Frameworks */,
+				68ADB09D299BCFC2009F8BDF /* SwiftyJSON in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -191,6 +543,189 @@
 			path = Resources;
 			sourceTree = "<group>";
 		};
+		68ADAFA6299BCC21009F8BDF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				68ADAFA7299BCC21009F8BDF /* Cocoa.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		68ADB028299BCD0D009F8BDF /* Content Blockers */ = {
+			isa = PBXGroup;
+			children = (
+				68ADB029299BCD16009F8BDF /* Generated */,
+				68ADB02A299BCD3E009F8BDF /* Lists */,
+				68ADB040299BCD78009F8BDF /* ContentBlockerRequestHandler.swift */,
+				68ADB041299BCD78009F8BDF /* ContentBlockers-Ads-Info.plist */,
+				68ADB06E299BCE12009F8BDF /* ContentBlockers-Ads-InfoPlist.strings */,
+				68ADB043299BCD79009F8BDF /* ContentBlockers-Annoyances-Info.plist */,
+				68ADB072299BCE1A009F8BDF /* ContentBlockers-Annoyances-InfoPlist.strings */,
+				68ADB047299BCD79009F8BDF /* ContentBlockers-Language-Info.plist */,
+				68ADB076299BCE21009F8BDF /* ContentBlockers-Language-InfoPlist.strings */,
+				68ADB046299BCD79009F8BDF /* ContentBlockers-Other-Info.plist */,
+				68ADB07A299BCE28009F8BDF /* ContentBlockers-Other-InfoPlist.strings */,
+				68ADB044299BCD79009F8BDF /* ContentBlockers-Privacy-Info.plist */,
+				68ADB07E299BCE30009F8BDF /* ContentBlockers-Privacy-InfoPlist.strings */,
+				68ADB048299BCD79009F8BDF /* ContentBlockers-Security-Info.plist */,
+				68ADB082299BCE37009F8BDF /* ContentBlockers-Security-InfoPlist.strings */,
+				68ADB042299BCD79009F8BDF /* ContentBlockers-Social-Info.plist */,
+				68ADB086299BCE3E009F8BDF /* ContentBlockers-Social-InfoPlist.strings */,
+				68ADB045299BCD79009F8BDF /* Content_Blocker_Entitlements.entitlements */,
+			);
+			path = "Content Blockers";
+			sourceTree = "<group>";
+		};
+		68ADB029299BCD16009F8BDF /* Generated */ = {
+			isa = PBXGroup;
+			children = (
+				68ADB0A9299BD342009F8BDF /* ads */,
+				68ADB0B1299BD364009F8BDF /* allow */,
+				68ADB0AD299BD352009F8BDF /* annoyances */,
+				68ADB0BB299BD377009F8BDF /* language */,
+				68ADB0BF299BD384009F8BDF /* other */,
+				68ADB0C3299BD38D009F8BDF /* privacy */,
+				68ADB0C7299BD395009F8BDF /* security */,
+				68ADB0CB299BD39D009F8BDF /* social */,
+			);
+			path = Generated;
+			sourceTree = "<group>";
+		};
+		68ADB02A299BCD3E009F8BDF /* Lists */ = {
+			isa = PBXGroup;
+			children = (
+				68ADB02B299BCD3E009F8BDF /* ads.txt */,
+				68ADB02E299BCD3E009F8BDF /* annoyances.txt */,
+				68ADB031299BCD3E009F8BDF /* language.txt */,
+				68ADB030299BCD3E009F8BDF /* other.txt */,
+				68ADB02F299BCD3E009F8BDF /* privacy.txt */,
+				68ADB02C299BCD3E009F8BDF /* security.txt */,
+				68ADB02D299BCD3E009F8BDF /* social.txt */,
+			);
+			path = Lists;
+			sourceTree = "<group>";
+		};
+		68ADB0DA299BD8FD009F8BDF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				68ADB102299BDEB4009F8BDF /* Helpers */,
+				68ADB11A299BDEB4009F8BDF /* Common */,
+				68ADB119299BDEB4009F8BDF /* RootView.swift */,
+				68ADB101299BDEB4009F8BDF /* TutorialView.swift */,
+				68ADB111299BDEB4009F8BDF /* Main */,
+				68ADB10D299BDEB4009F8BDF /* Protection Level */,
+				68ADB11D299BDEB4009F8BDF /* AllowlistView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		68ADB0DB299BD905009F8BDF /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				68ADB139299BDF43009F8BDF /* ContentBlockersStateProvider.swift */,
+				68ADB138299BDF43009F8BDF /* ContentBlockersReloader.swift */,
+				68ADB135299BDF43009F8BDF /* ContentBlockersExceptions.swift */,
+				68ADB137299BDF43009F8BDF /* ContentBlockersListsHandler.swift */,
+				68ADB136299BDF43009F8BDF /* ContentBlockersJsonBuilder.swift */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		68ADB0DC299BD90E009F8BDF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				68ADB144299BDFA0009F8BDF /* Category.swift */,
+				68ADB145299BDFA0009F8BDF /* ProtectionLevel.swift */,
+				68ADB143299BDFA0009F8BDF /* BlockList.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		68ADB102299BDEB4009F8BDF /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				68ADB10B299BDEB4009F8BDF /* Custom Views */,
+				68ADB106299BDEB4009F8BDF /* View Builders */,
+				68ADB103299BDEB4009F8BDF /* Styles */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		68ADB103299BDEB4009F8BDF /* Styles */ = {
+			isa = PBXGroup;
+			children = (
+				68ADB104299BDEB4009F8BDF /* ColoredToggleStyle.swift */,
+				68ADB105299BDEB4009F8BDF /* FlatRoundedButtonStyle.swift */,
+			);
+			path = Styles;
+			sourceTree = "<group>";
+		};
+		68ADB106299BDEB4009F8BDF /* View Builders */ = {
+			isa = PBXGroup;
+			children = (
+				68ADB107299BDEB4009F8BDF /* ViewSkinningViewBuilder.swift */,
+				68ADB108299BDEB4009F8BDF /* AddBorderViewBuilder.swift */,
+				68ADB109299BDEB4009F8BDF /* IsHiddenViewBuilder.swift */,
+				68ADB10A299BDEB4009F8BDF /* RowSkinningViewBuilder.swift */,
+			);
+			path = "View Builders";
+			sourceTree = "<group>";
+		};
+		68ADB10B299BDEB4009F8BDF /* Custom Views */ = {
+			isa = PBXGroup;
+			children = (
+				68ADB10C299BDEB4009F8BDF /* TextArea.swift */,
+			);
+			path = "Custom Views";
+			sourceTree = "<group>";
+		};
+		68ADB10D299BDEB4009F8BDF /* Protection Level */ = {
+			isa = PBXGroup;
+			children = (
+				68ADB10E299BDEB4009F8BDF /* ProtectionLevelView.swift */,
+				68ADB10F299BDEB4009F8BDF /* Subviews */,
+			);
+			path = "Protection Level";
+			sourceTree = "<group>";
+		};
+		68ADB10F299BDEB4009F8BDF /* Subviews */ = {
+			isa = PBXGroup;
+			children = (
+				68ADB110299BDEB4009F8BDF /* LevelRow.swift */,
+			);
+			path = Subviews;
+			sourceTree = "<group>";
+		};
+		68ADB111299BDEB4009F8BDF /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				68ADB118299BDEB4009F8BDF /* MainView.swift */,
+				68ADB112299BDEB4009F8BDF /* Subviews */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		68ADB112299BDEB4009F8BDF /* Subviews */ = {
+			isa = PBXGroup;
+			children = (
+				68ADB115299BDEB4009F8BDF /* ShieldView.swift */,
+				68ADB113299BDEB4009F8BDF /* ActivationRow.swift */,
+				68ADB117299BDEB4009F8BDF /* ProtectionLevelRow.swift */,
+				68ADB116299BDEB4009F8BDF /* AllowlistRow.swift */,
+				68ADB114299BDEB4009F8BDF /* FixIssuesView.swift */,
+			);
+			path = Subviews;
+			sourceTree = "<group>";
+		};
+		68ADB11A299BDEB4009F8BDF /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				68ADB11C299BDEB4009F8BDF /* LogoView.swift */,
+				68ADB11B299BDEB4009F8BDF /* NavigationHeaderView.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
 		68CA69F62886A96B007B62CA = {
 			isa = PBXGroup;
 			children = (
@@ -200,6 +735,7 @@
 				68CA6A042886A96F007B62CA /* Shared (Extension) */,
 				68CA6A352886A96F007B62CA /* iOS (Extension) */,
 				68CA6A3F2886A96F007B62CA /* macOS (Extension) */,
+				68ADAFA6299BCC21009F8BDF /* Frameworks */,
 				68CA6A142886A96F007B62CA /* Products */,
 			);
 			sourceTree = "<group>";
@@ -209,8 +745,12 @@
 			children = (
 				689C8D6E28E6E7FB0094F58C /* AppConstants.swift */,
 				68EEC68B28EF14A000E61A91 /* MacConstants.swift */,
-				68D2662328DB03E0006BF2FC /* Localizable.strings */,
+				68ADB0DD299BD941009F8BDF /* Theme.swift */,
+				68ADB0E0299BD96E009F8BDF /* Preferences.swift */,
+				68ADB0E1299BD96E009F8BDF /* Localization.swift */,
 				68CA6A032886A96F007B62CA /* Assets.xcassets */,
+				68ADB0FA299BDAD0009F8BDF /* Colors.xcassets */,
+				68D2662328DB03E0006BF2FC /* Localizable.strings */,
 			);
 			path = "Shared (App)";
 			sourceTree = "<group>";
@@ -218,7 +758,6 @@
 		68CA6A042886A96F007B62CA /* Shared (Extension) */ = {
 			isa = PBXGroup;
 			children = (
-				68CA6A8C2886FD72007B62CA /* Media.xcassets */,
 			);
 			path = "Shared (Extension)";
 			sourceTree = "<group>";
@@ -227,9 +766,16 @@
 			isa = PBXGroup;
 			children = (
 				68CA6A132886A96F007B62CA /* Qwant for Safari.app */,
-				68CA6A252886A96F007B62CA /* Qwant for Safari.app */,
+				68CA6A252886A96F007B62CA /* Qwant VIP for Safari.app */,
 				68CA6A312886A96F007B62CA /* Qwant for Safari Extension.appex */,
 				68CA6A3B2886A96F007B62CA /* Qwant for Safari Extension.appex */,
+				68ADAFA5299BCC21009F8BDF /* Ads Blocker Extension.appex */,
+				68ADAFBA299BCC43009F8BDF /* Privacy Blocker Extension.appex */,
+				68ADAFCD299BCC50009F8BDF /* Social Blocker Extension.appex */,
+				68ADAFE0299BCC58009F8BDF /* Annoyances Blocker Extension.appex */,
+				68ADAFF3299BCC65009F8BDF /* Security Blocker Extension.appex */,
+				68ADB006299BCC6E009F8BDF /* Other Blocker Extension.appex */,
+				68ADB019299BCC76009F8BDF /* Language Blocker Extension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -251,9 +797,11 @@
 		68CA6A262886A96F007B62CA /* macOS (App) */ = {
 			isa = PBXGroup;
 			children = (
-				68CA6A272886A96F007B62CA /* AppDelegate.swift */,
-				681E0D5828E5CDE9001DD116 /* macOSAppViewController.swift */,
-				68CA6A292886A96F007B62CA /* Main.storyboard */,
+				68ADB0D7299BD8BE009F8BDF /* QwantVIP_App.swift */,
+				68ADB0DA299BD8FD009F8BDF /* Views */,
+				68ADB0DB299BD905009F8BDF /* Tools */,
+				68ADB0DC299BD90E009F8BDF /* Model */,
+				68ADB028299BCD0D009F8BDF /* Content Blockers */,
 				68CA6A2C2886A96F007B62CA /* Qwant for Safari.entitlements */,
 				683630C428E718D60031849D /* Info.plist */,
 				684916BA28FFFCBC006B4230 /* InfoPlist.strings */,
@@ -275,11 +823,10 @@
 		68CA6A3F2886A96F007B62CA /* macOS (Extension) */ = {
 			isa = PBXGroup;
 			children = (
-				68CA6B44288941D0007B62CA /* Model */,
-				68CA6B41288941D0007B62CA /* Resources */,
 				68CA6B40288941CF007B62CA /* SafariExtensionHandler.swift */,
-				68CA6B43288941D0007B62CA /* Utils.swift */,
+				68CA6B44288941D0007B62CA /* Model */,
 				68CA6B47288941D0007B62CA /* View */,
+				68CA6B41288941D0007B62CA /* Resources */,
 				683630C028E7182F0031849D /* Info.plist */,
 				68CA6A412886A96F007B62CA /* Qwant for Safari.entitlements */,
 				684916AE28FFFC5F006B4230 /* InfoPlist.strings */,
@@ -307,8 +854,10 @@
 		68CA6B47288941D0007B62CA /* View */ = {
 			isa = PBXGroup;
 			children = (
-				68CA6B48288941D0007B62CA /* macOSExtensionViewController.swift */,
-				68CA6B49288941D0007B62CA /* macOSExtensionViewController.xib */,
+				68ADB0D2299BD426009F8BDF /* SafariExtensionLoadingView.swift */,
+				68ADB0CF299BD426009F8BDF /* SafariExtensionMainView.swift */,
+				68ADB0D0299BD426009F8BDF /* SafariExtensionRootView.swift */,
+				68ADB0D1299BD426009F8BDF /* SafariExtensionViewController.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -316,6 +865,146 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		68ADAFA4299BCC21009F8BDF /* Ads Blocker Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68ADAFB5299BCC21009F8BDF /* Build configuration list for PBXNativeTarget "Ads Blocker Extension" */;
+			buildPhases = (
+				68ADAFA1299BCC21009F8BDF /* Sources */,
+				68ADAFA2299BCC21009F8BDF /* Frameworks */,
+				68ADAFA3299BCC21009F8BDF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Ads Blocker Extension";
+			packageProductDependencies = (
+				68ADB08B299BCF86009F8BDF /* SwiftyJSON */,
+			);
+			productName = "Ads Blocker Extension";
+			productReference = 68ADAFA5299BCC21009F8BDF /* Ads Blocker Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		68ADAFB9299BCC43009F8BDF /* Privacy Blocker Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68ADAFC6299BCC43009F8BDF /* Build configuration list for PBXNativeTarget "Privacy Blocker Extension" */;
+			buildPhases = (
+				68ADAFB6299BCC43009F8BDF /* Sources */,
+				68ADAFB7299BCC43009F8BDF /* Frameworks */,
+				68ADAFB8299BCC43009F8BDF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Privacy Blocker Extension";
+			packageProductDependencies = (
+				68ADB08D299BCF8B009F8BDF /* SwiftyJSON */,
+			);
+			productName = "Privacy Blocker Extension";
+			productReference = 68ADAFBA299BCC43009F8BDF /* Privacy Blocker Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		68ADAFCC299BCC50009F8BDF /* Social Blocker Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68ADAFD9299BCC50009F8BDF /* Build configuration list for PBXNativeTarget "Social Blocker Extension" */;
+			buildPhases = (
+				68ADAFC9299BCC50009F8BDF /* Sources */,
+				68ADAFCA299BCC50009F8BDF /* Frameworks */,
+				68ADAFCB299BCC50009F8BDF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Social Blocker Extension";
+			packageProductDependencies = (
+				68ADB08F299BCF94009F8BDF /* SwiftyJSON */,
+			);
+			productName = "Social Blocker Extension";
+			productReference = 68ADAFCD299BCC50009F8BDF /* Social Blocker Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		68ADAFDF299BCC58009F8BDF /* Annoyances Blocker Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68ADAFEC299BCC59009F8BDF /* Build configuration list for PBXNativeTarget "Annoyances Blocker Extension" */;
+			buildPhases = (
+				68ADAFDC299BCC58009F8BDF /* Sources */,
+				68ADAFDD299BCC58009F8BDF /* Frameworks */,
+				68ADAFDE299BCC58009F8BDF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Annoyances Blocker Extension";
+			packageProductDependencies = (
+				68ADB091299BCF97009F8BDF /* SwiftyJSON */,
+			);
+			productName = "Annoyances Blocker Extension";
+			productReference = 68ADAFE0299BCC58009F8BDF /* Annoyances Blocker Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		68ADAFF2299BCC65009F8BDF /* Security Blocker Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68ADAFFF299BCC65009F8BDF /* Build configuration list for PBXNativeTarget "Security Blocker Extension" */;
+			buildPhases = (
+				68ADAFEF299BCC65009F8BDF /* Sources */,
+				68ADAFF0299BCC65009F8BDF /* Frameworks */,
+				68ADAFF1299BCC65009F8BDF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Security Blocker Extension";
+			packageProductDependencies = (
+				68ADB093299BCF9A009F8BDF /* SwiftyJSON */,
+			);
+			productName = "Security Blocker Extension";
+			productReference = 68ADAFF3299BCC65009F8BDF /* Security Blocker Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		68ADB005299BCC6E009F8BDF /* Other Blocker Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68ADB012299BCC6F009F8BDF /* Build configuration list for PBXNativeTarget "Other Blocker Extension" */;
+			buildPhases = (
+				68ADB002299BCC6E009F8BDF /* Sources */,
+				68ADB003299BCC6E009F8BDF /* Frameworks */,
+				68ADB004299BCC6E009F8BDF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Other Blocker Extension";
+			packageProductDependencies = (
+				68ADB095299BCF9E009F8BDF /* SwiftyJSON */,
+			);
+			productName = "Other Blocker Extension";
+			productReference = 68ADB006299BCC6E009F8BDF /* Other Blocker Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		68ADB018299BCC76009F8BDF /* Language Blocker Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68ADB025299BCC76009F8BDF /* Build configuration list for PBXNativeTarget "Language Blocker Extension" */;
+			buildPhases = (
+				68ADB015299BCC76009F8BDF /* Sources */,
+				68ADB016299BCC76009F8BDF /* Frameworks */,
+				68ADB017299BCC76009F8BDF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Language Blocker Extension";
+			packageProductDependencies = (
+				68ADB097299BCFA1009F8BDF /* SwiftyJSON */,
+			);
+			productName = "Language Blocker Extension";
+			productReference = 68ADB019299BCC76009F8BDF /* Language Blocker Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 		68CA6A122886A96F007B62CA /* Qwant for Safari (iOS) */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 68CA6A662886A96F007B62CA /* Build configuration list for PBXNativeTarget "Qwant for Safari (iOS)" */;
@@ -350,10 +1039,21 @@
 			);
 			dependencies = (
 				68CA6A3E2886A96F007B62CA /* PBXTargetDependency */,
+				68ADAFB1299BCC21009F8BDF /* PBXTargetDependency */,
+				68ADAFC4299BCC43009F8BDF /* PBXTargetDependency */,
+				68ADAFD7299BCC50009F8BDF /* PBXTargetDependency */,
+				68ADAFEA299BCC58009F8BDF /* PBXTargetDependency */,
+				68ADAFFD299BCC65009F8BDF /* PBXTargetDependency */,
+				68ADB010299BCC6E009F8BDF /* PBXTargetDependency */,
+				68ADB023299BCC76009F8BDF /* PBXTargetDependency */,
 			);
 			name = "Qwant for Safari (macOS)";
+			packageProductDependencies = (
+				68ADB089299BCF66009F8BDF /* SwiftyJSON */,
+				68ADB09A299BCFBB009F8BDF /* ContentBlockerConverter */,
+			);
 			productName = "Qwant for Safari (macOS)";
-			productReference = 68CA6A252886A96F007B62CA /* Qwant for Safari.app */;
+			productReference = 68CA6A252886A96F007B62CA /* Qwant VIP for Safari.app */;
 			productType = "com.apple.product-type.application";
 		};
 		68CA6A302886A96F007B62CA /* Qwant for Safari Extension (iOS) */ = {
@@ -386,6 +1086,10 @@
 			dependencies = (
 			);
 			name = "Qwant for Safari Extension (macOS)";
+			packageProductDependencies = (
+				68ADB09C299BCFC2009F8BDF /* SwiftyJSON */,
+				68ADB09E299BCFC2009F8BDF /* ContentBlockerConverter */,
+			);
 			productName = "Qwant for Safari Extension (macOS)";
 			productReference = 68CA6A3B2886A96F007B62CA /* Qwant for Safari Extension.appex */;
 			productType = "com.apple.product-type.app-extension";
@@ -397,9 +1101,30 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1340;
+				LastSwiftUpdateCheck = 1420;
 				LastUpgradeCheck = 1400;
 				TargetAttributes = {
+					68ADAFA4299BCC21009F8BDF = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					68ADAFB9299BCC43009F8BDF = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					68ADAFCC299BCC50009F8BDF = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					68ADAFDF299BCC58009F8BDF = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					68ADAFF2299BCC65009F8BDF = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					68ADB005299BCC6E009F8BDF = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					68ADB018299BCC76009F8BDF = {
+						CreatedOnToolsVersion = 14.2;
+					};
 					68CA6A122886A96F007B62CA = {
 						CreatedOnToolsVersion = 13.4.1;
 					};
@@ -425,28 +1150,110 @@
 				fr,
 			);
 			mainGroup = 68CA69F62886A96B007B62CA;
+			packageReferences = (
+				68ADB088299BCF66009F8BDF /* XCRemoteSwiftPackageReference "SwiftyJSON" */,
+				68ADB099299BCFBB009F8BDF /* XCRemoteSwiftPackageReference "SafariConverterLib" */,
+			);
 			productRefGroup = 68CA6A142886A96F007B62CA /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				68CA6A122886A96F007B62CA /* Qwant for Safari (iOS) */,
-				68CA6A242886A96F007B62CA /* Qwant for Safari (macOS) */,
 				68CA6A302886A96F007B62CA /* Qwant for Safari Extension (iOS) */,
+				68CA6A242886A96F007B62CA /* Qwant for Safari (macOS) */,
+				68ADAFA4299BCC21009F8BDF /* Ads Blocker Extension */,
+				68ADAFDF299BCC58009F8BDF /* Annoyances Blocker Extension */,
+				68ADB018299BCC76009F8BDF /* Language Blocker Extension */,
+				68ADB005299BCC6E009F8BDF /* Other Blocker Extension */,
+				68ADAFB9299BCC43009F8BDF /* Privacy Blocker Extension */,
+				68ADAFF2299BCC65009F8BDF /* Security Blocker Extension */,
+				68ADAFCC299BCC50009F8BDF /* Social Blocker Extension */,
 				68CA6A3A2886A96F007B62CA /* Qwant for Safari Extension (macOS) */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		68ADAFA3299BCC21009F8BDF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68ADB0B3299BD365009F8BDF /* allow in Resources */,
+				68ADB06C299BCE12009F8BDF /* ContentBlockers-Ads-InfoPlist.strings in Resources */,
+				68ADB0AB299BD342009F8BDF /* ads in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68ADAFB8299BCC43009F8BDF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68ADB0C5299BD38D009F8BDF /* privacy in Resources */,
+				68ADB0B4299BD365009F8BDF /* allow in Resources */,
+				68ADB07C299BCE30009F8BDF /* ContentBlockers-Privacy-InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68ADAFCB299BCC50009F8BDF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68ADB0B5299BD365009F8BDF /* allow in Resources */,
+				68ADB084299BCE3E009F8BDF /* ContentBlockers-Social-InfoPlist.strings in Resources */,
+				68ADB0CD299BD39D009F8BDF /* social in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68ADAFDE299BCC58009F8BDF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68ADB0B6299BD365009F8BDF /* allow in Resources */,
+				68ADB070299BCE1A009F8BDF /* ContentBlockers-Annoyances-InfoPlist.strings in Resources */,
+				68ADB0AF299BD352009F8BDF /* annoyances in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68ADAFF1299BCC65009F8BDF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68ADB0B7299BD365009F8BDF /* allow in Resources */,
+				68ADB080299BCE37009F8BDF /* ContentBlockers-Security-InfoPlist.strings in Resources */,
+				68ADB0C9299BD395009F8BDF /* security in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68ADB004299BCC6E009F8BDF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68ADB0C1299BD384009F8BDF /* other in Resources */,
+				68ADB0B8299BD365009F8BDF /* allow in Resources */,
+				68ADB078299BCE28009F8BDF /* ContentBlockers-Other-InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68ADB017299BCC76009F8BDF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68ADB0B9299BD365009F8BDF /* allow in Resources */,
+				68ADB074299BCE21009F8BDF /* ContentBlockers-Language-InfoPlist.strings in Resources */,
+				68ADB0BD299BD377009F8BDF /* language in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		68CA6A112886A96F007B62CA /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				68CA6A1C2886A96F007B62CA /* LaunchScreen.storyboard in Resources */,
 				68D2662128DB03E0006BF2FC /* Localizable.strings in Resources */,
-				68CA6A4C2886A96F007B62CA /* Assets.xcassets in Resources */,
 				68CA6A1F2886A96F007B62CA /* Main.storyboard in Resources */,
+				68ADB0FB299BDAD0009F8BDF /* Colors.xcassets in Resources */,
 				684916BE28FFFCE3006B4230 /* InfoPlist.strings in Resources */,
+				68ADB0F9299BDA87009F8BDF /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -454,10 +1261,25 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				68CA6A2B2886A96F007B62CA /* Main.storyboard in Resources */,
+				68ADB03E299BCD3F009F8BDF /* language.txt in Resources */,
+				68ADB03C299BCD3F009F8BDF /* other.txt in Resources */,
+				68ADB0AA299BD342009F8BDF /* ads in Resources */,
 				684916B828FFFCBC006B4230 /* InfoPlist.strings in Resources */,
+				68ADB0FC299BDAD0009F8BDF /* Colors.xcassets in Resources */,
+				68ADB0BC299BD377009F8BDF /* language in Resources */,
+				68ADB0AE299BD352009F8BDF /* annoyances in Resources */,
+				68ADB0C0299BD384009F8BDF /* other in Resources */,
+				68ADB0C8299BD395009F8BDF /* security in Resources */,
 				681E0D5A28E5E2B9001DD116 /* Localizable.strings in Resources */,
+				68ADB038299BCD3F009F8BDF /* annoyances.txt in Resources */,
 				68CA6A4D2886A96F007B62CA /* Assets.xcassets in Resources */,
+				68ADB034299BCD3F009F8BDF /* security.txt in Resources */,
+				68ADB036299BCD3F009F8BDF /* social.txt in Resources */,
+				68ADB03A299BCD3F009F8BDF /* privacy.txt in Resources */,
+				68ADB0B2299BD365009F8BDF /* allow in Resources */,
+				68ADB0CC299BD39D009F8BDF /* social in Resources */,
+				68ADB0C4299BD38D009F8BDF /* privacy in Resources */,
+				68ADB032299BCD3F009F8BDF /* ads.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -466,11 +1288,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				6872876C28EDB74F00FD0BC2 /* images in Resources */,
-				68CA6A8D2886FD72007B62CA /* Media.xcassets in Resources */,
+				6898D665299CEE5C0067CAC8 /* Assets.xcassets in Resources */,
 				68A22A5728E7212A00CAC2CC /* background.bundle.js in Resources */,
 				68A22A5828E7212A00CAC2CC /* no-popin.css in Resources */,
 				687286D028ED7EAF00FD0BC2 /* popup.bundle.js in Resources */,
-				6849168728FFE399006B4230 /* Localizable.strings in Resources */,
 				687286DE28ED892000FD0BC2 /* popup.html in Resources */,
 				68A22A5928E7212A00CAC2CC /* manifest.json in Resources */,
 				68A22A5528E7212A00CAC2CC /* contentScript.bundle.js in Resources */,
@@ -484,11 +1305,26 @@
 			buildActionMask = 2147483647;
 			files = (
 				683630B428E6F7170031849D /* Localizable.strings in Resources */,
+				68ADB03D299BCD3F009F8BDF /* other.txt in Resources */,
+				68ADB03B299BCD3F009F8BDF /* privacy.txt in Resources */,
+				68ADB037299BCD3F009F8BDF /* social.txt in Resources */,
+				68ADB0F8299BDA85009F8BDF /* Assets.xcassets in Resources */,
+				68ADB0BA299BD365009F8BDF /* allow in Resources */,
 				684916AC28FFFC5F006B4230 /* InfoPlist.strings in Resources */,
-				68CA6B50288941D0007B62CA /* macOSExtensionViewController.xib in Resources */,
+				68ADB0AC299BD342009F8BDF /* ads in Resources */,
+				68ADB035299BCD3F009F8BDF /* security.txt in Resources */,
+				68ADB0CA299BD395009F8BDF /* security in Resources */,
 				68CA6B4B288941D0007B62CA /* icon.png in Resources */,
-				68CA6A8E2886FD72007B62CA /* Media.xcassets in Resources */,
+				68ADB03F299BCD3F009F8BDF /* language.txt in Resources */,
+				68ADB0FD299BDAD0009F8BDF /* Colors.xcassets in Resources */,
+				68ADB0B0299BD352009F8BDF /* annoyances in Resources */,
+				68ADB039299BCD3F009F8BDF /* annoyances.txt in Resources */,
+				68ADB033299BCD3F009F8BDF /* ads.txt in Resources */,
+				68ADB0C2299BD384009F8BDF /* other in Resources */,
+				68ADB0CE299BD39D009F8BDF /* social in Resources */,
 				68CA6B4E288941D0007B62CA /* preconfigured-search-engines.json in Resources */,
+				68ADB0C6299BD38D009F8BDF /* privacy in Resources */,
+				68ADB0BE299BD377009F8BDF /* language in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -516,6 +1352,7 @@
 		};
 		6869B98628D1BFDA0065E034 /* SwiftLint */ = {
 			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
 			buildActionMask = 2147483647;
 			files = (
 			);
@@ -535,14 +1372,94 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		68ADAFA1299BCC21009F8BDF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68ADB0E5299BD96E009F8BDF /* Preferences.swift in Sources */,
+				68ADB14A299BDFB3009F8BDF /* ProtectionLevel.swift in Sources */,
+				6898D663299CE79C0067CAC8 /* Localization.swift in Sources */,
+				68ADB051299BCD88009F8BDF /* ContentBlockerRequestHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68ADAFB6299BCC43009F8BDF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68ADB0E6299BD96E009F8BDF /* Preferences.swift in Sources */,
+				68ADB14B299BDFB4009F8BDF /* ProtectionLevel.swift in Sources */,
+				6898D65F299CE79A0067CAC8 /* Localization.swift in Sources */,
+				68ADB052299BCD89009F8BDF /* ContentBlockerRequestHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68ADAFC9299BCC50009F8BDF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68ADB0E7299BD96E009F8BDF /* Preferences.swift in Sources */,
+				68ADB14C299BDFB4009F8BDF /* ProtectionLevel.swift in Sources */,
+				6898D65D299CE7980067CAC8 /* Localization.swift in Sources */,
+				68ADB053299BCD89009F8BDF /* ContentBlockerRequestHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68ADAFDC299BCC58009F8BDF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68ADB0E8299BD96E009F8BDF /* Preferences.swift in Sources */,
+				68ADB14D299BDFB5009F8BDF /* ProtectionLevel.swift in Sources */,
+				6898D661299CE79B0067CAC8 /* Localization.swift in Sources */,
+				68ADB054299BCD8A009F8BDF /* ContentBlockerRequestHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68ADAFEF299BCC65009F8BDF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68ADB0E9299BD96E009F8BDF /* Preferences.swift in Sources */,
+				68ADB14E299BDFB5009F8BDF /* ProtectionLevel.swift in Sources */,
+				6898D65E299CE7990067CAC8 /* Localization.swift in Sources */,
+				68ADB055299BCD8A009F8BDF /* ContentBlockerRequestHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68ADB002299BCC6E009F8BDF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68ADB0EA299BD96E009F8BDF /* Preferences.swift in Sources */,
+				68ADB14F299BDFB5009F8BDF /* ProtectionLevel.swift in Sources */,
+				6898D660299CE79A0067CAC8 /* Localization.swift in Sources */,
+				68ADB056299BCD8B009F8BDF /* ContentBlockerRequestHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68ADB015299BCC76009F8BDF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68ADB0EB299BD96E009F8BDF /* Preferences.swift in Sources */,
+				68ADB150299BDFB6009F8BDF /* ProtectionLevel.swift in Sources */,
+				6898D662299CE79B0067CAC8 /* Localization.swift in Sources */,
+				68ADB057299BCD8B009F8BDF /* ContentBlockerRequestHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		68CA6A0F2886A96F007B62CA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				68D2662628DB0435006BF2FC /* iOSAppViewController.swift in Sources */,
 				68CA6A172886A96F007B62CA /* AppDelegate.swift in Sources */,
+				68ADB0ED299BD96E009F8BDF /* Localization.swift in Sources */,
+				68ADB0E2299BD96E009F8BDF /* Preferences.swift in Sources */,
 				68CA6A192886A96F007B62CA /* SceneDelegate.swift in Sources */,
 				689C8D6F28E6E7FB0094F58C /* AppConstants.swift in Sources */,
+				68ADB0FF299BDBEA009F8BDF /* Theme.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -550,10 +1467,40 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				68CA6A282886A96F007B62CA /* AppDelegate.swift in Sources */,
-				681E0D5928E5D706001DD116 /* macOSAppViewController.swift in Sources */,
+				68ADB124299BDEB4009F8BDF /* RowSkinningViewBuilder.swift in Sources */,
+				68ADB130299BDEB4009F8BDF /* LogoView.swift in Sources */,
+				68ADB13B299BDF43009F8BDF /* ContentBlockersJsonBuilder.swift in Sources */,
+				68ADB12D299BDEB4009F8BDF /* MainView.swift in Sources */,
+				68ADB146299BDFA0009F8BDF /* BlockList.swift in Sources */,
+				68ADB147299BDFA0009F8BDF /* Category.swift in Sources */,
+				68ADB122299BDEB4009F8BDF /* AddBorderViewBuilder.swift in Sources */,
+				68ADB0E4299BD96E009F8BDF /* Preferences.swift in Sources */,
+				68ADB11E299BDEB4009F8BDF /* TutorialView.swift in Sources */,
+				68ADB127299BDEB4009F8BDF /* LevelRow.swift in Sources */,
+				68ADB12F299BDEB4009F8BDF /* NavigationHeaderView.swift in Sources */,
 				689C8D7028E6E7FB0094F58C /* AppConstants.swift in Sources */,
+				68ADB12C299BDEB4009F8BDF /* ProtectionLevelRow.swift in Sources */,
+				68ADB12B299BDEB4009F8BDF /* AllowlistRow.swift in Sources */,
+				68ADB126299BDEB4009F8BDF /* ProtectionLevelView.swift in Sources */,
+				68ADB125299BDEB4009F8BDF /* TextArea.swift in Sources */,
+				68ADB13E299BDF43009F8BDF /* ContentBlockersStateProvider.swift in Sources */,
+				68ADB0DE299BD941009F8BDF /* Theme.swift in Sources */,
+				68ADB131299BDEB4009F8BDF /* AllowlistView.swift in Sources */,
+				68ADB121299BDEB4009F8BDF /* ViewSkinningViewBuilder.swift in Sources */,
+				68ADB129299BDEB4009F8BDF /* FixIssuesView.swift in Sources */,
 				68EEC68D28EF14A000E61A91 /* MacConstants.swift in Sources */,
+				68ADB13C299BDF43009F8BDF /* ContentBlockersListsHandler.swift in Sources */,
+				68ADB13D299BDF43009F8BDF /* ContentBlockersReloader.swift in Sources */,
+				68ADB0EF299BD96E009F8BDF /* Localization.swift in Sources */,
+				68ADB120299BDEB4009F8BDF /* FlatRoundedButtonStyle.swift in Sources */,
+				68ADB11F299BDEB4009F8BDF /* ColoredToggleStyle.swift in Sources */,
+				68ADB123299BDEB4009F8BDF /* IsHiddenViewBuilder.swift in Sources */,
+				68ADB128299BDEB4009F8BDF /* ActivationRow.swift in Sources */,
+				68ADB148299BDFA0009F8BDF /* ProtectionLevel.swift in Sources */,
+				68ADB12A299BDEB4009F8BDF /* ShieldView.swift in Sources */,
+				68ADB0D8299BD8BE009F8BDF /* QwantVIP_App.swift in Sources */,
+				68ADB13A299BDF43009F8BDF /* ContentBlockersExceptions.swift in Sources */,
+				68ADB12E299BDEB4009F8BDF /* RootView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -569,17 +1516,68 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				68CA6B4F288941D0007B62CA /* macOSExtensionViewController.swift in Sources */,
+				68ADB0D4299BD426009F8BDF /* SafariExtensionRootView.swift in Sources */,
+				68ADB0DF299BD941009F8BDF /* Theme.swift in Sources */,
+				68ADB13F299BDF54009F8BDF /* ContentBlockersReloader.swift in Sources */,
 				68CA6B4D288941D0007B62CA /* SearchEngine.swift in Sources */,
 				68EEC68E28EF14A600E61A91 /* MacConstants.swift in Sources */,
+				68ADB149299BDFB0009F8BDF /* Category.swift in Sources */,
 				68CA6B4A288941D0007B62CA /* SafariExtensionHandler.swift in Sources */,
-				68CA6B4C288941D0007B62CA /* Utils.swift in Sources */,
+				68ADB0D3299BD426009F8BDF /* SafariExtensionMainView.swift in Sources */,
+				68ADB133299BDED8009F8BDF /* ColoredToggleStyle.swift in Sources */,
+				68ADB152299BDFB9009F8BDF /* BlockList.swift in Sources */,
+				68ADB0F7299BD96E009F8BDF /* Localization.swift in Sources */,
+				68ADB0D6299BD426009F8BDF /* SafariExtensionLoadingView.swift in Sources */,
+				68ADB132299BDED8009F8BDF /* FlatRoundedButtonStyle.swift in Sources */,
+				68ADB141299BDF74009F8BDF /* ContentBlockersListsHandler.swift in Sources */,
+				68ADB142299BDF7A009F8BDF /* ContentBlockersJsonBuilder.swift in Sources */,
+				68ADB151299BDFB6009F8BDF /* ProtectionLevel.swift in Sources */,
+				68ADB140299BDF63009F8BDF /* ContentBlockersExceptions.swift in Sources */,
+				68ADB0D5299BD426009F8BDF /* SafariExtensionViewController.swift in Sources */,
+				68ADB134299BDEEC009F8BDF /* LogoView.swift in Sources */,
+				6898D664299CECB70067CAC8 /* ShieldView.swift in Sources */,
+				68ADB0EC299BD96E009F8BDF /* Preferences.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		68ADAFB1299BCC21009F8BDF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 68ADAFA4299BCC21009F8BDF /* Ads Blocker Extension */;
+			targetProxy = 68ADAFB0299BCC21009F8BDF /* PBXContainerItemProxy */;
+		};
+		68ADAFC4299BCC43009F8BDF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 68ADAFB9299BCC43009F8BDF /* Privacy Blocker Extension */;
+			targetProxy = 68ADAFC3299BCC43009F8BDF /* PBXContainerItemProxy */;
+		};
+		68ADAFD7299BCC50009F8BDF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 68ADAFCC299BCC50009F8BDF /* Social Blocker Extension */;
+			targetProxy = 68ADAFD6299BCC50009F8BDF /* PBXContainerItemProxy */;
+		};
+		68ADAFEA299BCC58009F8BDF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 68ADAFDF299BCC58009F8BDF /* Annoyances Blocker Extension */;
+			targetProxy = 68ADAFE9299BCC58009F8BDF /* PBXContainerItemProxy */;
+		};
+		68ADAFFD299BCC65009F8BDF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 68ADAFF2299BCC65009F8BDF /* Security Blocker Extension */;
+			targetProxy = 68ADAFFC299BCC65009F8BDF /* PBXContainerItemProxy */;
+		};
+		68ADB010299BCC6E009F8BDF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 68ADB005299BCC6E009F8BDF /* Other Blocker Extension */;
+			targetProxy = 68ADB00F299BCC6E009F8BDF /* PBXContainerItemProxy */;
+		};
+		68ADB023299BCC76009F8BDF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 68ADB018299BCC76009F8BDF /* Language Blocker Extension */;
+			targetProxy = 68ADB022299BCC76009F8BDF /* PBXContainerItemProxy */;
+		};
 		68CA6A342886A96F007B62CA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 68CA6A302886A96F007B62CA /* Qwant for Safari Extension (iOS) */;
@@ -629,6 +1627,69 @@
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
+		68ADB06E299BCE12009F8BDF /* ContentBlockers-Ads-InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				68ADB06D299BCE12009F8BDF /* en */,
+				68ADB06F299BCE16009F8BDF /* fr */,
+			);
+			name = "ContentBlockers-Ads-InfoPlist.strings";
+			sourceTree = "<group>";
+		};
+		68ADB072299BCE1A009F8BDF /* ContentBlockers-Annoyances-InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				68ADB071299BCE1A009F8BDF /* en */,
+				68ADB073299BCE1E009F8BDF /* fr */,
+			);
+			name = "ContentBlockers-Annoyances-InfoPlist.strings";
+			sourceTree = "<group>";
+		};
+		68ADB076299BCE21009F8BDF /* ContentBlockers-Language-InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				68ADB075299BCE21009F8BDF /* en */,
+				68ADB077299BCE24009F8BDF /* fr */,
+			);
+			name = "ContentBlockers-Language-InfoPlist.strings";
+			sourceTree = "<group>";
+		};
+		68ADB07A299BCE28009F8BDF /* ContentBlockers-Other-InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				68ADB079299BCE28009F8BDF /* en */,
+				68ADB07B299BCE2C009F8BDF /* fr */,
+			);
+			name = "ContentBlockers-Other-InfoPlist.strings";
+			sourceTree = "<group>";
+		};
+		68ADB07E299BCE30009F8BDF /* ContentBlockers-Privacy-InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				68ADB07D299BCE30009F8BDF /* en */,
+				68ADB07F299BCE33009F8BDF /* fr */,
+			);
+			name = "ContentBlockers-Privacy-InfoPlist.strings";
+			sourceTree = "<group>";
+		};
+		68ADB082299BCE37009F8BDF /* ContentBlockers-Security-InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				68ADB081299BCE37009F8BDF /* en */,
+				68ADB083299BCE3A009F8BDF /* fr */,
+			);
+			name = "ContentBlockers-Security-InfoPlist.strings";
+			sourceTree = "<group>";
+		};
+		68ADB086299BCE3E009F8BDF /* ContentBlockers-Social-InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				68ADB085299BCE3E009F8BDF /* en */,
+				68ADB087299BCE41009F8BDF /* fr */,
+			);
+			name = "ContentBlockers-Social-InfoPlist.strings";
+			sourceTree = "<group>";
+		};
 		68CA6A1A2886A96F007B62CA /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -645,14 +1706,6 @@
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		68CA6A292886A96F007B62CA /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				68CA6A2A2886A96F007B62CA /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		68D2662328DB03E0006BF2FC /* Localizable.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -665,6 +1718,461 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		68ADAFB3299BCC21009F8BDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/Content Blockers/Content_Blocker_Entitlements.entitlements";
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=macosx*]" = 76Z29F769J;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (App)/Content Blockers/ContentBlockers-Ads-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Ads Blocker Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 2.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.qwant.safari.Qwant-for-Safari.Ads-Blocker-Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		68ADAFB4299BCC21009F8BDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/Content Blockers/Content_Blocker_Entitlements.entitlements";
+				CODE_SIGN_IDENTITY = "3rd Party Mac Developer Application";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=macosx*]" = 76Z29F769J;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (App)/Content Blockers/ContentBlockers-Ads-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Ads Blocker Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 2.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.qwant.safari.Qwant-for-Safari.Ads-Blocker-Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "Qwant for Safari - macOS - Ads - Distribution";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		68ADAFC7299BCC43009F8BDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/Content Blockers/Content_Blocker_Entitlements.entitlements";
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=macosx*]" = 76Z29F769J;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (App)/Content Blockers/ContentBlockers-Privacy-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Privacy Blocker Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 2.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.qwant.safari.Qwant-for-Safari.Privacy-Blocker-Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		68ADAFC8299BCC43009F8BDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/Content Blockers/Content_Blocker_Entitlements.entitlements";
+				CODE_SIGN_IDENTITY = "3rd Party Mac Developer Application";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=macosx*]" = 76Z29F769J;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (App)/Content Blockers/ContentBlockers-Privacy-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Privacy Blocker Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 2.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.qwant.safari.Qwant-for-Safari.Privacy-Blocker-Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "Qwant for Safari - macOS - Privacy - Distribution";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		68ADAFDA299BCC50009F8BDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/Content Blockers/Content_Blocker_Entitlements.entitlements";
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=macosx*]" = 76Z29F769J;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (App)/Content Blockers/ContentBlockers-Social-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Social Blocker Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 2.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.qwant.safari.Qwant-for-Safari.Social-Blocker-Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		68ADAFDB299BCC50009F8BDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/Content Blockers/Content_Blocker_Entitlements.entitlements";
+				CODE_SIGN_IDENTITY = "3rd Party Mac Developer Application";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=macosx*]" = 76Z29F769J;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (App)/Content Blockers/ContentBlockers-Social-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Social Blocker Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 2.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.qwant.safari.Qwant-for-Safari.Social-Blocker-Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "Qwant for Safari - macOS - Social - Distribution";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		68ADAFED299BCC59009F8BDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/Content Blockers/Content_Blocker_Entitlements.entitlements";
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=macosx*]" = 76Z29F769J;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (App)/Content Blockers/ContentBlockers-Annoyances-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Annoyances Blocker Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 2.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.qwant.safari.Qwant-for-Safari.Annoyances-Blocker-Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		68ADAFEE299BCC59009F8BDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/Content Blockers/Content_Blocker_Entitlements.entitlements";
+				CODE_SIGN_IDENTITY = "3rd Party Mac Developer Application";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=macosx*]" = 76Z29F769J;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (App)/Content Blockers/ContentBlockers-Annoyances-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Annoyances Blocker Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 2.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.qwant.safari.Qwant-for-Safari.Annoyances-Blocker-Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "Qwant for Safari - macOS - Annoyances - Distrib";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		68ADB000299BCC65009F8BDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/Content Blockers/Content_Blocker_Entitlements.entitlements";
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=macosx*]" = 76Z29F769J;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (App)/Content Blockers/ContentBlockers-Security-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Security Blocker Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 2.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.qwant.safari.Qwant-for-Safari.Security-Blocker-Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		68ADB001299BCC65009F8BDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/Content Blockers/Content_Blocker_Entitlements.entitlements";
+				CODE_SIGN_IDENTITY = "3rd Party Mac Developer Application";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=macosx*]" = 76Z29F769J;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (App)/Content Blockers/ContentBlockers-Security-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Security Blocker Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 2.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.qwant.safari.Qwant-for-Safari.Security-Blocker-Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "Qwant for Safari - macOS - Security - Distribution";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		68ADB013299BCC6F009F8BDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/Content Blockers/Content_Blocker_Entitlements.entitlements";
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=macosx*]" = 76Z29F769J;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (App)/Content Blockers/ContentBlockers-Other-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Other Blocker Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 2.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.qwant.safari.Qwant-for-Safari.Other-Blocker-Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		68ADB014299BCC6F009F8BDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/Content Blockers/Content_Blocker_Entitlements.entitlements";
+				CODE_SIGN_IDENTITY = "3rd Party Mac Developer Application";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=macosx*]" = 76Z29F769J;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (App)/Content Blockers/ContentBlockers-Other-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Other Blocker Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 2.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.qwant.safari.Qwant-for-Safari.Other-Blocker-Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "Qwant for Safari - macOS - Other - Distribution";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		68ADB026299BCC76009F8BDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/Content Blockers/Content_Blocker_Entitlements.entitlements";
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=macosx*]" = 76Z29F769J;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (App)/Content Blockers/ContentBlockers-Language-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Language Blocker Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 2.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.qwant.safari.Qwant-for-Safari.Language-Blocker-Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		68ADB027299BCC76009F8BDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/Content Blockers/Content_Blocker_Entitlements.entitlements";
+				CODE_SIGN_IDENTITY = "3rd Party Mac Developer Application";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=macosx*]" = 76Z29F769J;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (App)/Content Blockers/ContentBlockers-Language-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Language Blocker Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 2.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.qwant.safari.Qwant-for-Safari.Language-Blocker-Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "Qwant for Safari - macOS - Language - Distribution";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
 		68CA6A602886A96F007B62CA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -889,6 +2397,9 @@
 				PRODUCT_NAME = "Qwant for Safari";
 				PROVISIONING_PROFILE_SPECIFIER = "Qwant for Safari - iOS - Development";
 				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -929,6 +2440,9 @@
 				PRODUCT_NAME = "Qwant for Safari";
 				PROVISIONING_PROFILE_SPECIFIER = "Qwant for Safari - iOS - Distribution";
 				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -943,8 +2457,10 @@
 				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/Qwant for Safari.entitlements";
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = 76Z29F769J;
+				"DEVELOPMENT_TEAM[sdk=macosx*]" = 76Z29F769J;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
@@ -955,7 +2471,8 @@
 					"@executable_path/../Frameworks",
 					"@executable_path/../../../../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 2.0.0;
 				OTHER_LDFLAGS = (
 					"-framework",
 					SafariServices,
@@ -963,6 +2480,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.qwant.safari.Qwant-for-Safari.Extension";
 				PRODUCT_NAME = "Qwant for Safari Extension";
 				PROVISIONING_PROFILE_SPECIFIER = "Qwant for Safari Extension - macOS - Development";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -978,8 +2496,10 @@
 				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/Qwant for Safari.entitlements";
 				CODE_SIGN_IDENTITY = "3rd Party Mac Developer Application";
 				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = 76Z29F769J;
+				"DEVELOPMENT_TEAM[sdk=macosx*]" = 76Z29F769J;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
@@ -990,7 +2510,8 @@
 					"@executable_path/../Frameworks",
 					"@executable_path/../../../../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 2.0.0;
 				OTHER_LDFLAGS = (
 					"-framework",
 					SafariServices,
@@ -998,6 +2519,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.qwant.safari.Qwant-for-Safari.Extension";
 				PRODUCT_NAME = "Qwant for Safari Extension";
 				PROVISIONING_PROFILE_SPECIFIER = "Qwant for Safari Extension - macOS - Distribution";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "Qwant for Safari Extension - macOS - Distribution";
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -1014,20 +2536,22 @@
 				CODE_SIGN_ENTITLEMENTS = "macOS (App)/Qwant for Safari.entitlements";
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = 76Z29F769J;
+				"DEVELOPMENT_TEAM[sdk=macosx*]" = 76Z29F769J;
 				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "macOS (App)/Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = "Qwant for Safari";
+				INFOPLIST_KEY_CFBundleDisplayName = "Qwant VIP for Safari";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
-				INFOPLIST_KEY_NSMainStoryboardFile = Main;
-				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 2.0.0;
 				OTHER_LDFLAGS = (
 					"-framework",
 					SafariServices,
@@ -1035,8 +2559,9 @@
 					WebKit,
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.qwant.safari.Qwant-for-Safari";
-				PRODUCT_NAME = "Qwant for Safari";
+				PRODUCT_NAME = "Qwant VIP for Safari";
 				PROVISIONING_PROFILE_SPECIFIER = "Qwant for Safari - macOS - Development";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
 				SDKROOT = macosx;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -1052,20 +2577,22 @@
 				CODE_SIGN_ENTITLEMENTS = "macOS (App)/Qwant for Safari.entitlements";
 				CODE_SIGN_IDENTITY = "3rd Party Mac Developer Application";
 				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = 76Z29F769J;
+				"DEVELOPMENT_TEAM[sdk=macosx*]" = 76Z29F769J;
 				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "macOS (App)/Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = "Qwant for Safari";
+				INFOPLIST_KEY_CFBundleDisplayName = "Qwant VIP for Safari";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
-				INFOPLIST_KEY_NSMainStoryboardFile = Main;
-				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 2.0.0;
 				OTHER_LDFLAGS = (
 					"-framework",
 					SafariServices,
@@ -1073,8 +2600,9 @@
 					WebKit,
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.qwant.safari.Qwant-for-Safari";
-				PRODUCT_NAME = "Qwant for Safari";
+				PRODUCT_NAME = "Qwant VIP for Safari";
 				PROVISIONING_PROFILE_SPECIFIER = "Qwant for Safari - macOS - Distribution";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "Qwant for Safari - macOS - Distribution";
 				SDKROOT = macosx;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -1084,6 +2612,69 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		68ADAFB5299BCC21009F8BDF /* Build configuration list for PBXNativeTarget "Ads Blocker Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68ADAFB3299BCC21009F8BDF /* Debug */,
+				68ADAFB4299BCC21009F8BDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		68ADAFC6299BCC43009F8BDF /* Build configuration list for PBXNativeTarget "Privacy Blocker Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68ADAFC7299BCC43009F8BDF /* Debug */,
+				68ADAFC8299BCC43009F8BDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		68ADAFD9299BCC50009F8BDF /* Build configuration list for PBXNativeTarget "Social Blocker Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68ADAFDA299BCC50009F8BDF /* Debug */,
+				68ADAFDB299BCC50009F8BDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		68ADAFEC299BCC59009F8BDF /* Build configuration list for PBXNativeTarget "Annoyances Blocker Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68ADAFED299BCC59009F8BDF /* Debug */,
+				68ADAFEE299BCC59009F8BDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		68ADAFFF299BCC65009F8BDF /* Build configuration list for PBXNativeTarget "Security Blocker Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68ADB000299BCC65009F8BDF /* Debug */,
+				68ADB001299BCC65009F8BDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		68ADB012299BCC6F009F8BDF /* Build configuration list for PBXNativeTarget "Other Blocker Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68ADB013299BCC6F009F8BDF /* Debug */,
+				68ADB014299BCC6F009F8BDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		68ADB025299BCC76009F8BDF /* Build configuration list for PBXNativeTarget "Language Blocker Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68ADB026299BCC76009F8BDF /* Debug */,
+				68ADB027299BCC76009F8BDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		68CA69FA2886A96B007B62CA /* Build configuration list for PBXProject "Qwant for Safari" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1130,6 +2721,83 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		68ADB088299BCF66009F8BDF /* XCRemoteSwiftPackageReference "SwiftyJSON" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SwiftyJSON/SwiftyJSON";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		68ADB099299BCFBB009F8BDF /* XCRemoteSwiftPackageReference "SafariConverterLib" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AdguardTeam/SafariConverterLib";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		68ADB089299BCF66009F8BDF /* SwiftyJSON */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 68ADB088299BCF66009F8BDF /* XCRemoteSwiftPackageReference "SwiftyJSON" */;
+			productName = SwiftyJSON;
+		};
+		68ADB08B299BCF86009F8BDF /* SwiftyJSON */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 68ADB088299BCF66009F8BDF /* XCRemoteSwiftPackageReference "SwiftyJSON" */;
+			productName = SwiftyJSON;
+		};
+		68ADB08D299BCF8B009F8BDF /* SwiftyJSON */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 68ADB088299BCF66009F8BDF /* XCRemoteSwiftPackageReference "SwiftyJSON" */;
+			productName = SwiftyJSON;
+		};
+		68ADB08F299BCF94009F8BDF /* SwiftyJSON */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 68ADB088299BCF66009F8BDF /* XCRemoteSwiftPackageReference "SwiftyJSON" */;
+			productName = SwiftyJSON;
+		};
+		68ADB091299BCF97009F8BDF /* SwiftyJSON */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 68ADB088299BCF66009F8BDF /* XCRemoteSwiftPackageReference "SwiftyJSON" */;
+			productName = SwiftyJSON;
+		};
+		68ADB093299BCF9A009F8BDF /* SwiftyJSON */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 68ADB088299BCF66009F8BDF /* XCRemoteSwiftPackageReference "SwiftyJSON" */;
+			productName = SwiftyJSON;
+		};
+		68ADB095299BCF9E009F8BDF /* SwiftyJSON */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 68ADB088299BCF66009F8BDF /* XCRemoteSwiftPackageReference "SwiftyJSON" */;
+			productName = SwiftyJSON;
+		};
+		68ADB097299BCFA1009F8BDF /* SwiftyJSON */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 68ADB088299BCF66009F8BDF /* XCRemoteSwiftPackageReference "SwiftyJSON" */;
+			productName = SwiftyJSON;
+		};
+		68ADB09A299BCFBB009F8BDF /* ContentBlockerConverter */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 68ADB099299BCFBB009F8BDF /* XCRemoteSwiftPackageReference "SafariConverterLib" */;
+			productName = ContentBlockerConverter;
+		};
+		68ADB09C299BCFC2009F8BDF /* SwiftyJSON */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 68ADB088299BCF66009F8BDF /* XCRemoteSwiftPackageReference "SwiftyJSON" */;
+			productName = SwiftyJSON;
+		};
+		68ADB09E299BCFC2009F8BDF /* ContentBlockerConverter */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 68ADB099299BCFBB009F8BDF /* XCRemoteSwiftPackageReference "SafariConverterLib" */;
+			productName = ContentBlockerConverter;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 68CA69F72886A96B007B62CA /* Project object */;
 }

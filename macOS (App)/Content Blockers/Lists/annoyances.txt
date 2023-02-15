@@ -1,0 +1,12 @@
+AdGuardAnnoyancesFilter;standard;https://filters.adtidy.org/mac/filters/14_optimized.txt;AdGuard Annoyances filter
+AdGuardCookieNoticesFilter;strict;https://filters.adtidy.org/mac/filters/18_optimized.txt;AdGuard Cookie Notices filter
+AdGuardPopupsFilter;strict;https://filters.adtidy.org/mac/filters/19_optimized.txt;AdGuard Popups filter
+AdGuardMobileAppBannersFilter;strict;https://filters.adtidy.org/mac/filters/20_optimized.txt;AdGuard Mobile App Banners filter
+AdGuardOtherAnnoyancesFilter;strict;https://filters.adtidy.org/mac/filters/21_optimized.txt;AdGuard Other Annoyances filter
+AdGuardWidgetsFilter;strict;https://filters.adtidy.org/mac/filters/22_optimized.txt;AdGuard Widgets filter
+FanboysAnnoyances;off;https://easylist.to/easylist/fanboy-annoyance.txt;Fanboy's Annoyances
+WebAnnoyancesUltralist;off;https://raw.githubusercontent.com/yourduskquibbles/webannoyances/master/ultralist.txt;Web Annoyances Ultralist
+AdblockWarningRemovalList;off;https://easylist-downloads.adblockplus.org/antiadblockfilters.txt;Adblock Warning Removal List
+IDontCareAboutCookies;off;https://www.i-dont-care-about-cookies.eu/abp/;I don't care about cookies
+EasyListCookieList;off;https://www.fanboy.co.nz/fanboy-cookiemonster.txt;EasyList Cookie List
+DandelionSproutsAnnoyancesList;off;https://raw.githubusercontent.com/DandelionSprout/adfilt/master/AnnoyancesList;Dandelion Sprout's Annoyances List

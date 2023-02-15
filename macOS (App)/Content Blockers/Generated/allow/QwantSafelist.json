@@ -1,0 +1,92 @@
+[
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?qwant\\.com\\\/impression\\\/"
+    },
+    "action" : {
+      "type" : "ignore-previous-rules"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?qwant\\.com\\\/action\\\/"
+    },
+    "action" : {
+      "type" : "ignore-previous-rules"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?qwant\\.com\\\/apm\\\/"
+    },
+    "action" : {
+      "type" : "ignore-previous-rules"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : "^[htpsw]+:\\\/\\\/([a-z0-9-]+\\.)?qwant\\.com([\\\/:&\\?].*)?$",
+      "if-domain" : [
+        "*about.qwant.com"
+      ]
+    },
+    "action" : {
+      "type" : "ignore-previous-rules"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : ".*",
+      "if-domain" : [
+        "*qwant.com"
+      ]
+    },
+    "action" : {
+      "type" : "ignore-previous-rules"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : ".*",
+      "if-domain" : [
+        "*api.qwant.com"
+      ]
+    },
+    "action" : {
+      "type" : "ignore-previous-rules"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : ".*",
+      "if-domain" : [
+        "*about.qwant.com"
+      ]
+    },
+    "action" : {
+      "type" : "ignore-previous-rules"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : ".*",
+      "if-domain" : [
+        "*qwant.ninja"
+      ]
+    },
+    "action" : {
+      "type" : "ignore-previous-rules"
+    }
+  },
+  {
+    "trigger" : {
+      "url-filter" : ".*",
+      "if-domain" : [
+        "*qwant.plive"
+      ]
+    },
+    "action" : {
+      "type" : "ignore-previous-rules"
+    }
+  }
+]
