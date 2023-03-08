@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct NavigationHeaderView: View {
-    var title: String?
+    var title: LocalizedStringKey?
     @Binding var show: Bool
 
     var body: some View {

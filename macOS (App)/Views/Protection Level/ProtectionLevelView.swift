@@ -14,7 +14,7 @@ struct ProtectionLevelView: View {
 
     var body: some View {
         VStack(alignment: .leading) {
-            NavigationHeaderView(title: localized("macOS.App.ProtectionLevel.Title"), show: $show)
+            NavigationHeaderView(title: "macOS.App.ProtectionLevel.Title", show: $show)
 
             VStack(alignment: .leading) {
                 ForEach(ProtectionLevel.allCases) { level in
@@ -22,7 +22,7 @@ struct ProtectionLevelView: View {
                 }
             }
             .padding()
-            .background(Color.qw_row_background)
+            .background(Color.qw.palette.row)
             .cornerRadius(10)
             .padding()
 

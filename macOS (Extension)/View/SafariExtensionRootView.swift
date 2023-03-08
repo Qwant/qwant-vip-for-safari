@@ -28,7 +28,7 @@ struct SafariExtensionRootView: View {
             }
         }
         .frame(width: 320, height: 360)
-        .background(Color.qw_row_background)
+        .background(Color.qw.palette.row)
         .onAppear {
             isProtectionEnabled = Prefs[.isProtectionActive]
             isQwantDefaultSearchEngine = Prefs[.isQwantDefaultSearchEngine]

@@ -13,12 +13,12 @@ struct AllowlistRow: View {
     var body: some View {
         VStack(spacing: -8) {
             HStack {
-                Text(localized("macOS.App.Main.Allowlist.Title"))
+                Text("macOS.App.Main.Allowlist.Title")
                     .font(.system(size: 17, weight: .bold))
                     .padding()
                 Spacer()
                 Image(systemName: "chevron.right")
-                    .foregroundColor(.qw_text_secondary)
+                    .foregroundColor(.qw.text.secondary)
                     .padding(.trailing)
             }
             .rowSkinning()
@@ -27,11 +27,11 @@ struct AllowlistRow: View {
                     onTap?()
                 }
             }
-            Text(localized("macOS.App.Main.Allowlist.Footer"))
+            Text("macOS.App.Main.Allowlist.Footer")
                 .font(.system(size: 15))
                 .frame(maxWidth: .infinity, alignment: .leading)
                 .padding(.leading)
-                .foregroundColor(.qw_text_secondary)
+                .foregroundColor(.qw.text.secondary)
         }
     }
 }

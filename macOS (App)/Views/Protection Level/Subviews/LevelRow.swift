@@ -18,7 +18,7 @@ struct LevelRow: View {
                     Text(level.title)
                         .font(.system(size: 17))
                     Text(level.description)
-                        .foregroundColor(.qw_text_secondary)
+                        .foregroundColor(.qw.text.secondary)
                         .fixedSize(horizontal: false, vertical: true)
                 }
                 Spacer()

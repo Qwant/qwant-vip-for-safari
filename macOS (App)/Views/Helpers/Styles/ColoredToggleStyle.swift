@@ -9,8 +9,8 @@ import Foundation
 import SwiftUI
 
 struct ColoredToggleStyle: ToggleStyle {
-    var onColor: Color = .qw_green
-    var offColor: Color = .qw_red
+    var onColor: Color = .qw.palette.green
+    var offColor: Color = .qw.palette.red
 
     @State private var offsetX: CGFloat?
     @State private var fillColor: Color?

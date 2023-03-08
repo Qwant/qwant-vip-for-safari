@@ -5,7 +5,7 @@
 //  Created by Jerome Boursier on 25/01/2023.
 //
 
-import Foundation
+import SwiftUI
 
 enum ProtectionLevel: String, CaseIterable, Identifiable {
     case standard
@@ -13,17 +13,17 @@ enum ProtectionLevel: String, CaseIterable, Identifiable {
 
     var id: String { rawValue }
 
-    var title: String {
+    var title: LocalizedStringKey {
         switch self {
-            case .standard: return localized("macOS.App.ProtectionLevel.Standard.Title")
-            case .strict: return localized("macOS.App.ProtectionLevel.Strict.Title")
+            case .standard: return "macOS.App.ProtectionLevel.Standard.Title"
+            case .strict: return "macOS.App.ProtectionLevel.Strict.Title"
         }
     }
 
-    var description: String {
+    var description: LocalizedStringKey {
         switch self {
-            case .standard: return localized("macOS.App.ProtectionLevel.Standard.Description")
-            case .strict: return localized("macOS.App.ProtectionLevel.Strict.Description")
+            case .standard: return "macOS.App.ProtectionLevel.Standard.Description"
+            case .strict: return "macOS.App.ProtectionLevel.Strict.Description"
         }
     }
 

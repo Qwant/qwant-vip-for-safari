@@ -1,5 +1,5 @@
 //
-//  IsHiddenViewBuilder.swift
+//  IsHidden.swift
 //  Qwant VIP for macOS
 //
 //  Created by Jerome Boursier on 08/02/2023.

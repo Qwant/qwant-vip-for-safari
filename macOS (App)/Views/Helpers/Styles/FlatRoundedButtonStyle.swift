@@ -9,8 +9,8 @@ import Foundation
 import SwiftUI
 
 struct FlatRoundedButtonStyle: ButtonStyle {
-    var textColor: Color = .qw_text_primary
-    var backgroundColor: Color = .qw_blue
+    var textColor: Color = .qw.text.primary
+    var backgroundColor: Color = .qw.palette.blue
     var cornerRadius: CGFloat = 18
 
     func makeBody(configuration: Self.Configuration) -> some View {

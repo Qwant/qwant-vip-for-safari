@@ -9,19 +9,19 @@ import SwiftUI
 
 struct ImageAndTextLine: View {
     var imageName: String
-    var textKey: String
+    var text: LocalizedStringKey
 
     var body: some View {
         HStack(spacing: 9) {
             Image(imageName)
-            Text(.init(localized(textKey)))
-                .foregroundColor(.qw_text_primary)
+            Text(text)
+                .foregroundColor(.qw.text.primary)
         }
     }
 }
 
 struct ImageAndTextLine_Previews: PreviewProvider {
     static var previews: some View {
-        ImageAndTextLine(imageName: "Cog icon", textKey: "iOS.App.Step.1")
+        ImageAndTextLine(imageName: "Cog icon", text: "iOS.App.Step.1")
     }
 }

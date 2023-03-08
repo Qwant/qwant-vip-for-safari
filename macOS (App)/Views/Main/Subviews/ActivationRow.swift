@@ -15,9 +15,9 @@ struct ActivationRow: View {
 
     var body: some View {
         HStack {
-            Text(isProtectionEnabled ? localized("macOS.App.Main.GlobalProtection.Title.Enabled") : localized("macOS.App.Main.GlobalProtection.Title.Disabled"))
+            Text(isProtectionEnabled ? "macOS.App.Main.GlobalProtection.Title.Enabled" : "macOS.App.Main.GlobalProtection.Title.Disabled")
                 .font(.system(size: 17, weight: .bold))
-                .foregroundColor(isProtectionEnabled ? .qw_green : .qw_text_secondary)
+                .foregroundColor(isProtectionEnabled ? .qw.palette.green : .qw.text.secondary)
                 .padding()
 
             Spacer()
@@ -28,7 +28,7 @@ struct ActivationRow: View {
                     .padding([.top, .trailing], 10)
             } else {
                 Toggle("", isOn: $isProtectionEnabled)
-                    .toggleStyle(ColoredToggleStyle(offColor: .qw_text_secondary))
+                    .toggleStyle(ColoredToggleStyle(offColor: .qw.text.secondary))
                     .onChange(of: isProtectionEnabled) { newValue in
                         onToggleChange?(newValue)
                     }

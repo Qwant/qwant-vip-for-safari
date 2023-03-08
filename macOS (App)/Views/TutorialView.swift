@@ -16,14 +16,14 @@ struct TutorialView: View {
         HStack(alignment: .top) {
             VStack(spacing: 0) {
                 LogoView()
-                Text(localized("macOS.App.Tutorial.Title"))
+                Text("macOS.App.Tutorial.Title")
                     .font(.system(size: 34, weight: .bold))
                     .frame(maxWidth: .infinity, alignment: .leading)
                     .padding(.bottom, 38)
                 VStack(alignment: .leading, spacing: 20) {
                     HStack {
                         Image("Safari icon")
-                        Text(localized("macOS.App.Tutorial.Step.1"))
+                        Text("macOS.App.Tutorial.Step.1")
                             .font(.system(size: 15, weight: .regular))
                         Button {
                             let category = category ?? .ads
@@ -31,7 +31,7 @@ struct TutorialView: View {
                                 dismiss()
                             }
                         } label: {
-                            Text(localized("macOS.App.Tutorial.Step.1.CTA"))
+                            Text("macOS.App.Tutorial.Step.1.CTA")
                                 .padding(.horizontal, 16)
                                 .padding(.vertical, 6)
                         }
@@ -39,7 +39,7 @@ struct TutorialView: View {
                     }
                     HStack {
                         Image("Toggle icon")
-                        Text(.init(localized("macOS.App.Tutorial.Step.2")))
+                        Text("macOS.App.Tutorial.Step.2")
                             .font(.system(size: 15, weight: .regular))
                     }
                 }

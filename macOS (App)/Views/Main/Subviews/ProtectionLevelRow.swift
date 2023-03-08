@@ -12,15 +12,15 @@ struct ProtectionLevelRow: View {
 
     var body: some View {
         HStack {
-            Text(localized("macOS.App.Main.ProtectionLevel.Title"))
+            Text("macOS.App.Main.ProtectionLevel.Title")
                 .font(.system(size: 17, weight: .bold))
                 .padding()
             Spacer()
             Text(Prefs[.protectionLevel].title)
                 .font(.system(size: 17, weight: .regular))
-                .foregroundColor(.qw_text_secondary)
+                .foregroundColor(.qw.text.secondary)
             Image(systemName: "chevron.right")
-                .foregroundColor(.qw_text_secondary)
+                .foregroundColor(.qw.text.secondary)
                 .padding(.trailing)
         }
         .rowSkinning()

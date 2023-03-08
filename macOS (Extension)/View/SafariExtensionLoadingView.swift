@@ -15,8 +15,8 @@ struct SafariExtensionLoadingView: View {
             Spacer()
 
             ProgressView {
-                Text(localized("macOS.Extension.Loading"))
-                    .foregroundColor(.qw_text_secondary)
+                Text("macOS.Extension.Loading")
+                    .foregroundColor(.qw.text.secondary)
             }
 
             Spacer()

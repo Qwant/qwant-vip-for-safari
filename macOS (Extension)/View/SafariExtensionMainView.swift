@@ -32,8 +32,8 @@ struct SafariExtensionMainView: View {
                     HStack {
                         Spacer()
                         ProgressView {
-                            Text(isInAllowlist ? localized("macOS.Extension.Main.Allowlisting") : localized("macOS.Extension.Main.Unallowlisting"))
-                                .foregroundColor(.qw_text_secondary)
+                            Text(isInAllowlist ? "macOS.Extension.Main.Allowlisting" : "macOS.Extension.Main.Unallowlisting")
+                                .foregroundColor(.qw.text.secondary)
                                 .multilineTextAlignment(.center)
                         }
                         Spacer()
@@ -44,9 +44,9 @@ struct SafariExtensionMainView: View {
                 if !isAllowlisting {
                     if isProtectionEnabled {
                         HStack {
-                            Text(isInAllowlist ? localized("macOS.Extension.Main.Protection.Allowlisted") : localized("macOS.Extension.Main.Protection.NotAllowlisted"))
+                            Text(isInAllowlist ? "macOS.Extension.Main.Protection.Allowlisted" : "macOS.Extension.Main.Protection.NotAllowlisted")
                                 .font(.system(size: 15, weight: .bold))
-                                .foregroundColor(isInAllowlist ? .qw_red : .qw_green)
+                                .foregroundColor(isInAllowlist ? .qw.palette.red : .qw.palette.green)
 
                             Spacer()
 
@@ -60,9 +60,9 @@ struct SafariExtensionMainView: View {
                         }
                     } else {
                         HStack {
-                            Text(localized("macOS.Extension.Main.GlobalProtection.Disabled"))
+                            Text("macOS.Extension.Main.GlobalProtection.Disabled")
                                 .font(.system(size: 15, weight: .bold))
-                                .foregroundColor(.qw_text_secondary)
+                                .foregroundColor(.qw.text.secondary)
 
                             Spacer()
 
@@ -70,7 +70,7 @@ struct SafariExtensionMainView: View {
                                 let scheme = URL(string: "qwantvip://prefs:root=app")!
                                 NSWorkspace.shared.open(scheme)
                             } label: {
-                                Text(localized("macOS.Extension.Main.GlobalProtection.TurnOn"))
+                                Text("macOS.Extension.Main.GlobalProtection.TurnOn")
                                     .padding(.horizontal, 16)
                                     .padding(.vertical, 6)
                                     .frame(minWidth: 170)
@@ -81,7 +81,7 @@ struct SafariExtensionMainView: View {
                 }
 
                 HStack {
-                    Text(localized("macOS.Extension.Main.DefaultSearchEngine"))
+                    Text("macOS.Extension.Main.DefaultSearchEngine")
                         .font(.system(size: 15))
 
                     Spacer()
@@ -102,7 +102,7 @@ struct SafariExtensionMainView: View {
                 } label: {
                     HStack {
                         Spacer()
-                        Text(localized("macOS.Extension.Main.Settings"))
+                        Text("macOS.Extension.Main.Settings")
                             .padding(.vertical, 6)
                         Spacer()
                     }

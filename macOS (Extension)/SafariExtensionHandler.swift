@@ -40,11 +40,6 @@ class SafariExtensionHandler: SFSafariExtensionHandler {
                 tab.navigate(to: qwantURL)
             }
         }
-
-        // Old
-        // guard UserDefaults.standard.isExtensionActive, let url = url, let qwantURL = qwantURL(from: url) else { return }
-        // page.getContainingTab { $0.navigate(to: qwantURL) }
-        // Old
     }
 
     private lazy var searchEngines: [SearchEngine] = {

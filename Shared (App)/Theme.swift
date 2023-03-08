@@ -8,15 +8,21 @@
 import SwiftUI
 
 extension Color {
-    static let qw_background = Color("qw_background")
-    static let qw_row_background = Color("qw_row_background")
+    enum qw {
+        enum text {
+            static let primary = Color("qw_text_primary")
+            static let secondary = Color("qw_text_secondary")
+        }
 
-    static let qw_blue = Color("qw_blue")
-    static let qw_green = Color("qw_green")
-    static let qw_red = Color("qw_red")
+        enum palette {
+            static let blue = Color("qw_blue")
+            static let green = Color("qw_green")
+            static let red = Color("qw_red")
 
-    static let qw_text_primary = Color("qw_text_primary")
-    static let qw_text_secondary = Color("qw_text_secondary")
+            static let background = Color("qw_background")
+            static let row = Color("qw_row_background")
+        }
+    }
 }
 
 prefix func ! (value: Binding<Bool>) -> Binding<Bool> {

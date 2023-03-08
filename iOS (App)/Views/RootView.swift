@@ -18,32 +18,32 @@ struct RootView: View {
                         .frame(width: geometry.size.width * (geometry.isLandscape ? 0.4 : 0.7))
                         .padding(.bottom, 40)
 
-                    Text(localized("iOS.App.Header"))
+                    Text("iOS.App.Header")
                         .font(.system(size: 34, weight: .bold))
-                        .foregroundColor(.qw_text_primary)
+                        .foregroundColor(.qw.text.primary)
                         .padding(.bottom, 64)
 
                     VStack(alignment: .leading, spacing: 20) {
-                        ImageAndTextLine(imageName: "Cog icon", textKey: "iOS.App.Step.1")
-                        ImageAndTextLine(imageName: "Safari icon", textKey: "iOS.App.Step.2")
-                        ImageAndTextLine(imageName: "Puzzle icon", textKey: "iOS.App.Step.3")
-                        ImageAndTextLine(imageName: "Toggle icon", textKey: "iOS.App.Step.4")
-                        ImageAndTextLine(imageName: "Tick icon", textKey: "iOS.App.Step.5")
+                        ImageAndTextLine(imageName: "Cog icon", text: "iOS.App.Step.1")
+                        ImageAndTextLine(imageName: "Safari icon", text: "iOS.App.Step.2")
+                        ImageAndTextLine(imageName: "Puzzle icon", text: "iOS.App.Step.3")
+                        ImageAndTextLine(imageName: "Toggle icon", text: "iOS.App.Step.4")
+                        ImageAndTextLine(imageName: "Tick icon", text: "iOS.App.Step.5")
                     }
                     .padding(.horizontal)
                     .padding(.bottom, 64)
 
                     VStack(alignment: .leading, spacing: 12) {
                         VStack(alignment: .leading, spacing: 6) {
-                            Text(localized("iOS.App.Footer.1"))
-                                .foregroundColor(.qw_text_secondary)
+                            Text("iOS.App.Footer.1")
+                                .foregroundColor(.qw.text.secondary)
                                 .font(.system(size: 12))
-                            Text(localized("iOS.App.Footer.2"))
-                                .foregroundColor(.qw_text_primary)
+                            Text("iOS.App.Footer.2")
+                                .foregroundColor(.qw.text.primary)
                                 .font(.system(size: 12))
                         }
-                        Text(localized("iOS.App.Footer.3"))
-                            .foregroundColor(.qw_text_secondary)
+                        Text("iOS.App.Footer.3")
+                            .foregroundColor(.qw.text.secondary)
                             .font(.system(size: 12))
                     }
                     .padding(.bottom, 48)
@@ -55,7 +55,7 @@ struct RootView: View {
                    minHeight: 0, maxHeight: .infinity,
                    alignment: .topLeading)
             .padding()
-            .background(Color.qw_background)
+            .background(Color.qw.palette.background)
         }
     }
 }
